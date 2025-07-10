@@ -17,7 +17,7 @@ carpentry: 'metadocencia'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Título de lección'
+title: 'Entrenamiento docente'
 
 # Alt-text description of the lesson.
 carpentry_description: 'MetaDocencia'
@@ -26,20 +26,20 @@ carpentry_description: 'MetaDocencia'
 varnish: 'metadocencia/varnish'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: '2025-06-13'
+created: '2025-07-10'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'MetaDocencia, Lección'
+keywords: 'MetaDocencia, entrenamiento docente, train the trainer'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
 life_cycle: ''
 
 # License of the lesson materials (recommended CC-BY 4.0)
-license: 'CC-BY 4.0'
+license: 'CC BY-SA 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://example.com/template-source/lesson-example'
+source: 'https://github.com/MetaDocencia/entrenamiento-docente/'
 
 # Default branch of your lesson
 branch: 'main'
@@ -71,7 +71,17 @@ contact: 'infraestructura@metadocencia.org'
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.Rmd
+- introduccion-personas.Rmd
+- modelos-mentales.Rmd
+- carga-cognitiva.Rmd
+- capacidad.Rmd
+- evaliacion.Rmd
+- critica.Rmd
+- motivacion.Rmd
+- aprendizaje.Rmd
+- preparacion.Rmd
+- checkout.Rmd
+
 
 # Information for Learners
 learners: 
