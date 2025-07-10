@@ -2,71 +2,55 @@
 site: sandpaper::sandpaper_site
 ---
 
-# Template de lecciones reproducibles de MetaDocencia
+# Entrenamiento docente
 
+Les damos la bienvenida al entrenamiento docente adaptado por MetaDocencia, una versión creada a partir del curso "Train the Trainers" de The Carpentries.
 
-Este repositorio es un **template oficial de MetaDocencia** para crear cursos y lecciones reproducibles utilizando [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adaptado con nuestra configuración y estilo.
+Este curso brindará a los nuevos capacitadores conocimientos, habilidades, orientación y consejos para desarrollar y brindar capacitación. Los participantes explorarán una variedad de métodos para permitir y fomentar el aprendizaje, examinar los requisitos para un curso exitoso y obtener apropiada devolución
 
-
-> Puedes usar [este repositorio](https://github.com/MetaDocencia/metadocencia-workbench-template) como punto de partida, directamente desde GitHub, sin necesidad de herramientas locales.
-
----
-
-## 🚀 ¿Cómo comenzar una lección nueva?
-
-### 1. Crear un nuevo repositorio
-
-Generamos una copia accediendo directamente a: https://github.com/MetaDocencia/metadocencia-workbench-template/generate
-
-Asignamos un nombre a tu nuevo repositorio (por ejemplo, `leccion-mi-tema`) y Seleccionamos **Create repository**.
+## Objetivos:
+- Brindar orientación sobre técnicas de capacitación general y el uso apropiado de métodos basados en las necesidades del alumno, incluidos algunos "DOs" y "DONT’s" generales para una capacitación exitosa.
+- Proporcionar un marco para un diseño curricular exitoso y un mayor desarrollo, para permitir a los capacitadores construir un curso apropiado para las necesidades de sus alumnos.
 
 ---
 
-### 2. Editar la lección desde GitHub
+### Motivación
 
-Una vez creado el repositorio, podemos comenzar a editarlo directamente desde la interfaz web:
+1. Construir lecciones más efectivas
+2. Aplicando prácticas basadas en evidencia
+3. Con práctica y retroalimentación
+4. En un ambiente de aprendizaje positivo
 
-- Los episodios están en la carpeta `episodes/` (cada archivo `.md` es una sección de la lección).
-- La página principal está en `index.md`.
-- La configuración general está en `config.yaml`.
+Sabemos tanto sobre la enseñanza y el aprendizaje como sabemos sobre salud pública. El problema es que la mayoría de las personas en tecnología (y la mayoría de las/os docentes universitarios) no saben lo que sabemos. Cuando terminaste la escuela secundaria, probablemente sabías qué son los gérmenes y las vitaminas y de dónde vienen los bebés. Probablemente no conozcas hechos igualmente básicos sobre cómo aprenden las personas o cuál es la mejor manera de enseñarles.
 
-Con el botón de ✏️ **editar** en cada archivo podemos modificarlo, y luego seleccionamos **Commit changes** para guardar.
+Conocer unos pocos de estos conceptos básicos te ayudará a construir lecciones más efectivas en menos tiempo y con menos esfuerzo. A enseñar también se aprende, sobre todo a través de la práctica y la retroalimentación que recibimos de quienes están en nuestras clases.
 
-> No es necesario saber usar RStudio ni línea de comandos.
+
+### Punto de Partida
+
+Nuestra idea clave es que el aprendizaje es tanto una actividad cognitiva como social. El aprendizaje ocurre cuando tu cerebro almacena hechos y procedimientos de manera que le permiten recordar y aplicar lo que necesita cuando lo necesita. También ocurre en un entorno social: se aprende por determinada razón, con otras personas, y tus objetivos, motivaciones y criterios para el éxito se determinan con esas y por esas personas. Otra de nuestras ideas clave es que tanto la enseñanza como el aprendizaje deben ser activos: una persona que recita una lección a sus estudiantes que simplemente escuchan es probablemente menos efectiva que una lección donde los estudiantes participan.
+
+### Paramédicas y Paramédicos Educacionales
+
+Otra cosa que debemos dejar en claro es que no estamos tratando de convertirte en un experto en educación, no queremos convertirte en médica o médico. Somos más como paramédicas y paramédicos educacionales: nos enfocamos en brindar un servicio de respuesta primaria a las personas que necesitan ayuda inmediata y que pueden no tener tiempo o interés para completar todo lo que hay para saber sobre un tema. Ninguno de los dos aspectos es mejor que el otro: sirven a diferentes propósitos.
+
+El público en general tiene conocimientos básicos de salud y medicina, pero no tiene los conocimientos equivalentes sobre enseñanza y aprendizaje.  Una persona entrenada posee los dos.  Nosotros éramos como vos en este momento, pertenecíamos a ese grupo de gente sin entrenamiento en conceptos básicos de educación, pero ahora somos personas entrenadas y es en lo que vas a convertirte cuando termines este curso.  Una persona entrenada puede: crear mejores lecciones, usar prácticas basadas en evidencia, mejorar usando retroalimentación y generar un ambiente de aprendizaje positivo.  La enseñanza y aprendizaje involucra procesos cognitivos y sociales, y se realizan mejor si se hacen de manera activa.
+
+[img slide 12 https://docs.google.com/presentation/d/1PbTBOHriPrZuXBJT_uF1g0-ICpWsDtBoS2QH_OGEQ10/edit?slide=id.g22d542f968e_1_38#slide=id.g22d542f968e_1_38]
 
 ---
+## Código Abierto - Ciencia Abierta - Educación Abierta
 
-## 🌐 Publicación del sitio en GitHub Pages
+Creemos muy firmemente que las personas aprenden mejor cuando aprenden juntas, por eso todos estos materiales están disponibles gratuitamente bajo la licencia Creative Commons - Attribution - ShareAlike license. Te alentamos a que los compartas, adaptes y reuses, siempre que incluyas un enlace a la fuente original y distribuyas tu propio material bajo la misma licencia para ayudar a otras personas. 
 
-Para habilitar la publicación automática del sitio web de la lección desde GitHub Pages:
-
-1. Desde el repositorio, seleccionamos **Settings > Pages**.
-2. En la sección **"Source"**, configuramos:
-   - **Branch**: `gh-pages`
-   - **Carpeta**: `/ (root)`
-3. Seleccionamos **“Save”**.
-
-### Verificación de la publicación
-
-1. Editamos cualquier archivo de la lección desde GitHub (por ejemplo, un episodio).
-2. GitHub ejecutará automáticamente el flujo de publicación.
-3. Podemos ver el progreso en la pestaña **Actions** del repositorio.
-4. Una vez finalizado el proceso, el sitio estará disponible en:
-
-
-```
-https://<usuario-o-organización>.github.io/<nombre-del-repo>/
-```
-
-Por ejemplo:  
-https://metadocencia.github.io/leccion-ejemplo/
+[agregar img ccby]
 
 ---
 
 ## 📬 Contacto
 
 ¿Tienes dudas? Escríbenos a:  
-📧 infraestructura@metadocencia.org
+📧 formacion@metadocencia.org
 
 Puedes encontrar más materiales y recursos en:  
 🌐 https://www.metadocencia.org
