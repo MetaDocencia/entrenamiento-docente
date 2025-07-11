@@ -1,5 +1,5 @@
 ---
-title: 'Introducción'
+title: 'Carga cognitiva'
 teaching: 10
 exercises: 2
 ---
