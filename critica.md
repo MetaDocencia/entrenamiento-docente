@@ -1,5 +1,5 @@
 ---
-title: 'Introducción'
+title: 'Crítica'
 teaching: 10
 exercises: 2
 ---
