@@ -1,5 +1,5 @@
 ---
-title: 'Morivación'
+title: 'Motivación'
 teaching: 10
 exercises: 2
 ---
