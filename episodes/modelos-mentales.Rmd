@@ -1,5 +1,5 @@
 ---
-title: 'Introducción'
+title: 'Modelos mentales'
 teaching: 10
 exercises: 2
 ---
