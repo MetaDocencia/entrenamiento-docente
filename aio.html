@@ -407,7 +407,7 @@
         
 <section id="aio-introduccion-personas"><p>Content from <a href="introduccion-personas.html">Introducción</a></p>
 <hr>
-<p>Última actualización: 2025-07-11 |
+<p>Última actualización: 2025-07-13 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/introduccion-personas.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -421,8 +421,8 @@
 <div class="inner">
 <h3 class="card-title">Preguntas</h3>
 <ul>
-<li>¿Cómo se escribe una lección usando R Markdown y
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>¿Que vamos a aprender?</li>
+<li>¿A quién estamos tratando de ayudar?</li>
 </ul>
 </div>
 </div>
@@ -432,130 +432,245 @@
 <div class="inner bordered">
 <h3 class="card-title">Objetivos</h3>
 <ul>
-<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
+<li>Explicar sobre el entrenamiento, los objetivos y motivaciones.<br>
 </li>
-<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
-actividades anidados</li>
+<li>Demostrar cómo describir a las personas que se está tratando de
+ayudar.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
+<div class="section level1">
+<h1 id="entrenamiento-docente">Entrenamiento docente<a class="anchor" aria-label="anchor" href="#entrenamiento-docente"></a>
+</h1>
+<p>Les damos la bienvenida al entrenamiento docente adaptado por
+MetaDocencia, una versión creada a partir del curso “Train the Trainers”
+de The Carpentries.</p>
+<p>Este curso brindará a los nuevos capacitadores conocimientos,
+habilidades, orientación y consejos para desarrollar y brindar
+capacitación. Los participantes explorarán una variedad de métodos para
+permitir y fomentar el aprendizaje, examinar los requisitos para un
+curso exitoso y obtener apropiada devolución</p>
+<div class="section level2">
+<h2 id="objetivos">Objetivos:<a class="anchor" aria-label="anchor" href="#objetivos"></a>
 </h2>
-<hr class="half-width">
-<p>Esta es una lección creada mediante el template de Workbench adaptada
-por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
-Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
-y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
-dinámicos que pueden renderizar código y mostrar el resultado<br>
-(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
-Carpentries<br>
-Workbench</a> para ver la documentación completa.</p>
-<p>Hay tres secciones requeridas para una plantilla de lección
-válida:</p>
+<ul>
+<li>Brindar orientación sobre técnicas de capacitación general y el uso
+apropiado de métodos basados en las necesidades del alumno, incluidos
+algunos “DOs” y “DONT’s” generales para una capacitación exitosa.</li>
+<li>Proporcionar un marco para un diseño curricular exitoso y un mayor
+desarrollo, para permitir a los capacitadores construir un curso
+apropiado para las necesidades de sus alumnos.</li>
+</ul>
+<hr>
+<div class="section level3">
+<h3 id="motivación">Motivación<a class="anchor" aria-label="anchor" href="#motivaci%C3%B3n"></a>
+</h3>
 <ol style="list-style-type: decimal">
-<li>
-<code>questions</code> se muestran al comienzo del episodio para
-preparar a la persona que aprenderá el contenido.<br>
-</li>
-<li>
-<code>objectives</code> son los objetivos de aprendizaje del
-episodio y se muestran junto con las preguntas.<br>
-</li>
-<li>
-<code>keypoints</code> se muestran al final del episodio para
-reforzar los objetivos.</li>
+<li>Construir lecciones más efectivas</li>
+<li>Aplicando prácticas basadas en evidencia</li>
+<li>Con práctica y retroalimentación</li>
+<li>En un ambiente de aprendizaje positivo</li>
 </ol>
-<div id="desafío-1-podés-hacerlo" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<p>Sabemos tanto sobre la enseñanza y el aprendizaje como sabemos sobre
+salud pública. El problema es que la mayoría de las personas en
+tecnología (y la mayoría de las/os docentes universitarios) no saben lo
+que sabemos. Cuando terminaste la escuela secundaria, probablemente
+sabías qué son los gérmenes y las vitaminas y de dónde vienen los bebés.
+Probablemente no conozcas hechos igualmente básicos sobre cómo aprenden
+las personas o cuál es la mejor manera de enseñarles.</p>
+<p>Conocer unos pocos de estos conceptos básicos te ayudará a construir
+lecciones más efectivas en menos tiempo y con menos esfuerzo. A enseñar
+también se aprende, sobre todo a través de la práctica y la
+retroalimentación que recibimos de quienes están en nuestras clases.</p>
 </div>
-<div id="desafío-1-podés-hacerlo" class="callout-inner">
-<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
-<div class="callout-content">
-<p>¿Cuál es el resultado de este comando?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<div class="section level3">
+<h3 id="punto-de-partida">Punto de Partida<a class="anchor" aria-label="anchor" href="#punto-de-partida"></a>
 </h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
+<p>Nuestra idea clave es que el aprendizaje es tanto una actividad
+cognitiva como social. El aprendizaje ocurre cuando tu cerebro almacena
+hechos y procedimientos de manera que le permiten recordar y aplicar lo
+que necesita cuando lo necesita. También ocurre en un entorno social: se
+aprende por determinada razón, con otras personas, y tus objetivos,
+motivaciones y criterios para el éxito se determinan con esas y por esas
+personas. Otra de nuestras ideas clave es que tanto la enseñanza como el
+aprendizaje deben ser activos: una persona que recita una lección a sus
+estudiantes que simplemente escuchan es probablemente menos efectiva que
+una lección donde los estudiantes participan.</p>
 </div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<div class="section level3">
+<h3 id="paramédicas-y-paramédicos-educacionales">Paramédicas y Paramédicos Educacionales<a class="anchor" aria-label="anchor" href="#param%C3%A9dicas-y-param%C3%A9dicos-educacionales"></a>
 </h3>
-<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
-<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
-<div class="callout-content">
+<p>Otra cosa que debemos dejar en claro es que no estamos tratando de
+convertirte en un experto en educación, no queremos convertirte en
+médica o médico. Somos más como paramédicas y paramédicos educacionales:
+nos enfocamos en brindar un servicio de respuesta primaria a las
+personas que necesitan ayuda inmediata y que pueden no tener tiempo o
+interés para completar todo lo que hay para saber sobre un tema. Ninguno
+de los dos aspectos es mejor que el otro: sirven a diferentes
+propósitos.</p>
+<p>El público en general tiene conocimientos básicos de salud y
+medicina, pero no tiene los conocimientos equivalentes sobre enseñanza y
+aprendizaje. Una persona entrenada posee los dos. Nosotros éramos como
+vos en este momento, pertenecíamos a ese grupo de gente sin
+entrenamiento en conceptos básicos de educación, pero ahora somos
+personas entrenadas y es en lo que vas a convertirte cuando termines
+este curso. Una persona entrenada puede: crear mejores lecciones, usar
+prácticas basadas en evidencia, mejorar usando retroalimentación y
+generar un ambiente de aprendizaje positivo. La enseñanza y aprendizaje
+involucra procesos cognitivos y sociales, y se realizan mejor si se
+hacen de manera activa.</p>
+<p>[img slide 12 <a href="https://docs.google.com/presentation/d/1PbTBOHriPrZuXBJT_uF1g0-ICpWsDtBoS2QH_OGEQ10/edit?slide=id.g22d542f968e_1_38#slide=id.g22d542f968e_1_38" class="external-link uri">https://docs.google.com/presentation/d/1PbTBOHriPrZuXBJT_uF1g0-ICpWsDtBoS2QH_OGEQ10/edit?slide=id.g22d542f968e_1_38#slide=id.g22d542f968e_1_38</a>]</p>
 
 </div>
 </div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Es posible gregar una línea con al menos tres dos puntos y la
-etiqueta <code>solution</code>.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
+<div class="section level2">
+<h2 id="personas">Personas<a class="anchor" aria-label="anchor" href="#personas"></a>
 </h2>
-<hr class="half-width">
-<p>Podés incluir figuras generadas desde R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<p>El primer paso para crear cualquier clase de lección es descubrir a
+quién estás tratando de ayudar. Hacer esto también es una buena
+herramienta para romper el hielo, así que voy a presentarles a Ana.</p>
+<div class="section level3">
+<h3 id="conoce-a-ana">Conoce a Ana:<a class="anchor" aria-label="anchor" href="#conoce-a-ana"></a>
 </h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
+<div class="section level4">
+<h4 id="sus-antecedentes">Sus Antecedentes<a class="anchor" aria-label="anchor" href="#sus-antecedentes"></a>
+</h4>
+<p>Estos son los antecedentes de Ana: solo algunos datos que ayudan a
+personalizarla.</p>
+<ul>
+<li>Nacida y criada en Caracas</li>
+<li>Se mudó a Buenos Aires para hacer un doctorado en genética</li>
+<li>Le gusta el mate, pero aún no se acostumbra a tomarlo amargo</li>
+</ul>
 </div>
-<figure style="text-align: center"><img src="fig/introduccion-personas-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
-El sol sale cada mañana
-</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
-siguiente sintaxis:</p>
-<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
-MetaDocencia!</div>
-</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
+<div class="section level4">
+<h4 id="punto-de-partida-1">Punto de Partida<a class="anchor" aria-label="anchor" href="#punto-de-partida-1"></a>
+</h4>
+<p>Aquí está Ana en este momento. No es una lista de palabras clave,
+porque una frase como “conocimiento básico de un lenguaje de
+programación” significa cosas muy diferentes para diferentes personas.
+En cambio, está escrito como una descripción de una persona en
+particular, y confiamos en que quien lee interpolará toda la información
+que no está allí.</p>
+<ul>
+<li>Analiza datos con Excel desde hace casi diez años</li>
+<li>Hizo un taller de un día intensivo de R en una conferencia</li>
+<li>Intentó aprender Git por su cuenta una vez, lo encontró
+frustrante</li>
+</ul>
+</div>
+<div class="section level4">
+<h4 id="necesidades">Necesidades<a class="anchor" aria-label="anchor" href="#necesidades"></a>
+</h4>
+<p>Esto es lo que Ana piensa que quiere aprender. Lo más importante de
+esta lista es que está escrita desde su punto de vista: no es lo que tu,
+con más conocimiento del tema, sabes que necesita; es lo que ella, con
+el conocimiento que tiene ahora, está buscando.</p>
+<ul>
+<li>Va a hacer 300 experimentos en los próximos seis meses</li>
+<li>No quiere hacer todos los análisis a mano</li>
+<li>Quiere mejores tablas para su tesis que las que puede hacer en
+Excel</li>
+</ul>
+</div>
+<div class="section level4">
+<h4 id="consideraciones-especiales">Consideraciones Especiales<a class="anchor" aria-label="anchor" href="#consideraciones-especiales"></a>
+</h4>
+<p>La parte final de tus estudiantes tipo describe cualquier otra cosa
+que deba tenerse en cuenta. ¿Tienen problemas de audición? ¿Necesitan
+terminar a las 6:00 pm puntual porque cuidan menores o personas mayores?
+¿Van a usar una máquina bloqueada que no les permitirá instalar
+software? Cualquiera de estas cosas podría desviar tu enseñanza, por lo
+que es mejor pensar en ellas por adelantado.</p>
+<ul>
+<li>Muy incómoda hablando delante de un grupo</li>
+</ul>
+<div id="preguntas-para-contestar-en-el-chat" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="preguntas-para-contestar-en-el-chat" class="callout-inner">
+<h3 class="callout-title">Preguntas para contestar en el chat</h3>
+<div class="callout-content">
+<p>¿Qué te imaginas? ¿Ana usa redes sociales?</p>
+<ul>
+<li>Si piensas que sí, ¿qué red usa?</li>
+<li>Si piensas que no, ¿por qué no?</li>
+</ul>
+<p>Contesta brevemente en el chat.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level2">
+<h2 id="estudiante-o-persona-tipo">Estudiante o Persona Tipo<a class="anchor" aria-label="anchor" href="#estudiante-o-persona-tipo"></a>
 </h2>
-<hr class="half-width">
-<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
+<p>Podés incluir figuras generadas desde R Markdown:</p>
+<p>Lo que acabamos de crear se llama estudiante tipo. Cualquiera que
+enseñe, o cualquier equipo que enseñe junto, debería crear un puñado de
+estudiantes tipo que describan a las personas que se está tratando de
+ayudar. Estos casos típicos te recordarán una de las reglas más
+importantes para enseñar: no eres tu estudiante.</p>
+<ul>
+<li>Antecedentes generales</li>
+<li>Experiencia relevante</li>
+<li>Necesidades percibidas</li>
+<li>Consideraciones especiales</li>
+</ul>
+<div class="section level3">
+<h3 id="explícalo-en-sus-términos">Explícalo En Sus Términos<a class="anchor" aria-label="anchor" href="#expl%C3%ADcalo-en-sus-t%C3%A9rminos"></a>
+</h3>
+<p>Una vez que sabes a quién estás tratando de ayudar, puedes descubrir
+cómo tu capacitación les ayudará a satisfacer sus necesidades y cómo
+explicarlo de una manera que te puedan entender. Es una única línea en
+el catálogo de muchos otros cursos lo que llamará la atención de quienes
+se formen contigo y que les ayudará a determinar si les puedes
+ayudar.</p>
+<p>“Esta introducción práctica de una semana a la ciencia de datos
+mostrará cómo cargar, limpiar, explorar, visualizar y analizar datos
+tabulares en forma reproducible.”</p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="personas-tipo-de-metadocencia">Personas Tipo de MetaDocencia<a class="anchor" aria-label="anchor" href="#personas-tipo-de-metadocencia"></a>
+</h2>
+<div class="line-block">María | Profesora experimentada que cree que la
+tecnología no es para ella |<br>
+Juan Pablo | Experto tecnológico; piensa que sus clases son inmejorables
+|<br>
+Karina | Usuaria inicial de tecnología con estudios de pedagogía
+universitaria |<br>
+Emilia | Bibliotecaria y ahora diseñadora web en una pequeña empresa
+|<br>
+Samira | Programadora profesional, quiere dar clases pero no tiene
+experiencia |<br>
+David | Estudiante de robótica, le gustaría ser docente |<br>
+Gerardo | Docente de ciencias de la computación, quiere mejorar sus
+clases |</div>
+<p>Más detalles en <a href="https://www.metadocencia.org/personas/" class="external-link uri">https://www.metadocencia.org/personas/</a> y <a href="https://teachtogether.tech/es/index.html#s:intro-audience" class="external-link uri">https://teachtogether.tech/es/index.html#s:intro-audience</a></p>
+<div id="ejercicio-crea-una-persona-tipo" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="ejercicio-crea-una-persona-tipo" class="callout-inner">
+<h3 class="callout-title">Ejercicio: crea una persona tipo</h3>
+<div class="callout-content">
+<ul>
+<li>Antecedentes generales</li>
+<li>Punto de partida</li>
+<li>Necesidades</li>
+<li>Consideraciones especiales</li>
+</ul>
+<p>Explica cómo puedes ayudarla.</p>
+</div>
+</div>
+</div>
+
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -564,17 +679,9 @@ mostrarlas así:</p>
 <h3 class="callout-title">Puntos Clave</h3>
 <div class="callout-content">
 <ul>
-<li>Usá archivos <code>.md</code> para episodios con contenido
-estático<br>
-</li>
-<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
-salidas dinámicas<br>
-</li>
-<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
-problemas en tu lección<br>
-</li>
-<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
-lección localmente</li>
+<li>A enseñar se aprende de manera activa</li>
+<li>Las personas o estudiantes tipo describen a quienes se está tratando
+de ayudar</li>
 </ul>
 </div>
 </div>
@@ -583,9 +690,10 @@ lección localmente</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-modelos-mentales"><p>Content from <a href="modelos-mentales.html">Modelos mentales</a></p>
+</div>
+</div></section><section id="aio-modelos-mentales"><p>Content from <a href="modelos-mentales.html">Modelos mentales</a></p>
 <hr>
-<p>Última actualización: 2025-07-11 |
+<p>Última actualización: 2025-07-13 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/modelos-mentales.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -763,187 +871,9 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-carga-cognitiva"><p>Content from <a href="carga-cognitiva.html">Carga cognitiva</a></p>
 <hr>
-<p>Última actualización: 2025-07-11 |
+<p>Última actualización: 2025-07-13 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/carga-cognitiva.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Hoja de ruta</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Preguntas</h3>
-<ul>
-<li>¿Cómo se escribe una lección usando R Markdown y
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objetivos</h3>
-<ul>
-<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
-</li>
-<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
-actividades anidados</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
-</h2>
-<hr class="half-width">
-<p>Esta es una lección creada mediante el template de Workbench adaptada
-por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
-Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
-y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
-dinámicos que pueden renderizar código y mostrar el resultado<br>
-(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
-Carpentries<br>
-Workbench</a> para ver la documentación completa.</p>
-<p>Hay tres secciones requeridas para una plantilla de lección
-válida:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> se muestran al comienzo del episodio para
-preparar a la persona que aprenderá el contenido.<br>
-</li>
-<li>
-<code>objectives</code> son los objetivos de aprendizaje del
-episodio y se muestran junto con las preguntas.<br>
-</li>
-<li>
-<code>keypoints</code> se muestran al final del episodio para
-reforzar los objetivos.</li>
-</ol>
-<div id="desafío-1-podés-hacerlo" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-1-podés-hacerlo" class="callout-inner">
-<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
-<div class="callout-content">
-<p>¿Cuál es el resultado de este comando?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
-<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Es posible gregar una línea con al menos tres dos puntos y la
-etiqueta <code>solution</code>.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
-</h2>
-<hr class="half-width">
-<p>Podés incluir figuras generadas desde R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
-</div>
-<figure style="text-align: center"><img src="fig/carga-cognitiva-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
-El sol sale cada mañana
-</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
-siguiente sintaxis:</p>
-<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
-MetaDocencia!</div>
-</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
-</h2>
-<hr class="half-width">
-<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Puntos Clave</h3>
-<div class="callout-content">
-<ul>
-<li>Usá archivos <code>.md</code> para episodios con contenido
-estático<br>
-</li>
-<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
-salidas dinámicas<br>
-</li>
-<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
-problemas en tu lección<br>
-</li>
-<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
-lección localmente</li>
-</ul>
-</div>
-</div>
-</div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section><section id="aio-capacidad"><p>Content from <a href="capacidad.html">Capacidad</a></p>
-<hr>
-<p>Última actualización: 2025-07-11 |
-
-        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/capacidad.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -1074,6 +1004,184 @@ etiqueta <code>solution</code>.</p>
 <span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
 <span><span class="op">)</span></span></code></pre>
 </div>
+<figure style="text-align: center"><img src="fig/carga-cognitiva-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
+El sol sale cada mañana
+</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
+siguiente sintaxis:</p>
+<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
+<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
+MetaDocencia!</div>
+</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
+</h2>
+<hr class="half-width">
+<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
+informes dinámicos con {knitr}, por lo que usamos MathJax para
+mostrarlas así:</p>
+<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
+= $</p>
+<p>¿Genial, no?</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Puntos Clave</h3>
+<div class="callout-content">
+<ul>
+<li>Usá archivos <code>.md</code> para episodios con contenido
+estático<br>
+</li>
+<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
+salidas dinámicas<br>
+</li>
+<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
+problemas en tu lección<br>
+</li>
+<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
+lección localmente</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-capacidad"><p>Content from <a href="capacidad.html">Capacidad</a></p>
+<hr>
+<p>Última actualización: 2025-07-13 |
+
+        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/capacidad.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Hoja de ruta</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Preguntas</h3>
+<ul>
+<li>¿Cómo se escribe una lección usando R Markdown y
+<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objetivos</h3>
+<ul>
+<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
+</li>
+<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
+actividades anidados</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
+</h2>
+<hr class="half-width">
+<p>Esta es una lección creada mediante el template de Workbench adaptada
+por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
+Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
+y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
+dinámicos que pueden renderizar código y mostrar el resultado<br>
+(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
+Carpentries<br>
+Workbench</a> para ver la documentación completa.</p>
+<p>Hay tres secciones requeridas para una plantilla de lección
+válida:</p>
+<ol style="list-style-type: decimal">
+<li>
+<code>questions</code> se muestran al comienzo del episodio para
+preparar a la persona que aprenderá el contenido.<br>
+</li>
+<li>
+<code>objectives</code> son los objetivos de aprendizaje del
+episodio y se muestran junto con las preguntas.<br>
+</li>
+<li>
+<code>keypoints</code> se muestran al final del episodio para
+reforzar los objetivos.</li>
+</ol>
+<div id="desafío-1-podés-hacerlo" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-1-podés-hacerlo" class="callout-inner">
+<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
+<div class="callout-content">
+<p>¿Cuál es el resultado de este comando?</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<div class="codewrapper">
+<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
+<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>Es posible gregar una línea con al menos tres dos puntos y la
+etiqueta <code>solution</code>.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
+</h2>
+<hr class="half-width">
+<p>Podés incluir figuras generadas desde R Markdown:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
+<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
+<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
+<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
+<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span><span class="op">)</span></span></code></pre>
+</div>
 <figure style="text-align: center"><img src="fig/capacidad-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
 El sol sale cada mañana
 </figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
@@ -1119,7 +1227,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-evaluacion"><p>Content from <a href="evaluacion.html">Evaluación</a></p>
 <hr>
-<p>Última actualización: 2025-07-11 |
+<p>Última actualización: 2025-07-13 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/evaluacion.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1297,543 +1405,9 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-critica"><p>Content from <a href="critica.html">Crítica</a></p>
 <hr>
-<p>Última actualización: 2025-07-11 |
+<p>Última actualización: 2025-07-13 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/critica.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Hoja de ruta</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Preguntas</h3>
-<ul>
-<li>¿Cómo se escribe una lección usando R Markdown y
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objetivos</h3>
-<ul>
-<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
-</li>
-<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
-actividades anidados</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
-</h2>
-<hr class="half-width">
-<p>Esta es una lección creada mediante el template de Workbench adaptada
-por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
-Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
-y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
-dinámicos que pueden renderizar código y mostrar el resultado<br>
-(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
-Carpentries<br>
-Workbench</a> para ver la documentación completa.</p>
-<p>Hay tres secciones requeridas para una plantilla de lección
-válida:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> se muestran al comienzo del episodio para
-preparar a la persona que aprenderá el contenido.<br>
-</li>
-<li>
-<code>objectives</code> son los objetivos de aprendizaje del
-episodio y se muestran junto con las preguntas.<br>
-</li>
-<li>
-<code>keypoints</code> se muestran al final del episodio para
-reforzar los objetivos.</li>
-</ol>
-<div id="desafío-1-podés-hacerlo" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-1-podés-hacerlo" class="callout-inner">
-<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
-<div class="callout-content">
-<p>¿Cuál es el resultado de este comando?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
-<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Es posible gregar una línea con al menos tres dos puntos y la
-etiqueta <code>solution</code>.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
-</h2>
-<hr class="half-width">
-<p>Podés incluir figuras generadas desde R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
-</div>
-<figure style="text-align: center"><img src="fig/critica-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
-El sol sale cada mañana
-</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
-siguiente sintaxis:</p>
-<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
-MetaDocencia!</div>
-</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
-</h2>
-<hr class="half-width">
-<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Puntos Clave</h3>
-<div class="callout-content">
-<ul>
-<li>Usá archivos <code>.md</code> para episodios con contenido
-estático<br>
-</li>
-<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
-salidas dinámicas<br>
-</li>
-<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
-problemas en tu lección<br>
-</li>
-<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
-lección localmente</li>
-</ul>
-</div>
-</div>
-</div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section><section id="aio-motivacion"><p>Content from <a href="motivacion.html">Motivación</a></p>
-<hr>
-<p>Última actualización: 2025-07-11 |
-
-        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/motivacion.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Hoja de ruta</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Preguntas</h3>
-<ul>
-<li>¿Cómo se escribe una lección usando R Markdown y
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objetivos</h3>
-<ul>
-<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
-</li>
-<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
-actividades anidados</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
-</h2>
-<hr class="half-width">
-<p>Esta es una lección creada mediante el template de Workbench adaptada
-por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
-Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
-y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
-dinámicos que pueden renderizar código y mostrar el resultado<br>
-(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
-Carpentries<br>
-Workbench</a> para ver la documentación completa.</p>
-<p>Hay tres secciones requeridas para una plantilla de lección
-válida:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> se muestran al comienzo del episodio para
-preparar a la persona que aprenderá el contenido.<br>
-</li>
-<li>
-<code>objectives</code> son los objetivos de aprendizaje del
-episodio y se muestran junto con las preguntas.<br>
-</li>
-<li>
-<code>keypoints</code> se muestran al final del episodio para
-reforzar los objetivos.</li>
-</ol>
-<div id="desafío-1-podés-hacerlo" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-1-podés-hacerlo" class="callout-inner">
-<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
-<div class="callout-content">
-<p>¿Cuál es el resultado de este comando?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
-<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Es posible gregar una línea con al menos tres dos puntos y la
-etiqueta <code>solution</code>.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
-</h2>
-<hr class="half-width">
-<p>Podés incluir figuras generadas desde R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
-</div>
-<figure style="text-align: center"><img src="fig/motivacion-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
-El sol sale cada mañana
-</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
-siguiente sintaxis:</p>
-<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
-MetaDocencia!</div>
-</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
-</h2>
-<hr class="half-width">
-<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Puntos Clave</h3>
-<div class="callout-content">
-<ul>
-<li>Usá archivos <code>.md</code> para episodios con contenido
-estático<br>
-</li>
-<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
-salidas dinámicas<br>
-</li>
-<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
-problemas en tu lección<br>
-</li>
-<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
-lección localmente</li>
-</ul>
-</div>
-</div>
-</div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section><section id="aio-aprendizaje"><p>Content from <a href="aprendizaje.html">Aprendizaje</a></p>
-<hr>
-<p>Última actualización: 2025-07-11 |
-
-        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/aprendizaje.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Hoja de ruta</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Preguntas</h3>
-<ul>
-<li>¿Cómo se escribe una lección usando R Markdown y
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objetivos</h3>
-<ul>
-<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
-</li>
-<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
-actividades anidados</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
-</h2>
-<hr class="half-width">
-<p>Esta es una lección creada mediante el template de Workbench adaptada
-por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
-Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
-y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
-dinámicos que pueden renderizar código y mostrar el resultado<br>
-(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
-Carpentries<br>
-Workbench</a> para ver la documentación completa.</p>
-<p>Hay tres secciones requeridas para una plantilla de lección
-válida:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> se muestran al comienzo del episodio para
-preparar a la persona que aprenderá el contenido.<br>
-</li>
-<li>
-<code>objectives</code> son los objetivos de aprendizaje del
-episodio y se muestran junto con las preguntas.<br>
-</li>
-<li>
-<code>keypoints</code> se muestran al final del episodio para
-reforzar los objetivos.</li>
-</ol>
-<div id="desafío-1-podés-hacerlo" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-1-podés-hacerlo" class="callout-inner">
-<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
-<div class="callout-content">
-<p>¿Cuál es el resultado de este comando?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
-<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Es posible gregar una línea con al menos tres dos puntos y la
-etiqueta <code>solution</code>.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
-</h2>
-<hr class="half-width">
-<p>Podés incluir figuras generadas desde R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
-</div>
-<figure style="text-align: center"><img src="fig/aprendizaje-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
-El sol sale cada mañana
-</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
-siguiente sintaxis:</p>
-<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
-MetaDocencia!</div>
-</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
-</h2>
-<hr class="half-width">
-<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Puntos Clave</h3>
-<div class="callout-content">
-<ul>
-<li>Usá archivos <code>.md</code> para episodios con contenido
-estático<br>
-</li>
-<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
-salidas dinámicas<br>
-</li>
-<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
-problemas en tu lección<br>
-</li>
-<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
-lección localmente</li>
-</ul>
-</div>
-</div>
-</div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section><section id="aio-preparacion"><p>Content from <a href="preparacion.html">Introducción</a></p>
-<hr>
-<p>Última actualización: 2025-07-11 |
-
-        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/preparacion.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -1964,6 +1538,540 @@ etiqueta <code>solution</code>.</p>
 <span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
 <span><span class="op">)</span></span></code></pre>
 </div>
+<figure style="text-align: center"><img src="fig/critica-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
+El sol sale cada mañana
+</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
+siguiente sintaxis:</p>
+<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
+<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
+MetaDocencia!</div>
+</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
+</h2>
+<hr class="half-width">
+<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
+informes dinámicos con {knitr}, por lo que usamos MathJax para
+mostrarlas así:</p>
+<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
+= $</p>
+<p>¿Genial, no?</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Puntos Clave</h3>
+<div class="callout-content">
+<ul>
+<li>Usá archivos <code>.md</code> para episodios con contenido
+estático<br>
+</li>
+<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
+salidas dinámicas<br>
+</li>
+<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
+problemas en tu lección<br>
+</li>
+<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
+lección localmente</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-motivacion"><p>Content from <a href="motivacion.html">Motivación</a></p>
+<hr>
+<p>Última actualización: 2025-07-13 |
+
+        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/motivacion.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Hoja de ruta</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Preguntas</h3>
+<ul>
+<li>¿Cómo se escribe una lección usando R Markdown y
+<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objetivos</h3>
+<ul>
+<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
+</li>
+<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
+actividades anidados</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
+</h2>
+<hr class="half-width">
+<p>Esta es una lección creada mediante el template de Workbench adaptada
+por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
+Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
+y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
+dinámicos que pueden renderizar código y mostrar el resultado<br>
+(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
+Carpentries<br>
+Workbench</a> para ver la documentación completa.</p>
+<p>Hay tres secciones requeridas para una plantilla de lección
+válida:</p>
+<ol style="list-style-type: decimal">
+<li>
+<code>questions</code> se muestran al comienzo del episodio para
+preparar a la persona que aprenderá el contenido.<br>
+</li>
+<li>
+<code>objectives</code> son los objetivos de aprendizaje del
+episodio y se muestran junto con las preguntas.<br>
+</li>
+<li>
+<code>keypoints</code> se muestran al final del episodio para
+reforzar los objetivos.</li>
+</ol>
+<div id="desafío-1-podés-hacerlo" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-1-podés-hacerlo" class="callout-inner">
+<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
+<div class="callout-content">
+<p>¿Cuál es el resultado de este comando?</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<div class="codewrapper">
+<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
+<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>Es posible gregar una línea con al menos tres dos puntos y la
+etiqueta <code>solution</code>.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
+</h2>
+<hr class="half-width">
+<p>Podés incluir figuras generadas desde R Markdown:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
+<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
+<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
+<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
+<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span><span class="op">)</span></span></code></pre>
+</div>
+<figure style="text-align: center"><img src="fig/motivacion-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
+El sol sale cada mañana
+</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
+siguiente sintaxis:</p>
+<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
+<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
+MetaDocencia!</div>
+</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
+</h2>
+<hr class="half-width">
+<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
+informes dinámicos con {knitr}, por lo que usamos MathJax para
+mostrarlas así:</p>
+<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
+= $</p>
+<p>¿Genial, no?</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Puntos Clave</h3>
+<div class="callout-content">
+<ul>
+<li>Usá archivos <code>.md</code> para episodios con contenido
+estático<br>
+</li>
+<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
+salidas dinámicas<br>
+</li>
+<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
+problemas en tu lección<br>
+</li>
+<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
+lección localmente</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-aprendizaje"><p>Content from <a href="aprendizaje.html">Aprendizaje</a></p>
+<hr>
+<p>Última actualización: 2025-07-13 |
+
+        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/aprendizaje.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Hoja de ruta</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Preguntas</h3>
+<ul>
+<li>¿Cómo se escribe una lección usando R Markdown y
+<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objetivos</h3>
+<ul>
+<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
+</li>
+<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
+actividades anidados</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
+</h2>
+<hr class="half-width">
+<p>Esta es una lección creada mediante el template de Workbench adaptada
+por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
+Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
+y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
+dinámicos que pueden renderizar código y mostrar el resultado<br>
+(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
+Carpentries<br>
+Workbench</a> para ver la documentación completa.</p>
+<p>Hay tres secciones requeridas para una plantilla de lección
+válida:</p>
+<ol style="list-style-type: decimal">
+<li>
+<code>questions</code> se muestran al comienzo del episodio para
+preparar a la persona que aprenderá el contenido.<br>
+</li>
+<li>
+<code>objectives</code> son los objetivos de aprendizaje del
+episodio y se muestran junto con las preguntas.<br>
+</li>
+<li>
+<code>keypoints</code> se muestran al final del episodio para
+reforzar los objetivos.</li>
+</ol>
+<div id="desafío-1-podés-hacerlo" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-1-podés-hacerlo" class="callout-inner">
+<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
+<div class="callout-content">
+<p>¿Cuál es el resultado de este comando?</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<div class="codewrapper">
+<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
+<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>Es posible gregar una línea con al menos tres dos puntos y la
+etiqueta <code>solution</code>.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
+</h2>
+<hr class="half-width">
+<p>Podés incluir figuras generadas desde R Markdown:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
+<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
+<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
+<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
+<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span><span class="op">)</span></span></code></pre>
+</div>
+<figure style="text-align: center"><img src="fig/aprendizaje-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
+El sol sale cada mañana
+</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
+siguiente sintaxis:</p>
+<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
+<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
+MetaDocencia!</div>
+</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
+</h2>
+<hr class="half-width">
+<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
+informes dinámicos con {knitr}, por lo que usamos MathJax para
+mostrarlas así:</p>
+<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
+= $</p>
+<p>¿Genial, no?</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Puntos Clave</h3>
+<div class="callout-content">
+<ul>
+<li>Usá archivos <code>.md</code> para episodios con contenido
+estático<br>
+</li>
+<li>Usá archivos <code>.Rmd</code> para episodios que necesiten generar
+salidas dinámicas<br>
+</li>
+<li>Ejecutá <code>sandpaper::check_lesson()</code> para identificar
+problemas en tu lección<br>
+</li>
+<li>Ejecutá <code>sandpaper::build_lesson()</code> para previsualizar tu
+lección localmente</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-preparacion"><p>Content from <a href="preparacion.html">Introducción</a></p>
+<hr>
+<p>Última actualización: 2025-07-13 |
+
+        <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/preparacion.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Mostrar todas las soluciones " data-collapse="Cerrar todas las soluciones "> Mostrar todas las soluciones <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Hoja de ruta</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Preguntas</h3>
+<ul>
+<li>¿Cómo se escribe una lección usando R Markdown y
+<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objetivos</h3>
+<ul>
+<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
+</li>
+<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
+actividades anidados</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
+</h2>
+<hr class="half-width">
+<p>Esta es una lección creada mediante el template de Workbench adaptada
+por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
+Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
+y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
+dinámicos que pueden renderizar código y mostrar el resultado<br>
+(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
+Carpentries<br>
+Workbench</a> para ver la documentación completa.</p>
+<p>Hay tres secciones requeridas para una plantilla de lección
+válida:</p>
+<ol style="list-style-type: decimal">
+<li>
+<code>questions</code> se muestran al comienzo del episodio para
+preparar a la persona que aprenderá el contenido.<br>
+</li>
+<li>
+<code>objectives</code> son los objetivos de aprendizaje del
+episodio y se muestran junto con las preguntas.<br>
+</li>
+<li>
+<code>keypoints</code> se muestran al final del episodio para
+reforzar los objetivos.</li>
+</ol>
+<div id="desafío-1-podés-hacerlo" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-1-podés-hacerlo" class="callout-inner">
+<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
+<div class="callout-content">
+<p>¿Cuál es el resultado de este comando?</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<div class="codewrapper">
+<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
+<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>Es posible gregar una línea con al menos tres dos puntos y la
+etiqueta <code>solution</code>.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
+</h2>
+<hr class="half-width">
+<p>Podés incluir figuras generadas desde R Markdown:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
+<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
+<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
+<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
+<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span><span class="op">)</span></span></code></pre>
+</div>
 <figure style="text-align: center"><img src="fig/preparacion-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
 El sol sale cada mañana
 </figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
@@ -2009,7 +2117,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-final"><p>Content from <a href="final.html">Final</a></p>
 <hr>
-<p>Última actualización: 2025-07-11 |
+<p>Última actualización: 2025-07-13 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/final.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
