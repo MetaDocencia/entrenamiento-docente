@@ -21,8 +21,6 @@ Revisaremos elementos clave para el éxito de un curso practicando la retroalime
 **Introducción:**
 **Final:**
 
----
-
 ## Nos presentamos
 
 ### MetaDocencia
@@ -45,7 +43,7 @@ Construimos capacidades científicas y técnicas en forma responsable y con mira
   
 - **[Irene Vazano](https://www.metadocencia.org/authors/irenevazano/)** Coordinadora del área de Infraestructura. Licenciada en Bibliotecología en la UCSE-DABA. Con experiencia de trabajo en bibliotecas académicas y como profesional independiente en diversos proyectos digitales, desempeñando roles de administración y garantizando la calidad de accesibilidad.
 
----
+
 ## Antes de empezar
 
 ### Pautas de convivencia
