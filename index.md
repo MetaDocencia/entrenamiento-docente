@@ -4,41 +4,57 @@ site: sandpaper::sandpaper_site
 
 # Entrenamiento docente
 
-Les damos la bienvenida al entrenamiento docente adaptado por MetaDocencia, una versión creada a partir del curso "Train the Trainers" de The Carpentries.
+Les damos la bienvenida la bienvenida al entrenamiento docente de MetaDocencia, una adaptación del curso «Train the Trainers» de The Carpentries.
 
-Este curso brindará a los nuevos capacitadores conocimientos, habilidades, orientación y consejos para desarrollar y brindar capacitación. Los participantes explorarán una variedad de métodos para permitir y fomentar el aprendizaje, examinar los requisitos para un curso exitoso y obtener apropiada devolución
+Revisaremos elementos clave para el éxito de un curso practicando la retroalimentación constructiva que enriquece el proceso formativo. Quienes participen, adquirirán conocimientos, habilidades y orientaciones prácticas para diseñar y facilitar instancias de formación con un enfoque en el aprendizaje activo. 
 
-## Objetivos:
-- Brindar orientación sobre técnicas de capacitación general y el uso apropiado de métodos basados en las necesidades del alumno, incluidos algunos "DOs" y "DONT’s" generales para una capacitación exitosa.
-- Proporcionar un marco para un diseño curricular exitoso y un mayor desarrollo, para permitir a los capacitadores construir un curso apropiado para las necesidades de sus alumnos.
+## Cuál va a ser el recorrido
 
----
-
-### Motivación
-
-1. Construir lecciones más efectivas
-2. Aplicando prácticas basadas en evidencia
-3. Con práctica y retroalimentación
-4. En un ambiente de aprendizaje positivo
-
-Sabemos tanto sobre la enseñanza y el aprendizaje como sabemos sobre salud pública. El problema es que la mayoría de las personas en tecnología (y la mayoría de las/os docentes universitarios) no saben lo que sabemos. Cuando terminaste la escuela secundaria, probablemente sabías qué son los gérmenes y las vitaminas y de dónde vienen los bebés. Probablemente no conozcas hechos igualmente básicos sobre cómo aprenden las personas o cuál es la mejor manera de enseñarles.
-
-Conocer unos pocos de estos conceptos básicos te ayudará a construir lecciones más efectivas en menos tiempo y con menos esfuerzo. A enseñar también se aprende, sobre todo a través de la práctica y la retroalimentación que recibimos de quienes están en nuestras clases.
-
-
-### Punto de Partida
-
-Nuestra idea clave es que el aprendizaje es tanto una actividad cognitiva como social. El aprendizaje ocurre cuando tu cerebro almacena hechos y procedimientos de manera que le permiten recordar y aplicar lo que necesita cuando lo necesita. También ocurre en un entorno social: se aprende por determinada razón, con otras personas, y tus objetivos, motivaciones y criterios para el éxito se determinan con esas y por esas personas. Otra de nuestras ideas clave es que tanto la enseñanza como el aprendizaje deben ser activos: una persona que recita una lección a sus estudiantes que simplemente escuchan es probablemente menos efectiva que una lección donde los estudiantes participan.
-
-### Paramédicas y Paramédicos Educacionales
-
-Otra cosa que debemos dejar en claro es que no estamos tratando de convertirte en un experto en educación, no queremos convertirte en médica o médico. Somos más como paramédicas y paramédicos educacionales: nos enfocamos en brindar un servicio de respuesta primaria a las personas que necesitan ayuda inmediata y que pueden no tener tiempo o interés para completar todo lo que hay para saber sobre un tema. Ninguno de los dos aspectos es mejor que el otro: sirven a diferentes propósitos.
-
-El público en general tiene conocimientos básicos de salud y medicina, pero no tiene los conocimientos equivalentes sobre enseñanza y aprendizaje.  Una persona entrenada posee los dos.  Nosotros éramos como vos en este momento, pertenecíamos a ese grupo de gente sin entrenamiento en conceptos básicos de educación, pero ahora somos personas entrenadas y es en lo que vas a convertirte cuando termines este curso.  Una persona entrenada puede: crear mejores lecciones, usar prácticas basadas en evidencia, mejorar usando retroalimentación y generar un ambiente de aprendizaje positivo.  La enseñanza y aprendizaje involucra procesos cognitivos y sociales, y se realizan mejor si se hacen de manera activa.
-
-[img slide 12 https://docs.google.com/presentation/d/1PbTBOHriPrZuXBJT_uF1g0-ICpWsDtBoS2QH_OGEQ10/edit?slide=id.g22d542f968e_1_38#slide=id.g22d542f968e_1_38]
+1. **Introducción:** Para entender un poco más sobre el curso y las personas tipo.
+3. **Modelos mentales:** 
+4. **Carga cognitiva:**
+5. **Capacidad:**
+6. **Evaluación:**
+7. **Crítica:**
+8. **Motivación:**
+9. **Aprendizaje:**
+10. **Introducción:**
+11. **Final:**
 
 ---
+
+## Nos presentamos
+
+### MetaDocencia
+
+MetaDocencia es una organización sin fines de lucro donde trabajamos para que la producción, la comunicación y la aplicación de saberes científicos y técnicos sean globalmente equitativos.
+
+Construimos capacidades científicas y técnicas en forma responsable y con mirada local, a través de la co-creación de redes, espacios de aprendizaje y recursos accesibles para comunidades hispanohablantes.
+
+### Docentes y equipo
+
+- **[Nicolás Palopoli](https://www.metadocencia.org/authors/npalopoli/)** Co-Director Ejecutivo y Chair del Consejo Asesor. Desde 2008 realiza tareas docentes de grado, posgrado y extensión, en modalidad presencial y virtual, tanto en UNQ como en otras instituciones educativas y para comunidades de práctica. Instructor y entrenador de instructores en The Carpentries.
+
+- **[Laura Ación](https://www.metadocencia.org/authors/lacion/)** Co-Directora Ejecutiva. Investigadora adjunta del CONICET en la Universidad de Buenos Aires donde dirige el Co-Laboratorio de Uso Responsable de Datos. Tiene más de dos décadas de experiencia ofreciendo servicios de consultoria y enseñanza. 
+  
+- **[Jesica Formoso](https://www.metadocencia.org/authors/jformoso/)** Coordinadora del área de MEdición de Impacto de MetaDocencia. Psicóloga cognitiva de la Universidad de Buenos Aires e investigadora asistente de CONICET. Se dedica a la docencia y la investigación, destacándose como organizadora del capítulo de Buenos Aires de R-Ladies. Instructora certificada de RStudio y The Carpentries.
+  
+- **[Paz Miguez](https://www.metadocencia.org/authors/pazmiguez/)** Coordinadora de áreas Institucional y Formación. Licenciada en Ciencia Política, con una Maestría en Política Educativa y un Profesorado en Docencia Superior. Más de 15 años de experiencia, en el diseño, gestión y monitoreo de programas educativos.
+  
+- **[Julián Buede](https://www.metadocencia.org/authors/jbuede/)** Equipo de Comunicación. Se especializa en formatos para contenidos audiovisuales educativos, especialmente en el ámbito de tutoriales y clases asincrónicas, con el objetivo de desarrollar formas creativas de presentar información.
+  
+- **[Irene Vazano](https://www.metadocencia.org/authors/irenevazano/)** Coordinadora del área de Infraestructura. Licenciada en Bibliotecología en la UCSE-DABA. Con experiencia de trabajo en bibliotecas académicas y como profesional independiente en diversos proyectos digitales, desempeñando roles de administración y garantizando la calidad de accesibilidad.
+
+---
+## Antes de empezar
+
+### Pautas de convivencia
+
+Estas son nuestras [pautas de convivencia](https://doi.org/10.5281/zenodo.12534195). Nos ayudan a fomentar un ambiente abierto, seguro y amigable y garantizar la participación de todas las personas en nuestras actividades y espacios virtuales.
+
+Alentamos a la comunidad a apropiarse y a participar de estas pautas para que representen a todas las personas. Nos comprometemos a construir una
+comunidad amigable y respetuosa, y aunque en algunas ocasiones fallaremos, nuestro objetivo es que todas las personas reciban un trato justo, inclusivo y lo más equitativo posible. 
+
 ## Código Abierto - Ciencia Abierta - Educación Abierta
 
 Creemos muy firmemente que las personas aprenden mejor cuando aprenden juntas, por eso todos estos materiales están disponibles gratuitamente bajo la licencia Creative Commons - Attribution - ShareAlike license. Te alentamos a que los compartas, adaptes y reuses, siempre que incluyas un enlace a la fuente original y distribuyas tu propio material bajo la misma licencia para ayudar a otras personas.
