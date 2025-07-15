@@ -75,7 +75,6 @@ Una cosa que no es un síntoma confiable de ser una persona novata es la confian
 
 ![](fig/efecto-Dunning-Kruger.png){alt="El gráfico muestra una curva amarilla que representa el efecto Dunning-Kruger: en el eje horizontal se indica el “Conocimiento del área”, de poco a mucho, y en el vertical la “Confianza”, de poca a mucha. La línea empieza en el extremo inferior izquierdo con un punto etiquetado “¿Eh?”, asciende rápidamente hasta un pico llamado “Ya sé todo”, desciende atravesando “Esto es más de lo que pensaba” y toca fondo en “Nunca voy a entender esto”; a partir de allí sube gradualmente pasando por “Empieza a tener sentido” y llega al extremo superior derecho en “Créeme, es complicado”. Cada fase está marcada con un punto rojo que señala cómo la confianza varía a medida que crece el conocimiento."}
 
-Lo que hace a alguien una persona novata es que aún no tiene un modelo mental del problema: no sabe cuáles son las piezas importantes o cómo se relacionan. Por lo tanto, tienen que seguir pasos sin comprender por qué, o tomar prestados conceptos de otros dominios que entienden y esperar que se mantengan las analogías.
 
 ::: callout
 ### Características de una Persona Novata
@@ -83,14 +82,52 @@ Lo que hace a alguien una persona novata es que aún no tiene un modelo mental d
 Lo que hace a alguien una persona novata es que aún no tiene un modelo mental del problema: no sabe cuáles son las piezas importantes o cómo se relacionan. Por lo tanto, tienen que seguir pasos sin comprender por qué, o tomar prestados conceptos de otros dominios que entienden y esperar que se mantengan las analogías.
 :::
 
-## Matemática
+## Un modelo mental
 
-El contenido puede contener ecuaciones en $\LaTeX$ al describir cómo crear  
-informes dinámicos con {knitr}, por lo que usamos MathJax para mostrarlas así:
+Aquí hay un ejemplo de lo que queremos decir con un modelo mental. 
 
-`$ lpha = \dfrac{1}{(1 - eta)^2}$` se convierte en: $ lpha = \dfrac{1}{(1 - eta)^2}$
+> En la clase de ciencias de la escuela secundaria, probablemente te enseñaron que los átomos son bolas de colores brillantes conectadas por resortes. 
 
-¿Genial, no?
+Ninguna de esas cosas es realmente cierta, pero es un modelo útil para comprender las cosas que las personas quieren entender en esa etapa de su desarrollo y para resolver los problemas que quieren resolver.
+
+Otro modelo mental puede ser:
+
+> Una computadora tiene una CPU, algo de RAM y un disco duro.
+
+Es realmente útil para explicar el rendimiento de la computadora a principiantes, pero de nuevo, todo esto es falso. Tu computadora probablemente tenga varios procesadores, hay al menos tres niveles de memoria y su disco duro probablemente no sea una única unidad. Sin embargo, nada de eso es importante para la mayoría de quienes programan. El modelo les permite hacer predicciones sobre las que pueden actuar y arreglar las cosas que salen mal.
+
+## Cómo Ayudar Personas Novatas
+
+**Ayúdalas a construir un modelo mental**
+
+Hasta que alguien tiene un modelo mental, no tiene dónde poner información y no puede decir qué partes son útiles y cuándo son útiles. Por lo tanto, tu objetivo al enseñarle a principiantes es ayudarles a construir un modelo mental. 
+
+Por ejemplo, la introducción de Software Carpentry al shell de Unix cubre 15 comandos en 3 horas. Es solo un comando cada 12 minutos. Esto suena a un ritmo muy lento hasta que te das cuenta de que el objetivo es realmente ayudarlos a comprender:
+
+- ¿Qué es un camino (path)?
+- ¿Cuál es la diferencia entre una ruta absoluta y una ruta relativa?
+- ¿Qué es un directorio de inicio?
+- ¿Qué son las flags de un comando?
+- ¿Qué es un pipe?
+- ¿Qué es el historial y cómo se usa?
+- ¿Qué es un comodín?
+
+Hasta que tu audiencia sepa esto, nada más tendrá sentido.
+
+
+::: callout
+## Cómo Sabes que tu Trabajo Fue Exitoso
+
+Puedes saber cuando las personas tienen un modelo mental utilizable cuando pueden leer el manual o, en estos días, cuando pueden escribir la búsqueda correcta en su navegador y reconocer una respuesta útil cuando aparece.
+:::
+
+## Mapas mentales
+
+Entonces, ¿cómo haces esto? El primer paso para cualquier lección es descubrir qué modelo mental quieres que tengan, y la mejor manera de hacerlo es dibujar un mapa conceptual.
+
+Por ejemplo podemos analizar el mapa mental de una usuaria de una biblioteca (según lo dibujado por Amy Hodge de la Universidad de Stanford).
+
+![](fig/efecto-Dunning-Kruger.png){alt="El gráfico muestra una curva amarilla que representa el efecto Dunning-Kruger: en el eje horizontal se indica el “Conocimiento del área”, de poco a mucho, y en el vertical la “Confianza”, de poca a mucha. La línea empieza en el extremo inferior izquierdo con un punto etiquetado “¿Eh?”, asciende rápidamente hasta un pico llamado “Ya sé todo”, desciende atravesando “Esto es más de lo que pensaba” y toca fondo en “Nunca voy a entender esto”; a partir de allí sube gradualmente pasando por “Empieza a tener sentido” y llega al extremo superior derecho en “Créeme, es complicado”. Cada fase está marcada con un punto rojo que señala cómo la confianza varía a medida que crece el conocimiento."}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
