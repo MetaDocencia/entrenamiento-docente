@@ -73,7 +73,7 @@ Un tercer síntoma es que los novatos con frecuencia no pueden decir qué es rel
 
 Una cosa que no es un síntoma confiable de ser una persona novata es la confianza o la falta de confianza. Esto se debe a algo llamado efecto Dunning-Kruger: cuanto menos sepa sobre un tema, menos precisa será tu estimación de cuánto sabes y cuánto no sabes.
 
-![](fig/skill-level.svg){alt="Three people, labeled from left to right as \"Novice\", \"Competent Practitioner\", and \"Expert\". Underneath,an arrow labelled \"Experience level\" points from left to right. The \"Novice\" is quoted, \"I am not sure what questions to ask.\" The Competent Practitioner is quoted, \"I am pretty confident, but I still look stuff up a lot!\" The Expert is quoted \"I have been doing this on a daily basis for years!\""}
+![](fig/efecto-Dunning-Kruger.png){alt="El gráfico muestra una curva amarilla que representa el efecto Dunning-Kruger: en el eje horizontal se indica el “Conocimiento del área”, de poco a mucho, y en el vertical la “Confianza”, de poca a mucha. La línea empieza en el extremo inferior izquierdo con un punto etiquetado “¿Eh?”, asciende rápidamente hasta un pico llamado “Ya sé todo”, desciende atravesando “Esto es más de lo que pensaba” y toca fondo en “Nunca voy a entender esto”; a partir de allí sube gradualmente pasando por “Empieza a tener sentido” y llega al extremo superior derecho en “Créeme, es complicado”. Cada fase está marcada con un punto rojo que señala cómo la confianza varía a medida que crece el conocimiento."}
 
 ## Matemática
 
