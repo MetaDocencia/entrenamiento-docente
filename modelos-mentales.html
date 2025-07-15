@@ -217,7 +217,9 @@
       <div class="accordion-body">
         <ul><li><a href="#progresi%C3%B3n-cognitiva">Progresión Cognitiva</a></li>
 <li><a href="#personas-novatas">Personas novatas</a></li>
-<li><a href="#matem%C3%A1tica">Matemática</a></li>
+<li><a href="#un-modelo-mental">Un modelo mental</a></li>
+<li><a href="#c%C3%B3mo-ayudar-personas-novatas">Cómo Ayudar Personas Novatas</a></li>
+<li><a href="#mapas-mentales">Mapas mentales</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -462,12 +464,7 @@ pertenece al lenguaje y lo que es específico de su programa.</p>
 la confianza o la falta de confianza. Esto se debe a algo llamado efecto
 Dunning-Kruger: cuanto menos sepa sobre un tema, menos precisa será tu
 estimación de cuánto sabes y cuánto no sabes.</p>
-<figure><img src="fig/efecto-Dunning-Kruger.png" alt="El gráfico muestra una curva amarilla que representa el efecto Dunning-Kruger: en el eje horizontal se indica el “Conocimiento del área”, de poco a mucho, y en el vertical la “Confianza”, de poca a mucha. La línea empieza en el extremo inferior izquierdo con un punto etiquetado “¿Eh?”, asciende rápidamente hasta un pico llamado “Ya sé todo”, desciende atravesando “Esto es más de lo que pensaba” y toca fondo en “Nunca voy a entender esto”; a partir de allí sube gradualmente pasando por “Empieza a tener sentido” y llega al extremo superior derecho en “Créeme, es complicado”. Cada fase está marcada con un punto rojo que señala cómo la confianza varía a medida que crece el conocimiento." class="figure mx-auto d-block"></figure><p>Lo que hace a alguien una persona novata es que aún no tiene un
-modelo mental del problema: no sabe cuáles son las piezas importantes o
-cómo se relacionan. Por lo tanto, tienen que seguir pasos sin comprender
-por qué, o tomar prestados conceptos de otros dominios que entienden y
-esperar que se mantengan las analogías.</p>
-<div id="características-de-una-persona-novata" class="callout">
+<figure><img src="fig/efecto-Dunning-Kruger.png" alt="El gráfico muestra una curva amarilla que representa el efecto Dunning-Kruger: en el eje horizontal se indica el “Conocimiento del área”, de poco a mucho, y en el vertical la “Confianza”, de poca a mucha. La línea empieza en el extremo inferior izquierdo con un punto etiquetado “¿Eh?”, asciende rápidamente hasta un pico llamado “Ya sé todo”, desciende atravesando “Esto es más de lo que pensaba” y toca fondo en “Nunca voy a entender esto”; a partir de allí sube gradualmente pasando por “Empieza a tener sentido” y llega al extremo superior derecho en “Créeme, es complicado”. Cada fase está marcada con un punto rojo que señala cómo la confianza varía a medida que crece el conocimiento." class="figure mx-auto d-block"></figure><div id="características-de-una-persona-novata" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -482,15 +479,69 @@ esperar que se mantengan las analogías.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a></h2>
-<hr class="half-width"><p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
-
-<div id="keypoints1" class="callout keypoints">
+</section><section><h2 class="section-heading" id="un-modelo-mental">Un modelo mental<a class="anchor" aria-label="anchor" href="#un-modelo-mental"></a></h2>
+<hr class="half-width"><p>Aquí hay un ejemplo de lo que queremos decir con un modelo
+mental.</p>
+<blockquote>
+<p>En la clase de ciencias de la escuela secundaria, probablemente te
+enseñaron que los átomos son bolas de colores brillantes conectadas por
+resortes.</p>
+</blockquote>
+<p>Ninguna de esas cosas es realmente cierta, pero es un modelo útil
+para comprender las cosas que las personas quieren entender en esa etapa
+de su desarrollo y para resolver los problemas que quieren resolver.</p>
+<p>Otro modelo mental puede ser:</p>
+<blockquote>
+<p>Una computadora tiene una CPU, algo de RAM y un disco duro.</p>
+</blockquote>
+<p>Es realmente útil para explicar el rendimiento de la computadora a
+principiantes, pero de nuevo, todo esto es falso. Tu computadora
+probablemente tenga varios procesadores, hay al menos tres niveles de
+memoria y su disco duro probablemente no sea una única unidad. Sin
+embargo, nada de eso es importante para la mayoría de quienes programan.
+El modelo les permite hacer predicciones sobre las que pueden actuar y
+arreglar las cosas que salen mal.</p>
+</section><section><h2 class="section-heading" id="cómo-ayudar-personas-novatas">Cómo Ayudar Personas Novatas<a class="anchor" aria-label="anchor" href="#c%C3%B3mo-ayudar-personas-novatas"></a></h2>
+<hr class="half-width"><p><strong>Ayúdalas a construir un modelo mental</strong></p>
+<p>Hasta que alguien tiene un modelo mental, no tiene dónde poner
+información y no puede decir qué partes son útiles y cuándo son útiles.
+Por lo tanto, tu objetivo al enseñarle a principiantes es ayudarles a
+construir un modelo mental.</p>
+<p>Por ejemplo, la introducción de Software Carpentry al shell de Unix
+cubre 15 comandos en 3 horas. Es solo un comando cada 12 minutos. Esto
+suena a un ritmo muy lento hasta que te das cuenta de que el objetivo es
+realmente ayudarlos a comprender:</p>
+<ul><li>¿Qué es un camino (path)?</li>
+<li>¿Cuál es la diferencia entre una ruta absoluta y una ruta
+relativa?</li>
+<li>¿Qué es un directorio de inicio?</li>
+<li>¿Qué son las flags de un comando?</li>
+<li>¿Qué es un pipe?</li>
+<li>¿Qué es el historial y cómo se usa?</li>
+<li>¿Qué es un comodín?</li>
+</ul><p>Hasta que tu audiencia sepa esto, nada más tendrá sentido.</p>
+<div id="cómo-sabes-que-tu-trabajo-fue-exitoso" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="cómo-sabes-que-tu-trabajo-fue-exitoso" class="callout-inner">
+<h3 class="callout-title">Cómo Sabes que tu Trabajo Fue Exitoso</h3>
+<div class="callout-content">
+<p>Puedes saber cuando las personas tienen un modelo mental utilizable
+cuando pueden leer el manual o, en estos días, cuando pueden escribir la
+búsqueda correcta en su navegador y reconocer una respuesta útil cuando
+aparece.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="mapas-mentales">Mapas mentales<a class="anchor" aria-label="anchor" href="#mapas-mentales"></a></h2>
+<hr class="half-width"><p>Entonces, ¿cómo haces esto? El primer paso para cualquier lección es
+descubrir qué modelo mental quieres que tengan, y la mejor manera de
+hacerlo es dibujar un mapa conceptual.</p>
+<p>Por ejemplo podemos analizar el mapa mental de una usuaria de una
+biblioteca (según lo dibujado por Amy Hodge de la Universidad de
+Stanford).</p>
+<figure><img src="fig/efecto-Dunning-Kruger.png" alt="El gráfico muestra una curva amarilla que representa el efecto Dunning-Kruger: en el eje horizontal se indica el “Conocimiento del área”, de poco a mucho, y en el vertical la “Confianza”, de poca a mucha. La línea empieza en el extremo inferior izquierdo con un punto etiquetado “¿Eh?”, asciende rápidamente hasta un pico llamado “Ya sé todo”, desciende atravesando “Esto es más de lo que pensaba” y toca fondo en “Nunca voy a entender esto”; a partir de allí sube gradualmente pasando por “Empieza a tener sentido” y llega al extremo superior derecho en “Créeme, es complicado”. Cada fase está marcada con un punto rojo que señala cómo la confianza varía a medida que crece el conocimiento." class="figure mx-auto d-block"></figure><div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
