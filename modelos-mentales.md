@@ -171,7 +171,8 @@ Cuando hayas terminado, cárgalo al documento compartido.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Pausa
+###Pausa
+
 No te desconectes, pero sí aléjate de pantallas
 Volvemos en 10 minutos
 
@@ -187,13 +188,66 @@ Este mapa conceptual resume todo lo visto hasta aquí. El mapa conceptual presen
 
 ![](fig/mapa-resumen.png){alt=“Flujo de trabajo de ciencia de datos dentro de un rectángulo grande titulado ‘Programar’. Una banda gris interna llamada ‘Comprender’ encadena las etapas ‘Importar → Ordenar → Transformar’; de Transformar surgen flechas hacia ‘Visualizar’ y ‘Modelar’ que se retroalimentan entre sí, y una flecha de salida apunta a ‘Comunicar’.”}
 
+## Progresión Cognitiva
 
+Los mapas conceptuales también ayudan a explicar las diferencias entre los mapas mentales de las personas novatas, competentes y expertas. Por supuesto que nuestro cerebro no se parece en nada a conceptos conectados en un grafo, pero este esquema nos va ayudar a describir visualmente los distintos niveles de conocimiento de un tema. 
+
+Las personas novatas no tienen muchas conexiones entre conceptos.
+
+![](fig/persona-novata.png){alt=“Red fragmentada de hexágonos: A conecta solo con C; B y D están aislados sin conexiones; E se enlaza únicamente con F, y F solo con E. Existen escasos vínculos y la mayoría de los nodos quedan separados unos de otros.”}
+
+Las personas competentes tienen más conceptos y más conexiones entre los conceptos, pero puede tomar varios pasos para pasar de lo que saben a lo que necesitan resolver.
+
+![](fig/persona-competente.png){alt=“Red de hexágonos con conexiones selectivas: A se enlaza con B mediante una arista; B se une a C, que a su vez conecta con D. El nodo D enlaza con C, E y J; E conecta con D y F; F se une a E y a J; J enlaza con D y con Q. Los grupos están relacionados por algunos puentes, pero la red no es completamente densa.”}
+
+Las personas expertas tienen muchas más conexiones, por lo que su camino es más corto, de hecho, tan corto que a menudo pueden saltar de principio a fin en un solo paso. Las personas expertas puede no tener más conceptos que una persona competente, la diferencia importante es la cantidad de conexiones.  
+
+Pregunta para responder en el chat: ¿alguna vez viste una persona experta mirar un problema y decir “¡es obvio!”? Por ejemplo, una radióloga experta que mira una radiografía y dice “el pulmón está afectado”. Llegan a eso de un solo paso. Hacen lo mismo que hacemos quienes no estudiamos radiología para reconocer caras. Las personas hacemos coincidir patrones, no podemos explicar cómo obtuvimos la respuesta.
+
+Esto también es lo que lleva al punto ciego de la persona experta: no pueden explicar su razonamiento porque no hay ninguno.
+
+![](fig/persona-experta.png){alt=“Diagrama en forma de colmena que muestra seis hexágonos etiquetados A – F densamente interconectados dentro de un contorno envolvente. El hexágono C ocupa el centro y se conecta con todos los demás; A y B están arriba unidos entre sí y con C; D y E aparecen a los costados conectados entre sí, con C y con F; F se ubica abajo y enlaza con C, D y E. El resultado es una malla cerrada con múltiples caminos redundantes.”}
+
+## No Eres Tus Estudiantes
+
+### Punto ciego de la persona experta
+
+Esta es una de las 10 pautas de Greg Wilson que nos gusta retomar en MetaDocencia: No eres tus estudiantes. 
+
+Así que mucha atención al punto ciego de la persona experta. Este punto ciego, es decir saber la respuesta a un problema pero no saber cómo se llegó a ella, es uno de los motivos por lo cuales no siempre una persona experta es la mejor para enseñar un tema. Las personas expertas se pueden reentrenar para ver el mundo como una persona novata, pero esto toma trabajo. Las personas competentes tienen mucho más fresco en la memoria cómo es entrar a un tema por primera vez.
+
+### Cuida la forma en que hablas y el humor
+
+Otras de las cuestiones que hay que considerar porque no eres tus estudiantes es la forma en que hablamos y el humor que usamos. Tanto la forma de comunicarse como el humor como la inclusión de memes y chistes, hacen al aspecto social de la enseñanza y su uso pende de un fino equilibrio. La inclusión de un lenguaje acorde a tu público y de humor acorde a tu público suma mucho desde lo social y puede motivar a tus estudiantes y ayudarles a aprender. Sin embargo, hay palabras o formas de hablar que matan la motivación. 
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Ejercicio: Pregunta para Contestar en el Chat
+
+Tipea en el chat:
+1. Frase corta/palabra que puede tener un efecto desmotivador
+2. Frase corta/palabra que podría reemplazarla
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Estudiantes de distintos niveles
+
+Una consulta frecuente de este curso, una vez que charlamos sobre los distintos niveles de progresión cognitiva, es cómo diseñar una clase cuando tus estudiantes tienen distintos niveles. 
+
+El primer consejo sobre este tema es tratar de evitarlo, ya que todas las propuestas que siguen requieren trabajo adicional.
+
+Si no se puede evitar, se podría diseñar una clase contemplando enseñanza para distintos grupos según su nivel. 
+
+Otra opción es identificar a las personas más avanzadas y que ayuden a sus colegas. 
+
+Otra opción es la instrucción por pares en pequeños grupos, armando los grupos de manera tal que se mezclen los niveles. Finalmente, se puede hacer una propuesta de reunirse a estudiar permitiendo que cada estudiante trabaje a su propio ritmo en forma individual. Esta opción requerirá propuestas de trabajo diferentes para los distintos niveles y un enfoque activo. En una clase de programación, podría ser la resolución de ejercicios en el aula de distintos niveles y que el personal docente a cargo esté disponible para consultas.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Usá archivos `.md` para episodios con contenido estático  
-- Usá archivos `.Rmd` para episodios que necesiten generar salidas dinámicas  
-- Ejecutá `sandpaper::check_lesson()` para identificar problemas en tu lección  
-- Ejecutá `sandpaper::build_lesson()` para previsualizar tu lección localmente
+- Nuestro objetivo al enseñar a personas novatas es ayudarlas a construir modelos mentales útiles.
+- Explorar nuestros propios modelos mentales puede ayudarnos a prepararnos para transmitirlos.
+- Las personas novatas no tienen muchas conexiones entre conceptos.
+- Las personas competentes tienen más conceptos y más conexiones entre los conceptos, pero puede tomar varios pasos para pasar de lo que saben a lo que necesitan resolver.
+- Las personas expertas puede no tener más conceptos que una persona competente, la diferencia importante es la cantidad de conexiones.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
