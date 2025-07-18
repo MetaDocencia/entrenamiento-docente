@@ -6,107 +6,155 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿Cómo se escribe una lección usando R Markdown y `{sandpaper}`?
+- ¿Qué es la carga cognitiva y cómo afecta el aprendizaje?
+
+- ¿Cómo podemos diseñar la instrucción para trabajar con, en lugar de contra, las limitaciones de la memoria?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explicar cómo usar markdown con la nueva plantilla de lección  
-- Demostrar cómo incluir fragmentos de código, figuras y bloques de actividades anidados
+- Recordar el límite cuantitativo de la memoria humana.
+- Distinguir la carga cognitiva deseable de la indeseable.
+- Evaluar la carga cognitiva asociada a una tarea de aprendizaje.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introducción
+## ¿Qué Está Pasando Ahí Adentro?
 
-Esta es una lección creada mediante el template de Workbench adaptada por MetaDocencia, creada por The Carpentries. Está escrita en  
-[Markdown con sintaxis de Pandoc][pandoc] para archivos estáticos (con extensión `.md`) y  
-[R Markdown][r-markdown] para archivos dinámicos que pueden renderizar código y mostrar el resultado  
-(con extensión `.Rmd`). Consultá la [Introducción a The Carpentries  
-Workbench][carpentries-workbench] para ver la documentación completa.
+Hemos estado hablando de modelos mentales como si fueran cosas reales, pero ¿qué sucede realmente en el cerebro de nuestra audiencia cuando está aprendiendo? La respuesta corta es que no lo sabemos; la respuesta más larga es que sabemos mucho más de lo que solíamos y tenemos algunos modelos bastante buenos que pueden ayudarnos a diseñar y brindar lecciones de manera más efectiva.
 
-Hay tres secciones requeridas para una plantilla de lección válida:
+![](fig/arquitectura-cognitiva.png){alt="esquema que presenta dos recuadros principales, uno llamado "memoria de largo plazo" y otro "memoria de corto plazo". El recuadro "memoria de largo plazo" contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro "memoria de corto plazo", hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo de integración doble desde el cual sale una relación llamada "codificar" hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada "recuperar" hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."}
 
- 1. `questions` se muestran al comienzo del episodio para preparar a la persona que aprenderá el contenido.  
- 2. `objectives` son los objetivos de aprendizaje del episodio y se muestran junto con las preguntas.  
- 3. `keypoints` se muestran al final del episodio para reforzar los objetivos.
+Este es un modelo simplificado de arquitectura cognitiva humana. Están pasando muchas cosas aquí, así que vamos a estudiarlas por partes.
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Dos Formas de Memoria
 
-Las notas para instructores en línea pueden ayudar a anticipar desafíos y almacenar notas de la persona oradora.  
-Aparecen en la "Vista para instructores".
+![](fig/arquitectura-cognitiva1.png){alt="Esquema inicial de la arquitectura cognitiva: a la izquierda, un rectángulo gris rotulado ‘memoria de largo plazo’ contiene varios nodos blancos enlazados entre sí; a la derecha, un rectángulo vacío (sin contenido) representa la ‘memoria de corto plazo’. No hay flechas entre ambos módulos."}
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+El núcleo de este modelo es que tienes dos tipos de memoria. La memoria a largo plazo es tu sótano, o la baulera: almacena (muchas) cosas de forma más o menos permanente, pero tu conciencia no puede acceder a ella directamente. Por ejemplo, los recuerdos de tu cumpleaños de segundo grado, nuestro número de teléfono. En cambio, confías en tu memoria a corto plazo, o memoria de trabajo, que es tu escritorio y te permite acceder a esas cosas rápidamente.
+
+![](fig/arquitectura-cognitiva2.png){alt="Se añaden dos flechas curvas que conectan los mismos bloques: la superior, etiquetada ‘codificar’, va de la memoria de corto plazo a la de largo plazo; la inferior, etiquetada ‘recuperar’, va en sentido inverso. Ilustra el flujo bidireccional de información entre ambos sistemas de memoria."}
+
+Cuando necesitas algo, tu cerebro lo recupera de la memoria a largo plazo y lo guarda en la memoria a corto plazo. La nueva información que llega a la memoria a corto plazo debe codificarse para almacenarse en la memoria a largo plazo. Si esa información no está codificada y almacenada, no se recuerda y no se ha aprendido.
+
+![](fig/arquitectura-cognitiva3.png){alt="Sobre la memoria de corto plazo se muestran ahora dos submódulos: ‘canal verbal’ (arriba) y ‘canal visual’ (abajo). Cada uno recibe entrada de un bloque sensorial: los ‘oídos’ para la ‘habla’ y los ‘ojos’ para las ‘imágenes’. Las flechas sensoriales apuntan hacia los canales, que siguen conectados con la memoria de largo plazo mediante las rutas de ‘codificar’ y ‘recuperar’."}
+
+La información ingresa a la memoria a corto plazo principalmente a través de su canal verbal (para el habla) y el canal visual (para las imágenes). Un modelo más completo también incluiría tu sentido del tacto y tu capacidad para oler y saborear cosas, pero las ignoraremos por ahora.
+
+![](fig/arquitectura-cognitiva.png){alt="esquema que presenta dos recuadros principales, uno llamado "memoria de largo plazo" y otro "memoria de corto plazo". El recuadro "memoria de largo plazo" contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro "memoria de corto plazo", hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo de integración doble desde el cual sale una relación llamada "codificar" hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada "recuperar" hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."}
+
+La última parte de esta imagen es el trabajo que hace tu cerebro para integrar la información que recibe a través de diferentes canales. Si escuchas y ves cosas al mismo tiempo, tu cerebro trata de integrarlas correlacionándolas y almacenándolas juntas. Como veremos en unos momentos, eso puede ayudar o perjudicar el aprendizaje.
+
+![](fig/arquitectura-cognitiva5.png){alt="Versión completa con énfasis en la vía visual: los canales verbal y visual desembocan en un círculo de integración que luego codifica hacia la memoria de largo plazo. Las flechas provenientes de los ‘ojos’ y hacia el ‘canal visual’, así como la salida de este canal, se dibujan más gruesas para destacar una carga mayor en la ruta visual, mientras la vía auditiva/verbal mantiene líneas finas. Se conservan las rutas de ‘codificar’ y ‘recuperar’ entre la memoria de corto y largo plazo."}
+
+Como lo hemos dibujado hasta ahora, este diagrama da igual peso a los canales verbales y visuales. En realidad, la mayoría de las personas obtienen mucha más información, mucho más rápidamente, a través de su canal visual.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Desafío 1: ¿Podés hacerlo?
+## Pregunta para contestar en el chat:
 
-¿Cuál es el resultado de este comando?
-
-```r
-paste("Esta", "nueva", "lección", "luce", "bien")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Salida
-
-```output
-[1] "Esta nueva lección luce bien"
-```
+¿Qué porcentaje de la información que recibimos consideras que ingresa por cada uno de los cinco sentidos?
 
 :::::::::::::::::::::::::::::::::
 
 
-## Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?
+## Pesos Desiguales
+
+Obviamente, hay mucha variabilidad entre las personas, y nuestras personas tipo deberían recordarnos que no todos pueden ver y escuchar por igual, pero las siguientes cifras dan una idea de cuánta información obtenemos de diferentes sentidos y cuánto de nuestro cerebro está dedicado a procesarlo y almacenarlo. Lo que esto nos dice es que, en la mayoría de los casos, nuestras lecciones deben ser lo más visuales posible.
+
+| Sentido   | Información | Neuronas |
+|-----------|-------------|----------|
+| Visión    | 83 %        | 30 %     |
+| Audición  | 11 %        | 2 %      |
+| Olfato    | 3.5 %       | —        |
+| Tacto     | 1.5 %       | 8 %      |
+| Gusto     | 1 %         | —        |
+
+
+Pero eso no significa que solo debamos usar imágenes. Los estudios han demostrado que cuando las imágenes y las palabras se complementan, el cerebro hace un mejor trabajo al recordarlas a ambas. La teoría es que están codificados juntos, de modo que más tarde, el recuerdo de uno ayuda a activar el recuerdo del otro.
+
+## Leer Es Raro
+
+Este modelo también explica por qué es menos efectivo presentar la misma información como texto y habla, como leer en voz alta una presentación con mucho texto, o con subtítulos que "digan" lo mismo que quien presenta. El texto entra por el canal visual, pero luego se desvía al canal verbal. Tu cerebro no puede evitar intentar conciliar los dos canales que está recibiendo (una a través de los ojos y la otra a través de los oídos). Correlacionar flujos de información lingüísticos y visuales requiere un esfuerzo mental: si alguien lee algo mientras lo escucha en voz alta, su cerebro no puede evitar comprobar que obtiene la misma información por ambos canales. Al hacerlo, disminuye la capacidad de hacer un esfuerzo mental para codificar la información y así almacenarla.
+
+Por lo tanto, el aprendizaje aumenta cuando la información se presenta de manera simultánea por dos canales diferentes, pero se reduce cuando esa información es redundante, en lugar de ser complementaria: tal fenómeno es conocido como efecto de atención dividida [Maye2003]
+
+Tres escenarios: 
+1) Habla e imágenes: se integran bien. 
+2) Texto e imágenes: requiere un esfuerzo extra para convertir el texto al canal verbal, pero funcionan. 
+3) Habla, texto e imágenes: demanda el mayor esfuerzo extra (a menos que no hables el idioma, entonces texto -subtítulos- ayudan).
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+###Pausa
+
+No te desconectes, pero sí aléjate de pantallas
+Volvemos en 10 minutos
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Carga Cognitiva
+
+El concepto de "esfuerzo mental" resulta ser uno de los más importantes en educación. El término técnico es carga cognitiva, y aunque el modelo continúa evolucionando, existen básicamente tres tipos.
+
+Para explicar las diferencias, imagina que te encuentras aprendiendo a hablar francés y que se te ha pedido que traduzcas esta oración:
+
+> ¿Cómo está tu rodilla?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Pregunta para responder por el chat: ¿Quiénes de ustedes hablan francés?
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Supongamos que te doy las palabras que necesitas. Tienes que hacer dos cosas: recordar algunas palabras y organizarlas gramaticalmente, de modo que todo lo que tienes que hacer es organizarlas en el orden correcto.
+
+> genou
+> comment
+> ton
+> va
+
+Hice el problema mucho más simple dándoles el vocabulario y permitiéndoles enfocar su atención en la gramática.
+
+> comment va ton genou
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+(Este tipo de ejercicios hace Duolingo… ellos saben de educación!)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+**En general, la carga intrínseca es de lo que se trata la tarea de aprendizaje. La carga pertinente es un trabajo adicional relevante, como recordar palabras o elegir una estrategia de prueba. La carga extrínseca es irrelevante.** [Mejorar esta parte]
+
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Ejercicio: Tipos de carga
+
+En el documento compartido, decide qué tipo de carga es cada uno de los siguientes aspectos del ejercicio anterior (“Cómo está tu rodilla” en francés). 
+
+- Orden de las palabras
+- Vocabulario 
+- Tipografía
+
+Agrega al lado de cada aspecto una I si es Intrínseca, una P si es Pertinente o una E si es Extrínseca.
 
 :::::::::::::::::::::::: solution 
 
-Es posible gregar una línea con al menos tres dos puntos y la etiqueta `solution`.
+## Solución
+
+- Orden de las palabras (I)
+- Vocabulario (P)
+- Tipografía (E)
+
+En este caso, la carga intrínseca es determinar el orden de las palabras. La carga pertinente es recordar las palabras; esta carga se puede reducir presentándote las palabras. Y la carga extrínseca es el uso de una fuente diferente para cada palabra: llama tu atención, pero no agrega nada a la lección. De hecho, en esta caso nos hace más difícil el ejercicio porque nuestro cerebro está constantemente identificando las diferencias e intentando encontrar una razón de por qué cada palabra tiene distinta tipografía.
 
 :::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
 
-## Figuras
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Moraleja: evitemos la carga extrínseca cuando enseñemos.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Podés incluir figuras generadas desde R Markdown:
 
 
-``` r
-pie(
-  c(Sky = 78, "Lado soleado de la pirámide" = 17, "Lado sombreado de la pirámide" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
 
-<div class="figure" style="text-align: center">
-<img src="fig/carga-cognitiva-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide"  />
-<p class="caption">El sol sale cada mañana</p>
-</div>
-
-O podés usar markdown de pandoc para figuras estáticas con la siguiente sintaxis:
-
-`![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}`
-
-![¡Estás participando de un curso de MetaDocencia!](https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg){alt='Logo de MetaDocencia con una manzana y texto del nombre de la Organización.'}
-
-## Matemática
-
-El contenido puede contener ecuaciones en $\LaTeX$ al describir cómo crear  
-informes dinámicos con {knitr}, por lo que usamos MathJax para mostrarlas así:
-
-`$ lpha = \dfrac{1}{(1 - eta)^2}$` se convierte en: $ lpha = \dfrac{1}{(1 - eta)^2}$
-
-¿Genial, no?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Usá archivos `.md` para episodios con contenido estático  
-- Usá archivos `.Rmd` para episodios que necesiten generar salidas dinámicas  
-- Ejecutá `sandpaper::check_lesson()` para identificar problemas en tu lección  
-- Ejecutá `sandpaper::build_lesson()` para previsualizar tu lección localmente
-
-::::::::::::::::::::::::::::::::::::::::::::::::
