@@ -123,11 +123,7 @@ Hice el problema mucho más simple dándoles el vocabulario y permitiéndoles en
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**En general, la carga intrínseca es de lo que se trata la tarea de aprendizaje. La carga pertinente es un trabajo adicional relevante, como recordar palabras o elegir una estrategia de prueba. La carga extrínseca es irrelevante.** ******************** [Mejorar esta parte] ******************************
-
-
-
-
+**En general, la carga intrínseca es de lo que se trata la tarea de aprendizaje. La carga pertinente es un trabajo adicional relevante, como recordar palabras o elegir una estrategia de prueba. La carga extrínseca es irrelevante.** [Mejorar esta parte]
 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
@@ -152,6 +148,7 @@ Agrega al lado de cada aspecto una I si es Intrínseca, una P si es Pertinente o
 
 En este caso, la carga intrínseca es determinar el orden de las palabras. La carga pertinente es recordar las palabras; esta carga se puede reducir presentándote las palabras. Y la carga extrínseca es el uso de una fuente diferente para cada palabra: llama tu atención, pero no agrega nada a la lección. De hecho, en esta caso nos hace más difícil el ejercicio porque nuestro cerebro está constantemente identificando las diferencias e intentando encontrar una razón de por qué cada palabra tiene distinta tipografía.
 
+:::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
