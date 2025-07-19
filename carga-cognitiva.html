@@ -229,6 +229,8 @@
 <li><a href="#pesos-desiguales">Pesos Desiguales</a></li>
 <li><a href="#leer-es-raro">Leer Es Raro</a></li>
 <li><a href="#carga-cognitiva">Carga Cognitiva</a></li>
+<li><a href="#una-cosa-a-la-vez">Una Cosa a la Vez</a></li>
+<li><a href="#problemas-de-parsons">Problemas de Parsons</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -356,7 +358,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Carga cognitiva</h1>
-        <p>Última actualización: 2025-07-18 |
+        <p>Última actualización: 2025-07-19 |
 
         <a href="https://github.com/MetaDocencia/entrenamiento-docente/edit/main/episodes/carga-cognitiva.Rmd" class="external-link">Mejora esta página <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -573,7 +575,7 @@ Pertinente o una E si es Extrínseca.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Solución </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul><li>Orden de las palabras (I)</li>
 <li>Vocabulario (P)</li>
@@ -591,6 +593,111 @@ tiene distinta tipografía.</p>
 </div>
 </div>
 
+</section><section><h2 class="section-heading" id="una-cosa-a-la-vez">Una Cosa a la Vez<a class="anchor" aria-label="anchor" href="#una-cosa-a-la-vez"></a></h2>
+<hr class="half-width"><p>Se trata de reducir la complejidad de lo que se espera que una
+persona aprenda en simultáneo. En lugar de incorporar múltiples
+habilidades al mismo tiempo, se propone descomponer los procesos en
+partes más simples y trabajarlas por separado, permitiendo que cada una
+se afiance antes de pasar a la siguiente.</p>
+<p>La teoría de la carga cognitiva explica por qué la orientación mínima
+durante la instrucción no funciona. Es decir, por qué dejar a las
+personas resolver problemas “reales” desde el primer día es menos
+efectivo que enseñar explícitamente las habilidades de los componentes
+necesarios para resolver el problema una a una. La razón es que combinar
+dos cosas es una habilidad separada en sí misma. Si quieres aprender a
+cantar mientras tocas el piano, debes aprender a tocar, aprender a
+cantar y luego aprender a combinar los dos. Una vez que hayas dominado
+la habilidad combinada, puedes hacer las dos cosas juntas desde el
+principio.</p>
+
+<p>La teoría de la carga cognitiva también explica por qué las
+herramientas basadas en bloques como Scratch son tan efectivas. Al
+eliminar la posibilidad de errores de sintaxis, permiten a las personas
+novatas centrarse en la semántica de sus programas.</p>
+</section><section><h2 class="section-heading" id="problemas-de-parsons">Problemas de Parsons<a class="anchor" aria-label="anchor" href="#problemas-de-parsons"></a></h2>
+<hr class="half-width"><p>¿Cómo aplicamos esto de “una cosa a la vez” en la enseñanza?</p>
+<p>Los problemas en los que tus estudiantes reciben piezas que tienen
+que reorganizar se denominan problemas de Parsons, y se ha demostrado
+que son más efectivos en las primeras etapas del aprendizaje de la
+programación que escribir código desde cero. Artículo en inglés:
+Resolver ejercicios Parsons frente a corregir y escribir código, en
+inglés: <a href="https://dl.acm.org/doi/10.1145/3141880.3141895" class="external-link">Solving
+parsons problems versus fixing and writing code</a></p>
+<div id="ejemplo-suma-todos-los-números-positivos-en-una-lista" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="ejemplo-suma-todos-los-números-positivos-en-una-lista" class="callout-inner">
+<h3 class="callout-title">Ejemplo: Suma todos los números positivos en una lista</h3>
+<div class="callout-content">
+<ol style="list-style-type: decimal"><li>para cada número en la lista</li>
+<li>total = total + número</li>
+<li>termina el ciclo</li>
+<li>si número &gt; 0</li>
+<li>termina la condición</li>
+<li>total = 0</li>
+</ol></div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Solución: Suma todos los números positivos en una lista </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<ol start="6" style="list-style-type: decimal"><li>total = 0</li>
+<li>para cada número en la lista</li>
+<li>si número &gt; 0</li>
+<li>total = total + número</li>
+<li>termina la condición</li>
+<li>termina el ciclo</li>
+</ol></div>
+</div>
+</div>
+</div>
+<p>¡Atención! Un buen problema de Parsons tiene solo un ordenamiento
+correcto y los pasos para realizar una tarea están segmentados en etapas
+cortas. Caso contrario, pueden ser muy difíciles de resolver, con muchas
+alternativas o saltos entre etapas muy genéricos.</p>
+<p>Aprovechemos los problemas de Parsons. Son rápidos, fáciles de
+construir y efectivos. Pueden crearlos tus estudiantes y ¡resolverlos
+entre ellos!</p>
+<div id="ejercicio-crea-un-problema-de-parsons-con-tu-receta-de-comida-o-bebida-favorita." class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="ejercicio-crea-un-problema-de-parsons-con-tu-receta-de-comida-o-bebida-favorita." class="callout-inner">
+<h3 class="callout-title">Ejercicio: Crea un problema de Parsons con tu receta de comida o bebida favorita.</h3>
+<div class="callout-content">
+<p>El o la colega que sigue en el documento compartido lo resuelve.</p>
+<p>Quien lo creó, chequea que el resultado sea correcto y da una
+devolución usando un comentario.</p>
+</div>
+</div>
+</div>
+<p>** falta contenido sobre memoria y cantidad de conceptos posibles de
+recordar (contenido del Intro ABC)**</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Puntos Clave</h3>
+<div class="callout-content">
+<ul><li>La memoria a largo plazo es tu sótano, o la baulera: almacena
+(muchas) cosas de forma más o menos permanente, pero tu conciencia no
+puede acceder a ella directamente.</li>
+<li>La nueva información que llega a la memoria a corto plazo debe
+codificarse para almacenarse en la memoria a largo plazo.</li>
+<li>Si escuchas y ves cosas al mismo tiempo, tu cerebro trata de
+integrarlas correlacionándolas y almacenándolas juntas.</li>
+<li>resolver problemas “reales” desde el primer día es menos efectivo
+que enseñar explícitamente las habilidades de los componentes necesarios
+para resolver el problema una a una.</li>
+</ul></div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
