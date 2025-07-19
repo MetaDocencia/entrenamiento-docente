@@ -155,6 +155,72 @@ En este caso, la carga intrínseca es determinar el orden de las palabras. La ca
 Moraleja: evitemos la carga extrínseca cuando enseñemos.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Una Cosa a la Vez
+
+Se trata de reducir la complejidad de lo que se espera que una persona aprenda en simultáneo. En lugar de incorporar múltiples habilidades al mismo tiempo, se propone descomponer los procesos en partes más simples y trabajarlas por separado, permitiendo que cada una se afiance antes de pasar a la siguiente.
+
+La teoría de la carga cognitiva explica por qué la orientación mínima durante la instrucción no funciona. Es decir, por qué dejar a las personas resolver problemas "reales" desde el primer día es menos efectivo que enseñar explícitamente las habilidades de los componentes necesarios para resolver el problema una a una. La razón es que combinar dos cosas es una habilidad separada en sí misma. Si quieres aprender a cantar mientras tocas el piano, debes aprender a tocar, aprender a cantar y luego aprender a combinar los dos. Una vez que hayas dominado la habilidad combinada, puedes hacer las dos cosas juntas desde el principio.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Responder en el chat: ¿Conocen Scratch? Scratch es un lenguaje de programación visual y organizado en bloques modulares. 
+
+Cada bloque tiene una función diferente. Al combinar bloques, como si combináramos piezas de lego, se van generando acciones más complejas, o algoritmos, en definitiva, se crea un programa. Así, podemos ayudar a aprender a programar y desarrollar habilidades mentales, sin tener conocimientos avanzados sobre la sintaxis del código.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+La teoría de la carga cognitiva también explica por qué las herramientas basadas en bloques como Scratch son tan efectivas. Al eliminar la posibilidad de errores de sintaxis, permiten a las personas novatas centrarse en la semántica de sus programas.
+
+## Problemas de Parsons
+
+¿Cómo aplicamos esto de “una cosa a la vez” en la enseñanza? 
+
+Los problemas en los que tus estudiantes reciben piezas que tienen que reorganizar se denominan problemas de Parsons, y se ha demostrado que son más efectivos en las primeras etapas del aprendizaje de la programación que escribir código desde cero. Artículo en inglés: Resolver ejercicios Parsons frente a corregir y escribir código, en inglés: [Solving parsons problems versus fixing and writing code](https://dl.acm.org/doi/10.1145/3141880.3141895)
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Ejemplo: Suma todos los números positivos en una lista
+
+1)	para cada número en la lista
+2)	total = total + número
+3)	termina el ciclo
+4)	si número > 0
+5)	termina la condición
+6)	total = 0
+
+:::::::::::::::::::::::: solution 
+
+## Solución: Suma todos los números positivos en una lista
+
+6)	total = 0
+1)	para cada número en la lista
+4)	si número > 0
+2)	total = total + número
+5)	termina la condición
+3)	termina el ciclo
+:::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
+
+¡Atención! Un buen problema de Parsons tiene solo un ordenamiento correcto y los pasos para realizar una tarea están segmentados en etapas cortas. Caso contrario, pueden ser muy difíciles de resolver, con muchas alternativas o saltos entre etapas muy genéricos.
+
+Aprovechemos los problemas de Parsons. Son rápidos, fáciles de construir y efectivos. Pueden crearlos tus estudiantes y ¡resolverlos entre ellos!
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Ejercicio: Crea un problema de Parsons con tu receta de comida o bebida favorita.
+
+El o la colega que sigue en el documento compartido lo resuelve.
+
+Quien lo creó, chequea que el resultado sea correcto y da una devolución usando un comentario.
+
+:::::::::::::::::::::::: 
 
 
+** falta contenido sobre memoria y cantidad de conceptos posibles de recordar (contenido del Intro ABC)**
 
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- La memoria a largo plazo es tu sótano, o la baulera: almacena (muchas) cosas de forma más o menos permanente, pero tu conciencia no puede acceder a ella directamente.
+- La nueva información que llega a la memoria a corto plazo debe codificarse para almacenarse en la memoria a largo plazo.
+- Si escuchas y ves cosas al mismo tiempo, tu cerebro trata de integrarlas correlacionándolas y almacenándolas juntas. 
+- resolver problemas "reales" desde el primer día es menos efectivo que enseñar explícitamente las habilidades de los componentes necesarios para resolver el problema una a una.
+::::::::::::::::::::::::::::::::::::::::::::::::
