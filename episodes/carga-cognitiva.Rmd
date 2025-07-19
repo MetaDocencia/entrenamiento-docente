@@ -213,14 +213,10 @@ Quien lo creó, chequea que el resultado sea correcto y da una devolución usand
 
 :::::::::::::::::::::::: 
 
-
-** falta contenido sobre memoria y cantidad de conceptos posibles de recordar (contenido del Intro ABC)**
-
-
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - La memoria a largo plazo es tu sótano, o la baulera: almacena (muchas) cosas de forma más o menos permanente, pero tu conciencia no puede acceder a ella directamente.
 - La nueva información que llega a la memoria a corto plazo debe codificarse para almacenarse en la memoria a largo plazo.
 - Si escuchas y ves cosas al mismo tiempo, tu cerebro trata de integrarlas correlacionándolas y almacenándolas juntas. 
-- resolver problemas "reales" desde el primer día es menos efectivo que enseñar explícitamente las habilidades de los componentes necesarios para resolver el problema una a una.
+- Resolver problemas "reales" desde el primer día es menos efectivo que enseñar explícitamente las habilidades de los componentes necesarios para resolver el problema una a una.
 ::::::::::::::::::::::::::::::::::::::::::::::::
