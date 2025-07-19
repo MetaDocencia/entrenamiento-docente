@@ -60,26 +60,29 @@ Podemos usar el mapa conceptual para guiar nuestra elección del tamaño del fra
 
 > Pero, espera un segundo. Si la memoria a corto plazo solo puede contener media docena de cosas a la vez, ¿cómo podemos pensar en cosas más grandes? La respuesta es que si las cosas ocurren frecuentemente juntas, las almacenamos y las recuperamos en pedazos.
 
-
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Desafío 1: ¿Podés hacerlo?
+## Ejercicio
 
-¿Cuál es el resultado de este comando?
+**Es puramente visual**
 
-```r
-paste("Esta", "nueva", "lección", "luce", "bien")
-```
+En la próxima pantalla voy a mostrar por 30 segundos los números del 1 al 9 asociados a un símbolo.
 
-:::::::::::::::::::::::: solution 
+Usa los 30 segundos para memorizar los símbolos.
 
-## Salida
+![](fig/ejercicio-memoria.png){alt="Nueve formas angulares en una cuadrícula de 3x3. Cada celda contiene una figura compuesta por líneas en forma de esquina. En la fila del medio, la figura central (posición 5) es un cuadrado completo. Las demás figuras son esquinas con una o más líneas faltantes. Las posiciones están numeradas del 1 al 9, de izquierda a derecha y de arriba hacia abajo."}
 
-```output
-[1] "Esta nueva lección luce bien"
-```
+Tienes 30 segundos para escribir tu número de teléfono usando los símbolos.
 
-:::::::::::::::::::::::::::::::::
+Pregunta para responder por el chat, ¿cuántos dígitos pudiste escribir usando el código?
+
+Decíamos entonces que para pensar en cosas grandes, y que frecuentemente ocurren juntas, es más fácil si las almacenamos y las recuperamos en pedazos. Así que, intentemos nuevamente el ejercicio.
+
+![](fig/ejercicio-memoria2.png){alt="Cuadrícula de 3 filas por 3 columnas con líneas negras gruesas, formando nueve celdas numeradas del 1 al 9. Los números están ubicados en el centro de cada celda, siguiendo el orden de izquierda a derecha y de arriba hacia abajo: 1 a 3 en la primera fila, 4 a 6 en la segunda, y 7 a 9 en la tercera."}
+
+Esto es más fácil, ¿no? Nuestros cerebros son muy buenos para ver patrones. Tan buenos, de hecho, que verán patrones que no existen (¡como las caras en las nubes!).
+Como docentes, podemos usar esto para reducir la carga cognitiva y acelerar el aprendizaje.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
