@@ -151,6 +151,13 @@ Ahora es tu turno. Explica el tema de tu elección en tu grupo, hablando durante
 
 ![](fig/resumen-critica.png){alt="Diagrama que representa estrategias para mejorar la enseñanza. En el centro, el nodo "enseñar" se describe como una "actuación", que debería incorporar: pedir predicciones, usar los errores y usar programación en vivo. Enseñar mejora con "feedback", el cual a su vez mejora con "práctica", "rúbrica" y "guía". La práctica también se potencia con el feedback. La actuación obtiene y mantiene la "atención"."}
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Tarea para el próximo encuentro
+
+Repasá el feedback que te dieron, lo vas a necesitar para el próximo encuentro.
+Comenzá a leer la lección entera, lo vas a necesitar para el checkout.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
