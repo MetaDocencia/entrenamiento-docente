@@ -76,7 +76,7 @@ Tienes 30 segundos para escribir tu número de teléfono usando los símbolos.
 
 Pregunta para responder por el chat, ¿cuántos dígitos pudiste escribir usando el código?
 
-Decíamos entonces que para pensar en cosas grandes, y que frecuentemente ocurren juntas, es más fácil si las almacenamos y las recuperamos en pedazos. Así que, intentemos nuevamente el ejercicio.
+Decíamos entonces que para pensar en cosas grandes, y que frecuentemente ocurren juntas, es más fácil si las almacenamos y las recuperamos en pedazos. Así que intentemos nuevamente el ejercicio.
 
 ![](fig/ejercicio-memoria2.png){alt="Cuadrícula de 3 filas por 3 columnas con líneas negras gruesas, formando nueve celdas numeradas del 1 al 9. Los números están ubicados en el centro de cada celda, siguiendo el orden de izquierda a derecha y de arriba hacia abajo: 1 a 3 en la primera fila, 4 a 6 en la segunda, y 7 a 9 en la tercera."}
 
@@ -85,6 +85,87 @@ Como docentes, podemos usar esto para reducir la carga cognitiva y acelerar el a
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Ejemplos Desvanecidos
+
+Al aprender una habilidad técnica, como programar o trabajar con datos, es habitual comenzar observando ejemplos completamente resueltos. Estos ejemplos ayudan a entender cómo se estructura una solución y qué pasos seguir. Pero, si siempre estudiamos ejemplos ya resueltos, no desarrollamos las habilidades necesarias para resolver por cuenta propia los desafíos que se presentan en la práctica.
+
+Por eso, existe una estrategia pedagógica llamada ejemplos desvanecidos. Esta consiste en presentar una serie de ejercicios que, al principio, muestran todos los pasos necesarios para resolver un problema, pero que progresivamente van omitiendo partes de la solución. Así, se invita a quienes aprenden a completar esos pasos por sí mismos, reflexionando sobre lo que hacen y por qué lo hacen. Esto promueve una práctica llamada autoexplicación, que fortalece la comprensión y la autonomía.
+
+### Ejemplo
+
+Primero, el instructor resuelve un problema paso a paso.
+
+\[
+\frac{4x + 8}{2} = 5
+\]
+\[
+4x + 8 = 2 \cdot 5
+\]
+\[
+4x + 8 = 10
+\]
+\[
+4x = 10 - 8
+\]
+\[
+4x = 2
+\]
+\[
+x = \frac{2}{4}
+\]
+\[
+x = \frac{1}{2}
+\]
+
+Luego, Se le pide al **grupo control** que resuelva este problema de inmediato. Deben recordar tanto el vocabulario de la aritmética básica como la "gramática" de la estrategia de solución.
+
+(2x + 8)/4	=	1
+     x	    =	__
+
+A  continuación, El **grupo con intervención** resuelve tres problemas diferentes, en orden. Cada uno de los problemas, presentados en este orden, resta andamios. Esto significa que tienen que hay menos ayuda, hay que hacer más trabajo, pero así se refuerza su comprensión de la estrategia de resolución. El grupo con la intervención trabaja más, pero aprende más rápido y mejor.
+
+| Ejercicio 1                          | Ejercicio 2                   | Ejercicio 3                  |
+|-------------------------------------|-------------------------------|------------------------------|
+| (3x - 1) * 3   =  12                | (5x + 1) * 3   =  4           | (2x + 8)/4   =   1           |
+| 3x - 1       =  __ / __            | 5x + 1       =  __           | x           =   __          |
+| 3x - 1       =  4                  | 5x           =  __           | x           =   __ / 3      |
+| 3x           =  __ + __            | x            =  __           | x           =   __          |
+| 3x           =  __                |                               |                              |
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+Respecto de lo que hablamos en la unidad de carga cognitiva: cómo les parece que ayudan este tipo de ejercicios?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+En parte, se debe a que los ejemplos desvanecidos reducen la carga cognitiva pertinente al permitirles centrarse en los pasos sin tratar simultáneamente de tener que elegir una estrategia.
+
+Los ejemplos desvanecidos también alientan a tus estudiantes a formar los fragmentos correctos al llamar su atención sobre patrones útiles.
+
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Ejercicio
+
+1. Escribe un procedimiento de 4 a 5 pasos cortos de algo que podrías enseñar.
+
+2. Reemplaza 2 a 3 elementos con ______
+
+3. Explica ¿A qué estás llamando la atención en tu elección de qué se desvanece?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+###Pausa
+
+No te desconectes, pero sí aléjate de pantallas
+Volvemos en 10 minutos
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+![](fig/resumen-capacidad-mental.png){alt="Diagrama de flujo que muestra cómo los mapas conceptuales ayudan a diseñar lecciones que deben ajustarse a la capacidad limitada de la memoria de corto plazo. Esta capacidad puede incrementarse mediante la fragmentación, lo cual reduce la carga cognitiva. El pensamiento accede a la memoria de corto plazo, la cual a su vez codifica y recupera información desde la memoria de largo plazo. Esta memoria de largo plazo guarda modelos mentales, que son representados en mapas conceptuales. El pensamiento está limitado por la carga cognitiva, que se construye en este proceso general de aprendizaje y diseño instruccional."}
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
