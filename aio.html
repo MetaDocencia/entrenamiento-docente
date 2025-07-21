@@ -1790,8 +1790,7 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Preguntas</h3>
 <ul>
-<li>¿Cómo se escribe una lección usando R Markdown y
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>¿?</li>
 </ul>
 </div>
 </div>
@@ -1800,131 +1799,91 @@ any links that you are not going to use.
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objetivos</h3>
-<ul>
-<li>Explicar cómo usar markdown con la nueva plantilla de lección<br>
-</li>
-<li>Demostrar cómo incluir fragmentos de código, figuras y bloques de
-actividades anidados</li>
-</ul>
+<ul><li>
+</li></ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introducción">Introducción<a class="anchor" aria-label="anchor" href="#introducci%C3%B3n"></a>
+<section><h2 class="section-heading" id="evaluación">Evaluación<a class="anchor" aria-label="anchor" href="#evaluaci%C3%B3n"></a>
 </h2>
 <hr class="half-width">
-<p>Esta es una lección creada mediante el template de Workbench adaptada
-por MetaDocencia, creada por The Carpentries. Está escrita en<br><a href="https://pandoc.org/MANUAL.html" class="external-link">Markdown con sintaxis de
-Pandoc</a> para archivos estáticos (con extensión <code>.md</code>)
-y<br><a href="https://rmarkdown.rstudio.com/" class="external-link">R Markdown</a> para archivos
-dinámicos que pueden renderizar código y mostrar el resultado<br>
-(con extensión <code>.Rmd</code>). Consultá la <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introducción a The
-Carpentries<br>
-Workbench</a> para ver la documentación completa.</p>
-<p>Hay tres secciones requeridas para una plantilla de lección
-válida:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> se muestran al comienzo del episodio para
-preparar a la persona que aprenderá el contenido.<br>
-</li>
-<li>
-<code>objectives</code> son los objetivos de aprendizaje del
-episodio y se muestran junto con las preguntas.<br>
-</li>
-<li>
-<code>keypoints</code> se muestran al final del episodio para
-reforzar los objetivos.</li>
+<p>En la lección anterior, repasamos cómo los mapas conceptuales nos
+pueden ayudar a contar conceptos y relaciones para no agotar la memoria
+de trabajo que puede almacenar 7 mas menos 2 elementos a la vez. También
+cómo enseñar patrones uniendo varios conceptos en partes del mapa
+conceptual. Aprendimos la utilidad de los ejercicios desvanecidos. En
+esta parte vamos a ver otras formas de evaluación.</p>
+<div class="section level3">
+<h3 id="cómo-puedes-saberlo">¿Cómo Puedes Saberlo?<a class="anchor" aria-label="anchor" href="#c%C3%B3mo-puedes-saberlo"></a>
+</h3>
+<p>Una vez que tengas un mapa conceptual que te muestre lo que quieres
+enseñar, sentirás la tentación de comenzar a escribir lecciones.
+Resiste, aún no es el momento. En cambio, lo que debes hacer a
+continuación es descubrir cómo te darás cuenta si tus estudiantes están
+aprendiendo. Necesitas un ciclo de retroalimentación que te dirá cuándo
+puedes seguir adelante, o cuándo tienes que duplicar y volver a explicar
+algo porque tus estudiantes no lo han entendido o lo han entendido
+mal.</p>
+<p>Para ver cómo hacer esto, imaginemos que enseñas cómo sumar varios
+dígitos y le pides a tus estudiantes que sumen 37 y 15. Luego de
+pedirles que hagan el ejercicio, les muestras este ejercicio de opción
+múltiple.</p>
+<ol style="list-style-type: lower-alpha">
+<li>52</li>
+<li>42</li>
+<li>412</li>
+<li>43</li>
 </ol>
-<div id="desafío-1-podés-hacerlo" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<p>Si dicen “52”, entonces entienden cómo hacerlo o han hecho algún
+error afortunado que les llevó a la respuesta correcta.</p>
+<p>Si obtuvieron “42”, probablemente no se llevaron el uno. De hecho,
+probablemente escribieron “12” como la suma de 7 y 5, y luego agregaron
+3 y 1 para obtener 4 y escribieron eso sobre el “1” de “12”.</p>
+<p>¿Qué pasa si tienen 412? En este caso, al sumar las columnas por
+separado, todavía no entienden cómo llevar, pero es un paso adelante: se
+quedan con el 1.</p>
+<p>¿Y qué hay de 43? Aquí han llevado el 1, pero lo han llevado de
+vuelta a la columna del 1 porque no entienden que es un 10.</p>
 </div>
-<div id="desafío-1-podés-hacerlo" class="callout-inner">
-<h3 class="callout-title">Desafío 1: ¿Podés hacerlo?</h3>
-<div class="callout-content">
-<p>¿Cuál es el resultado de este comando?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"Esta"</span>, <span class="st">"nueva"</span>, <span class="st">"lección"</span>, <span class="st">"luce"</span>, <span class="st">"bien"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "Esta nueva lección luce bien"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="desafío-2-cómo-anidar-soluciones-dentro-de-bloques-de-desafío" class="callout-inner">
-<h3 class="callout-title">Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>Es posible gregar una línea con al menos tres dos puntos y la
-etiqueta <code>solution</code>.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figuras">Figuras<a class="anchor" aria-label="anchor" href="#figuras"></a>
+</section><section><h2 class="section-heading" id="diagnóstico-de-conceptos-erróneos">Diagnóstico de Conceptos Erróneos<a class="anchor" aria-label="anchor" href="#diagn%C3%B3stico-de-conceptos-err%C3%B3neos"></a>
 </h2>
 <hr class="half-width">
-<p>Podés incluir figuras generadas desde R Markdown:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pie</span><span class="op">(</span></span>
-<span>  <span class="fu">c</span><span class="op">(</span>Sky <span class="op">=</span> <span class="fl">78</span>, <span class="st">"Lado soleado de la pirámide"</span> <span class="op">=</span> <span class="fl">17</span>, <span class="st">"Lado sombreado de la pirámide"</span> <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>  init.angle <span class="op">=</span> <span class="fl">315</span>, </span>
-<span>  col <span class="op">=</span> <span class="fu">c</span><span class="op">(</span><span class="st">"deepskyblue"</span>, <span class="st">"yellow"</span>, <span class="st">"yellow3"</span><span class="op">)</span>, </span>
-<span>  border <span class="op">=</span> <span class="cn">FALSE</span></span>
-<span><span class="op">)</span></span></code></pre>
+<p>Cada estudiante que dio una respuesta incorrecta tiene un concepto
+erróneo diferente. Por lo tanto, cada uno necesita una explicación
+diferente para avanzar. Puede ser una progresión lineal o no; lo
+importante es que si no entiendes lo que ellos no entienden, solo estás
+adivinando qué decir a continuación.</p>
+<p>El uso de preguntas o ejercicios durante la clase para determinar si
+tus estudiantes están formando los modelos mentales correctos se llama
+<strong>evaluación formativa</strong>. Esto Da forma al aprendizaje a
+medida que ocurre.</p>
+<p>Las buenas evaluaciones formativas son rápidas (1-2 minutos), para
+que no descarrilen la enseñanza. No son ambiguas y tienen poder de
+diagnóstico, lo que significa que te dan una idea de por qué las cosas
+se han salido de su rumbo. Les dicen a quienes enseñan si pueden seguir
+adelante o no (y si no, por qué no). Y les brindan a tus estudiantes una
+forma de verificar que realmente entienden algo (porque es fácil creer
+que lo hacen hasta que intentan usar el conocimiento).</p>
+<div id="ejercicio" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<figure style="text-align: center"><img src="fig/evaluacion-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide" class="figure mx-auto d-block"><figcaption>
-El sol sale cada mañana
-</figcaption></figure><p>O podés usar markdown de pandoc para figuras estáticas con la
-siguiente sintaxis:</p>
-<p><code>![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg" alt="Logo de MetaDocencia con una manzana y texto del nombre de la Organización." class="figure mx-auto d-block"><div class="figcaption">¡Estás participando de un curso de
-MetaDocencia!</div>
-</figure></section><section><h2 class="section-heading" id="matemática">Matemática<a class="anchor" aria-label="anchor" href="#matem%C3%A1tica"></a>
+<div id="ejercicio" class="callout-inner">
+<h3 class="callout-title">Ejercicio</h3>
+<div class="callout-content">
+<p>Crea una pregunta de opción múltiple para verificar la comprensión de
+uno de estos temas. Incluye una respuesta correcta y dos respuestas
+incorrectas, y explica qué conceptos erróneos deben diagnosticar las
+respuestas incorrectas.</p>
+<p>Duración: 10 minutos</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="instrucción-de-pares">Instrucción de Pares<a class="anchor" aria-label="anchor" href="#instrucci%C3%B3n-de-pares"></a>
 </h2>
 <hr class="half-width">
-<p>El contenido puede contener ecuaciones en <span class="math inline">\(\LaTeX\)</span> al describir cómo crear<br>
-informes dinámicos con {knitr}, por lo que usamos MathJax para
-mostrarlas así:</p>
-<p><code>$ lpha = \dfrac{1}{(1 - eta)^2}$</code> se convierte en: $ lpha
-= $</p>
-<p>¿Genial, no?</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -2215,7 +2174,7 @@ reforzar los objetivos.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2242,7 +2201,7 @@ reforzar los objetivos.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Es posible gregar una línea con al menos tres dos puntos y la
 etiqueta <code>solution</code>.</p>
@@ -2393,7 +2352,7 @@ reforzar los objetivos.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2420,7 +2379,7 @@ reforzar los objetivos.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Es posible gregar una línea con al menos tres dos puntos y la
 etiqueta <code>solution</code>.</p>
@@ -2571,7 +2530,7 @@ reforzar los objetivos.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Salida </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">SALIDA<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2598,7 +2557,7 @@ reforzar los objetivos.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Mostrar la solución </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Es posible gregar una línea con al menos tres dos puntos y la
 etiqueta <code>solution</code>.</p>
