@@ -169,20 +169,12 @@ Comenta en grupos sobre alguna vez en que hayas visto a un/a instructor/a actuar
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Las notas para instructores en línea pueden ayudar a anticipar desafíos y almacenar notas de la persona oradora.  
-Aparecen en la "Vista para instructores".
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+![](fig/resumen-motivacion.png){alt="Diagrama conceptual sobre la motivación en contextos de aprendizaje. En el centro se encuentra el nodo “motivación”, que puede ser intrínseca (predice el aprendizaje) o extrínseca (no lo predice). La motivación ocurre tanto en clase como fuera de clase, e incluye la inclusión. La motivación positiva se relaciona con autoeficacia, utilidad y comunidad. La motivación negativa se vincula con imprevisibilidad, injusticia e indiferencia. La inclusión no debe basarse en el modelo de déficit, y debe estar apoyada por aliadas/os y un código de conducta. Este esquema muestra cómo distintos factores afectan la motivación, sus efectos en el aprendizaje y la importancia de una inclusión sostenida."}
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Usá archivos `.md` para episodios con contenido estático  
-- Usá archivos `.Rmd` para episodios que necesiten generar salidas dinámicas  
-- Ejecutá `sandpaper::check_lesson()` para identificar problemas en tu lección  
-- Ejecutá `sandpaper::build_lesson()` para previsualizar tu lección localmente
+- 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
