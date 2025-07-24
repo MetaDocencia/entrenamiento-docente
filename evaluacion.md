@@ -52,9 +52,10 @@ Las buenas evaluaciones formativas son rápidas (1-2 minutos), para que no desca
 
 ## Ejercicio
 
-Crea una pregunta de opción múltiple para verificar la comprensión de uno de estos temas. Incluye una respuesta correcta y dos respuestas incorrectas, y explica qué conceptos erróneos deben diagnosticar las respuestas incorrectas.
+En 5 minutos, crea una pregunta de opción múltiple para verificar algo que podrías enseñar en 2 minutos. 
+1. Incluye una respuesta correcta y dos respuestas incorrectas
+2. Explica qué conceptos erróneos diagnostican las respuestas incorrectas.
 
-Duración: 10 minutos
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
