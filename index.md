@@ -10,16 +10,16 @@ Revisaremos elementos clave para el éxito de un curso practicando la retroalime
 
 ## Cuál va a ser el recorrido
 
-**Introducción:** Para entender un poco más sobre el curso y las personas tipo.
-**Modelos mentales:** 
-**Carga cognitiva:**
-**Capacidad:**
-**Evaluación:**
-**Crítica:**
-**Motivación:**
-**Aprendizaje:**
-**Introducción:**
-**Final:**
+- **Introducción:** Para entender un poco más sobre el curso y las personas tipo.
+- **Modelos mentales:** 
+- **Carga cognitiva:**
+- **Capacidad:**
+- **Evaluación:**
+- **Crítica:**
+- **Motivación:**
+- **Aprendizaje:**
+- **Introducción:**
+- **Final:**
 
 ## Nos presentamos
 
