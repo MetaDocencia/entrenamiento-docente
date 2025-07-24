@@ -4,9 +4,9 @@ site: sandpaper::sandpaper_site
 
 # Entrenamiento docente
 
-Les damos la bienvenida la bienvenida al entrenamiento docente de MetaDocencia, una adaptación del curso «Train the Trainers» de The Carpentries.
+Les damos la bienvenida al entrenamiento docente de MetaDocencia, una adaptación del curso «Train the Trainers» de The Carpentries.
 
-Revisaremos elementos clave para el éxito de un curso practicando la retroalimentación constructiva que enriquece el proceso formativo. Quienes participen, adquirirán conocimientos, habilidades y orientaciones prácticas para diseñar y facilitar instancias de formación con un enfoque en el aprendizaje activo. 
+Revisaremos elementos clave para el éxito de un curso practicando la retroalimentación constructiva que enriquece el proceso formativo. Quienes participen adquirirán conocimientos, habilidades y orientaciones prácticas para diseñar y facilitar instancias de formación con un enfoque en el aprendizaje activo. 
 
 ## Cuál va a ser el recorrido
 
@@ -29,11 +29,23 @@ MetaDocencia es una organización sin fines de lucro donde trabajamos para que l
 
 Construimos capacidades científicas y técnicas en forma responsable y con mirada local, a través de la co-creación de redes, espacios de aprendizaje y recursos accesibles para comunidades hispanohablantes.
 
+Trabajamos desde América Latina consolidando a la región en el mapa global de la investigación. Nos proponemos facilitar la conexión de profesionales en ciencia y técnica, promoviendo el intercambio de conocimientos y la colaboración. 
+
+#### Nuestros pilares de trabajo
+
+Llevamos adelante nuestra propuesta a partir de una serie de proyectos que se enmarcan en tres pilares de trabajo que están interconectados y forman un círculo virtuoso: Contextualización, Formación y Comunidad.
+
+**Contextualización:** Adaptamos materiales, textos y recursos al español y al inglés.
+**Formación:** Enseñamos y aprendemos en forma virtual y presencial. Nuestras clases son activas, con un enfoque pedagógico basado en evidencia.
+**Comunidad:** Conectamos, intercambiamos y aprendemos con otras personas y organizaciones.
+
+![](fig/pilares_ES.jpg){alt="esquema circular que presenta los tres pilares de MetaDocencia. Contextualización, Formación y Comunidad."}
+
 ### Docentes y equipo
 
 - **[Nicolás Palopoli](https://www.metadocencia.org/authors/npalopoli/)** Co-Director Ejecutivo y Chair del Consejo Asesor. Desde 2008 realiza tareas docentes de grado, posgrado y extensión, en modalidad presencial y virtual, tanto en UNQ como en otras instituciones educativas y para comunidades de práctica. Instructor y entrenador de instructores en The Carpentries.
 
-- **[Laura Ación](https://www.metadocencia.org/authors/lacion/)** Co-Directora Ejecutiva. Investigadora adjunta del CONICET en la Universidad de Buenos Aires donde dirige el Co-Laboratorio de Uso Responsable de Datos. Tiene más de dos décadas de experiencia ofreciendo servicios de consultoria y enseñanza. 
+- **[Laura Ación](https://www.metadocencia.org/authors/lacion/)** Co-Directora Ejecutiva. Investigadora adjunta del CONICET en la Universidad de Buenos Aires, donde dirige el Co-Laboratorio de Uso Responsable de Datos. Tiene más de dos décadas de experiencia ofreciendo servicios de consultoría y enseñanza. 
   
 - **[Jesica Formoso](https://www.metadocencia.org/authors/jformoso/)** Coordinadora del área de MEdición de Impacto de MetaDocencia. Psicóloga cognitiva de la Universidad de Buenos Aires e investigadora asistente de CONICET. Se dedica a la docencia y la investigación, destacándose como organizadora del capítulo de Buenos Aires de R-Ladies. Instructora certificada de RStudio y The Carpentries.
   
