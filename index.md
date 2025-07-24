@@ -39,7 +39,7 @@ Llevamos adelante nuestra propuesta a partir de una serie de proyectos que se en
 **Formación:** Enseñamos y aprendemos en forma virtual y presencial. Nuestras clases son activas, con un enfoque pedagógico basado en evidencia.
 **Comunidad:** Conectamos, intercambiamos y aprendemos con otras personas y organizaciones.
 
-![](fig/pilares_ES.jpg){alt="esquema circular que presenta los tres pilares de MetaDocencia. Contextualización, Formación y Comunidad."}
+![esquema circular que presenta los tres pilares de MetaDocencia. Contextualización, Formación y Comunidad.](fig/pilares_ES.jpg)
 
 ### Docentes y equipo
 
