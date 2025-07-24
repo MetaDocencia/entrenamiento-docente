@@ -75,7 +75,7 @@ c. Si tienen una combinación de respuestas correctas e incorrectas, dales vario
 
 Las evaluaciones formativas te dicen qué tan bien van las cosas, pero aún necesitas decidir qué hacer con ese conocimiento. En particular, ¿cuándo repites contenido y cuándo sigues adelante? Si solo una persona no entiende algo, ¿quieres que el resto de la clase se siente y se aburra mientras explicas? 
 
-Esta es una de las decisiones más difíciles que tenemos que tomar como docentes. ¿Pongo mi esfuerzo en enseñar al 5% o al par de personas que no entendieron mientras el otro 95% se aburre? ¿O dejo a esas personas atrás? 
+Esta es una de las decisiones más difíciles que tenemos que tomar como docentes. ¿Pongo mi esfuerzo en enseñar al 5% o al par de personas que no entendieron mientras el otro 95% se aburre? O dejo a esas personas atrás? 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
