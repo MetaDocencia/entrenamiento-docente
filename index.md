@@ -35,9 +35,9 @@ Trabajamos desde América Latina consolidando a la región en el mapa global de 
 
 Llevamos adelante nuestra propuesta a partir de una serie de proyectos que se enmarcan en tres pilares de trabajo que están interconectados y forman un círculo virtuoso: Contextualización, Formación y Comunidad.
 
-**Contextualización:** Adaptamos materiales, textos y recursos al español y al inglés.
-**Formación:** Enseñamos y aprendemos en forma virtual y presencial. Nuestras clases son activas, con un enfoque pedagógico basado en evidencia.
-**Comunidad:** Conectamos, intercambiamos y aprendemos con otras personas y organizaciones.
+- **Contextualización:** Adaptamos materiales, textos y recursos al español y al inglés.
+- **Formación:** Enseñamos y aprendemos en forma virtual y presencial. Nuestras clases son activas, con un enfoque pedagógico basado en evidencia.
+- **Comunidad:** Conectamos, intercambiamos y aprendemos con otras personas y organizaciones.
 
 ![esquema circular que presenta los tres pilares de MetaDocencia. Contextualización, Formación y Comunidad.](fig/pilares_ES.jpg)
 
