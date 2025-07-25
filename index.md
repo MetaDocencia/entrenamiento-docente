@@ -10,15 +10,15 @@ Revisaremos elementos clave para el éxito de un curso practicando la retroalime
 
 ## Cuál va a ser el recorrido
 
-- **Introducción:** Para entender un poco más sobre el curso y las personas tipo.
-- **Modelos mentales:** 
-- **Carga cognitiva:**
-- **Capacidad:**
-- **Evaluación:**
-- **Crítica:**
-- **Motivación:**
-- **Aprendizaje:**
-- **Introducción:**
+- **Introducción:** Para entender un poco más sobre el curso y sus objetivos. Explica la importancia de diseñar clases basadas en evidencia y muestra cómo las personas tipo guían todo el proceso de enseñanza. 
+- **Modelos mentales:** Describe la progresión de los modelos mentales de personas novatas, competentes y expertas y cómo ayudar a las personas principiantes a crear modelos mentales útiles.
+- **Carga cognitiva:** Explica la arquitectura cognitiva básica y estrategias para gestionarla. 
+- **Capacidad:** Analiza la memoria en el aprendizaje y técnicas de enseñanza para el desarrollo de contenidos efectivos
+- **Evaluación:** Introduce la evaluación formativa para diagnosticar conceptos erróneos, la instrucción entre pares y el diseño inverso de lecciones
+- **Crítica:** Aborda cómo recibir y dar crítica constructiva para mejorar continuamente la enseñanza. 
+- **Motivación:** Contrasta motivación intrínseca y extrínseca, destaca factores que la fomentan y desfavorecen.
+- **Aprendizaje:** Demuestra por qué el aprendizaje activo supera al pasivo y presenta estrategias para potenciar la retención. 
+- **Preparación:** Propone la preparación antes de comenzar una clase.
 - **Final:**
 
 ## Nos presentamos
