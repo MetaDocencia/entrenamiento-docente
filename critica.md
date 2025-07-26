@@ -6,13 +6,21 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿?
+- ¿Por qué es clave recibir y dar retroalimentación al enseñar?
+
+- ¿Cómo podemos desarrollar una cultura de revisión entre pares?
+
+- ¿Qué podemos aprender de otras tradiciones educativas sobre la crítica docente?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- 
+- Entender la importancia de la crítica constructiva para la mejora docente.
+
+- Reflexionar sobre el valor del feedback como herramienta profesional.
+
+- Explorar prácticas culturales como el jugyokenkyu para el desarrollo docente colaborativo.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
