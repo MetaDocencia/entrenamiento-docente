@@ -6,13 +6,21 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿?
+- ¿Qué impacto tiene la sobrecarga cognitiva en la capacidad de aprendizaje?
+
+- ¿Cómo puede un mapa conceptual ayudar a evitar esa sobrecarga?
+
+- ¿Qué técnicas docentes podemos usar para favorecer la comprensión sostenida?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- 
+- Reconocer la relación entre la capacidad cognitiva y la carga de información.
+
+- Identificar estrategias para organizar el contenido sin saturar la memoria de trabajo.
+
+- Explorar el uso de mapas conceptuales como apoyo para construir estructuras de conocimiento.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
