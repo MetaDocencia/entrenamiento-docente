@@ -6,13 +6,21 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿?
+- ¿Cómo sabemos si nuestras estudiantes están aprendiendo?
+
+- ¿Qué herramientas podemos usar para evaluar de forma continua?
+
+- ¿Cuál es el valor de la retroalimentación oportuna en la enseñanza?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- 
+- Conocer distintos tipos de evaluación y su propósito dentro de una lección.
+
+- Aprender a diseñar preguntas de chequeo del aprendizaje.
+
+- Reconocer el rol de la evaluación formativa como guía para la mejora docente.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
