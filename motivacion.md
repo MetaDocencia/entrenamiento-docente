@@ -6,13 +6,21 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿?
+- ¿Qué nos motiva a aprender y a enseñar?
+
+- ¿Qué efecto tiene la motivación en la memoria a largo plazo?
+
+- ¿Cómo crear condiciones que fomenten el interés por aprender?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- 
+- Diferenciar entre motivación intrínseca y extrínseca.
+
+- Analizar cómo la motivación incide en la retención y profundidad del aprendizaje.
+
+- Diseñar estrategias que promuevan un compromiso genuino de nuestra audiencia.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
