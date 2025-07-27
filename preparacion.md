@@ -6,13 +6,21 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿?
+- ¿Qué elementos componen una clase bien preparada?
+
+- ¿Cómo podemos mejorar nuestras clases a través de la práctica?
+
+- ¿Qué rol cumple la retroalimentación en este proceso?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- 
+- Desarrollar habilidades para planificar y practicar clases en comunidad.
+
+- Aplicar rúbricas de retroalimentación en presentaciones docentes.
+
+- Entrenar estrategias para la mejora progresiva de la enseñanza en vivo.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
