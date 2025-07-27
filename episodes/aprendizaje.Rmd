@@ -6,13 +6,21 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿?
+- ¿Qué prácticas ayudan a que el aprendizaje sea significativo?
+
+- ¿Por qué es importante que las personas aprendan haciendo?
+
+- ¿Cómo promovemos la conciencia sobre cómo se aprende?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- 
+- Explorar diferentes formas de aprender: pasivas y activas.
+
+- Comprender el papel de la metacognición en el proceso de enseñanza-aprendizaje.
+
+- Incorporar estrategias que favorezcan la práctica y la reflexión.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
