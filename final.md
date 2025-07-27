@@ -1,112 +1,115 @@
+
 ---
-title: 'Final'
+title: "Final"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- ¿Cómo se escribe una lección usando R Markdown y `{sandpaper}`?
+- ¿Cómo organizamos nuestras ideas para escribir una lección?
+- ¿Qué herramientas técnicas necesitamos dominar para publicarla?
+- ¿Qué pasos siguen después del curso para continuar aprendiendo?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explicar cómo usar markdown con la nueva plantilla de lección  
-- Demostrar cómo incluir fragmentos de código, figuras y bloques de actividades anidados
+- Aplicar lo aprendido para comenzar a escribir una lección técnica.
+- Conocer el uso de la plantilla `{sandpaper}` para crear lecciones reproducibles.
+- Iniciar una práctica reflexiva sobre el camino recorrido en el curso.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introducción
+## Reflexión final
 
-Esta es una lección creada mediante el template de Workbench adaptada por MetaDocencia, creada por The Carpentries. Está escrita en  
-[Markdown con sintaxis de Pandoc][pandoc] para archivos estáticos (con extensión `.md`) y  
-[R Markdown][r-markdown] para archivos dinámicos que pueden renderizar código y mostrar el resultado  
-(con extensión `.Rmd`). Consultá la [Introducción a The Carpentries  
-Workbench][carpentries-workbench] para ver la documentación completa.
+A lo largo del curso exploramos distintas dimensiones de la enseñanza: desde la empatía, la motivación y la evaluación, hasta el diseño instruccional, la crítica y la preparación para enseñar. En este episodio final vamos a concentrarnos en conocer formas de continuar creando lecciones reproducibles, 
 
-Hay tres secciones requeridas para una plantilla de lección válida:
+:::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
- 1. `questions` se muestran al comienzo del episodio para preparar a la persona que aprenderá el contenido.  
- 2. `objectives` son los objetivos de aprendizaje del episodio y se muestran junto con las preguntas.  
- 3. `keypoints` se muestran al final del episodio para reforzar los objetivos.
+¿qué desafíos aparecen al pensar en enseñar a otras personas?
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Las notas para instructores en línea pueden ayudar a anticipar desafíos y almacenar notas de la persona oradora.  
-Aparecen en la "Vista para instructores".
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Desafío 1: ¿Podés hacerlo?
-
-¿Cuál es el resultado de este comando?
-
-```r
-paste("Esta", "nueva", "lección", "luce", "bien")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Salida
-
-```output
-[1] "Esta nueva lección luce bien"
-```
-
-:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?
+### ¿Qué sigue después de este curso?
 
-:::::::::::::::::::::::: solution 
+Durante este encuentro te proponemos:
 
-Es posible gregar una línea con al menos tres dos puntos y la etiqueta `solution`.
+- Conocer el Workbench de MetaDocencia, una plantilla en español para crear lecciones reproducibles con los elementos trabajados: reconociendo a tu audiencia, estableciendo objetivos claros, actividades alineadas y formas de evaluación.
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+El [Workbench de MetaDocencia](https://github.com/MetaDocencia/metadocencia-workbench-template) es un repositorio en español basado en la herramienta `{sandpaper}` de The Carpentries. Está diseñado para que puedas comenzar fácilmente a escribir, estructurar y publicar tu propia lección. Incluye episodios de ejemplo, configuración personalizada, despliegue automático en GitHub Pages y enlaces a documentación de apoyo. No necesitás conocimientos técnicos avanzados para empezar. El template incluye la estructura necesaria para que tu lección sea reproducible y fácil de compartir.
 
-## Figuras
+## Recapitulación del recorrido
 
-Podés incluir figuras generadas desde R Markdown:
+A lo largo de este curso trabajamos sobre los pilares que hacen que una experiencia de enseñanza sea significativa, especialmente en contextos técnicos y comunitarios.
 
+- ¿Qué hace que un entrenamiento sea bueno o malo?
+- ¿Qué características tienen las personas que enseñan de forma efectiva?
+- ¿Cómo aprenden las personas y qué métodos funcionan mejor para facilitar ese aprendizaje?
+- ¿Cómo diseñar sesiones de capacitación con objetivos de aprendizaje claros?
+- ¿Cómo desarrollar materiales de enseñanza o encontrar recursos que puedan adaptarse a nuestras necesidades?
+- ¿Qué tipo de devolución podemos pedir, cómo interpretarla y cómo mejorar nuestras prácticas a partir de ella?
 
-``` r
-pie(
-  c(Sky = 78, "Lado soleado de la pirámide" = 17, "Lado sombreado de la pirámide" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
+:::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-<div class="figure" style="text-align: center">
-<img src="fig/final-rendered-pyramid-1.png" alt="ilusión de gráfico circular de una pirámide"  />
-<p class="caption">El sol sale cada mañana</p>
-</div>
+¿Hacemos el ejercicio de responderlas brevemente?
 
-O podés usar markdown de pandoc para figuras estáticas con la siguiente sintaxis:
+Para cada pregunta:
+¿Alguien quiere tomar la palabra o responder desde el chat?
 
-`![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}`
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-![¡Estás participando de un curso de MetaDocencia!](https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg){alt='Logo de MetaDocencia con una manzana y texto del nombre de la Organización.'}
+### Las 10 Reglas de Greg Wilson
 
-## Matemática
+Estas diez reglas no son todo lo que hay que saber sobre enseñar, pero son un buen comienzo.
 
-El contenido puede contener ecuaciones en $\LaTeX$ al describir cómo crear  
-informes dinámicos con {knitr}, por lo que usamos MathJax para mostrarlas así:
+1. Sé amable: todo lo demás son detalles.
+2. Recuerda que no eres tus estudiantes...
+3. ... que la mayoría de la gente prefiere fallar que cambiar ...
+4. ... y que el 90% de la magia consiste en saber una cosa extra.
+5. Nunca enseñes solo/a.
+6. Nunca dudes en sacrificar la verdad por la claridad.
+:::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Si yo tengo que simplificar el modelo mental que estoy enseñando para que se entienda, está bien. No es enseñar en forma incorrecta sino descomplejizar, para ir completando después. Es difícil hacerlo cuando uno es experto. Cuando uno quiere enseñar algo complejo a quien tiene que verlo por primera vez.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+7. Haz de cada error una lección.
+:::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Si el error es tuyo, reconócelo. Transparentar cuando el docente está haciendo algo por primera vez junto con estudiantes. Si un estudiante comete un error, es una instancia de aprendizaje para esa persona y para el resto.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+8. Recuerda que ninguna lección sobrevive al primer contacto con estudiantes ...
+:::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Usando y probando una lección es la forma de mejorarla. El feedback es esencial, más allá de nuestra propia sensación como estudiantes. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+9. ... que cada lección es demasiado corta para quien enseña y demasiado larga para quien la recibe ...
+10. ... y que nadie tendrá más entusiasmo que tú por la clase
 
-`$ lpha = \dfrac{1}{(1 - eta)^2}$` se convierte en: $ lpha = \dfrac{1}{(1 - eta)^2}$
+:::::::::::::::::::::::::::::::::::::::::::::::: challenge
+Por turnos, contestar:
 
-¿Genial, no?
+¿Aprendiste alguna cosa en este taller que haya cambiado tu forma de pensar sobre cómo dar clases en lugar de solo agregar algo a tu conocimiento? ¿Cuál?
 
-::::::::::::::::::::::::::::::::::::: keypoints 
+Empieza una persona y cuando termina, menciona a otra persona para que continúe.
 
-- Usá archivos `.md` para episodios con contenido estático  
-- Usá archivos `.Rmd` para episodios que necesiten generar salidas dinámicas  
-- Ejecutá `sandpaper::check_lesson()` para identificar problemas en tu lección  
-- Ejecutá `sandpaper::build_lesson()` para previsualizar tu lección localmente
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+## Checkout
+
+**Ver si incluimos**
+[INFORMACION SOBRE EL CHECKOUT - Vía carpentries] (https://docs.google.com/presentation/d/1jfEjQfjSTywTQ_nL2t_4MKk3qGfgmt4S/edit?slide=id.p16#slide=id.p16)
+
+## Encuesta final
+
+Antes de cerrar este curso, te invitamos a completar una breve encuesta de retroalimentación. Tus respuestas son muy importantes para ayudarnos a mejorar y seguir adaptando nuestras propuestas formativas. También es una forma de reflexionar sobre tu propia experiencia de aprendizaje.
+
+👉 [Acceder a la encuesta final](https://docs.google.com/forms/d/e/1FAIpQLSfX-FORM-EJEMPLO)
+
+¡Gracias por habernos acompañado en este recorrido!
+
+## Recursos recomendados
+
+- [Documentación oficial de {sandpaper}](https://carpentries.github.io/sandpaper/)
+- [Plantilla de lecciones reproducibles de MetaDocencia](https://github.com/MetaDocencia/metadocencia-workbench-template)
+- Episodios anteriores del curso
+- Comunidad de MetaDocencia en Slack para consultas y acompañamiento
+- [Guía para contribuir con lecciones de The Carpentries (en español)](https://carpentries-es.github.io/guia-de-contribucion/)
