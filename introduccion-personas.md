@@ -22,7 +22,7 @@ exercises: 2
 
 Les damos la bienvenida al entrenamiento docente adaptado por MetaDocencia, una versión creada a partir del curso "Train the Trainers" de The Carpentries.
 
-Este curso brindará a los nuevos capacitadores conocimientos, habilidades, orientación y consejos para desarrollar y brindar capacitación. Los participantes explorarán una variedad de métodos para permitir y fomentar el aprendizaje, examinar los requisitos para un curso exitoso y obtener apropiada devolución
+Este curso brindará a los nuevos capacitadores conocimientos, habilidades, orientación y consejos para desarrollar y brindar capacitación. Exploraremos una variedad de métodos para permitir y fomentar el aprendizaje, examinar los requisitos para un curso exitoso y obtener apropiada devolución
 
 ## Objetivos:
 - Brindar orientación sobre técnicas de capacitación general y el uso apropiado de métodos basados en las necesidades del alumno, incluidos algunos "DOs" y "DONT’s" generales para una capacitación exitosa.
