@@ -41,7 +41,7 @@ Llevamos adelante nuestra propuesta a partir de una serie de proyectos que se en
 
 ![esquema circular que presenta los tres pilares de MetaDocencia: Contextualización, Formación y Comunidad.](fig/pilares_ES.jpg)
 
-Si te interesa saber más sobre nosotros, puedes entrar a [nuestra web](https://www.metadocencia.org). También puedes suscribirte a nuestro [Newsletter](https://www.metadocencia.org/suscripcion/) y recibir todas las novedades.
+Si les interesa saber más sobre nosotros, pueden entrar a [nuestra web](https://www.metadocencia.org). También pueden suscribirte a nuestro [Newsletter](https://www.metadocencia.org/suscripcion/) y recibir todas las novedades.
 
 ### Docentes y equipo
 
