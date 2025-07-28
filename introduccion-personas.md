@@ -33,9 +33,9 @@ Este curso brindará a los nuevos capacitadores conocimientos, habilidades, orie
 ### Motivación
 
 1. Construir lecciones más efectivas
-2. Aplicando prácticas basadas en evidencia
-3. Con práctica y retroalimentación
-4. En un ambiente de aprendizaje positivo
+2. Aplicar prácticas basadas en evidencia
+3. priorizar la práctica y la retroalimentación
+4. Generar un ambiente de aprendizaje positivo
 
 Sabemos tanto sobre la enseñanza y el aprendizaje como sabemos sobre salud pública. El problema es que la mayoría de las personas en tecnología (y la mayoría de las/os docentes universitarios) no saben lo que sabemos. Cuando terminaste la escuela secundaria, probablemente sabías qué son los gérmenes y las vitaminas y de dónde vienen los bebés. Probablemente no conozcas hechos igualmente básicos sobre cómo aprenden las personas o cuál es la mejor manera de enseñarles.
 
