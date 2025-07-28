@@ -19,7 +19,7 @@ Revisaremos elementos clave para el éxito de un curso practicando la retroalime
 - **Motivación:** Contrasta motivación intrínseca y extrínseca, destaca factores que la fomentan y desfavorecen.
 - **Aprendizaje:** Demuestra por qué el aprendizaje activo supera al pasivo y presenta estrategias para potenciar la retención. 
 - **Preparación:** Propone la preparación antes de comenzar una clase.
-- **Final:**
+- **Final:** Recapitula el contenido del curso, explica cómo crear tu propia lección reproducible a partir del Workbench adaptado por MetaDocencia y propone los siguientes pasos.
 
 ## Nos presentamos
 
@@ -40,6 +40,8 @@ Llevamos adelante nuestra propuesta a partir de una serie de proyectos que se en
 - **Comunidad:** Conectamos, intercambiamos y aprendemos con otras personas y organizaciones.
 
 ![esquema circular que presenta los tres pilares de MetaDocencia: Contextualización, Formación y Comunidad.](fig/pilares_ES.jpg)
+
+Si te interesa saber más sobre nosotros, podés entrar a [nuestra web](https://www.metadocencia.org). También podés suscribirte a nuestro [Newsletter](https://www.metadocencia.org/suscripcion/) y enterarte de todas las novedades.
 
 ### Docentes y equipo
 
