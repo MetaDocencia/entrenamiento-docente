@@ -37,32 +37,25 @@ Este curso brindará a los nuevos capacitadores conocimientos, habilidades, orie
 3. priorizar la práctica y la retroalimentación
 4. Generar un ambiente de aprendizaje positivo
 
-Sabemos tanto sobre la enseñanza y el aprendizaje como sabemos sobre salud pública. El problema es que la mayoría de las personas en tecnología (y la mayoría de las/os docentes universitarios) no saben lo que sabemos. Cuando terminaste la escuela secundaria, probablemente sabías qué son los gérmenes y las vitaminas y de dónde vienen los bebés. Probablemente no conozcas hechos igualmente básicos sobre cómo aprenden las personas o cuál es la mejor manera de enseñarles.
+Hoy sabemos mucho sobre cómo aprenden las personas y cómo facilitar ese aprendizaje. Sin embargo, ese conocimiento no siempre llega a quienes enseñan. Es probable que al terminar la escuela secundaria hayan aprendido qué son los gérmenes, qué función cumplen las vitaminas o cómo nace un bebé. Pero quizás no tuvieron la oportunidad de aprender aspectos igual de fundamentales sobre los procesos de enseñanza y aprendizaje.
 
-Conocer unos pocos de estos conceptos básicos te ayudará a construir lecciones más efectivas en menos tiempo y con menos esfuerzo. A enseñar también se aprende, sobre todo a través de la práctica y la retroalimentación que recibimos de quienes están en nuestras clases.
-
+Conocer unos pocos de estos conceptos básicos ayuda a construir lecciones más efectivas en menos tiempo y con menos esfuerzo. A enseñar también se aprende, sobre todo a través de la práctica y la retroalimentación que recibimos de quienes están en nuestras clases.
 
 ### Punto de Partida
 
-Nuestra idea clave es que el aprendizaje es tanto una actividad cognitiva como social. El aprendizaje ocurre cuando tu cerebro almacena hechos y procedimientos de manera que le permiten recordar y aplicar lo que necesita cuando lo necesita. También ocurre en un entorno social: se aprende por determinada razón, con otras personas, y tus objetivos, motivaciones y criterios para el éxito se determinan con esas y por esas personas. Otra de nuestras ideas clave es que tanto la enseñanza como el aprendizaje deben ser activos: una persona que recita una lección a sus estudiantes que simplemente escuchan es probablemente menos efectiva que una lección donde los estudiantes participan.
+Nuestra idea clave es que el aprendizaje es tanto una actividad cognitiva como social. El aprendizaje ocurre cuando nuestro cerebro almacena hechos y procedimientos de manera que le permiten recordar y aplicar lo que necesita cuando lo necesita. También ocurre en un entorno social: se aprende con otras personas, y los objetivos, motivaciones y criterios para el éxito se determinan con esas y por esas personas. Otra de nuestras ideas clave es que tanto la enseñanza como el aprendizaje deben ser activos: una persona que recita una lección a sus estudiantes que simplemente escuchan es probablemente menos efectiva que una lección donde quienes aprenden participan.
 
 ### Paramédicas y Paramédicos Educacionales
 
-Otra cosa que debemos dejar en claro es que no estamos tratando de convertirte en un experto en educación, no queremos convertirte en médica o médico. Somos más como paramédicas y paramédicos educacionales: nos enfocamos en brindar un servicio de respuesta primaria a las personas que necesitan ayuda inmediata y que pueden no tener tiempo o interés para completar todo lo que hay para saber sobre un tema. Ninguno de los dos aspectos es mejor que el otro: sirven a diferentes propósitos.
+Otra cosa que debemos dejar en claro es que no estamos tratando de convertirles en expertos en educación, no queremos convertiles en médicas o médicos. Somos más como paramédicas y paramédicos educacionales: nos enfocamos en brindar un servicio de respuesta primaria a las personas que necesitan ayuda inmediata y que pueden no tener tiempo o interés para completar todo lo que hay para saber sobre un tema. Ninguno de los dos aspectos es mejor que el otro: sirven a diferentes propósitos.
 
-El público en general tiene conocimientos básicos de salud y medicina, pero no tiene los conocimientos equivalentes sobre enseñanza y aprendizaje.  Una persona entrenada posee los dos.  Nosotros éramos como vos en este momento, pertenecíamos a ese grupo de gente sin entrenamiento en conceptos básicos de educación, pero ahora somos personas entrenadas y es en lo que vas a convertirte cuando termines este curso.  Una persona entrenada puede: crear mejores lecciones, usar prácticas basadas en evidencia, mejorar usando retroalimentación y generar un ambiente de aprendizaje positivo. 
-La enseñanza y aprendizaje involucra procesos cognitivos y sociales, y se realizan mejor si se hacen de manera activa.
+El público en general tiene conocimientos básicos de salud y medicina, pero no tiene los conocimientos equivalentes sobre enseñanza y aprendizaje.  Una persona entrenada posee los dos. Nosotros éramos como ustedes en este momento, pertenecíamos a ese grupo de gente sin entrenamiento en conceptos básicos de educación, pero ahora somos personas entrenadas y es en lo que van a convertirse cuando terminen este curso.  Una persona entrenada puede: crear mejores lecciones, usar prácticas basadas en evidencia, mejorar usando retroalimentación y generar un ambiente de aprendizaje positivo. 
+La enseñanza y el aprendizaje involucran procesos cognitivos y sociales, y se realizan mejor si se hacen de manera activa.
 
 [img slide 12 https://docs.google.com/presentation/d/1PbTBOHriPrZuXBJT_uF1g0-ICpWsDtBoS2QH_OGEQ10/edit?slide=id.g22d542f968e_1_38#slide=id.g22d542f968e_1_38]
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-///////////////
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Personas
-El primer paso para crear cualquier clase de lección es descubrir a quién estás tratando de ayudar. Hacer esto también es una buena herramienta para romper el hielo, así que voy a presentarles a Ana.
+El primer paso para crear cualquier clase de lección es descubrir a quienes están tratando de ayudar. Hacer esto también es una buena herramienta para romper el hielo, así que vamos a presentarles a Ana.
 
 ### Conoce a Ana: 
 
@@ -84,7 +77,7 @@ Aquí está Ana en este momento. No es una lista de palabras clave, porque una f
 
 #### Necesidades
 
-Esto es lo que Ana piensa que quiere aprender. Lo más importante de esta lista es que está escrita desde su punto de vista: no es lo que tu, con más conocimiento del tema, sabes que necesita; es lo que ella, con el conocimiento que tiene ahora, está buscando.
+Esto es lo que Ana piensa que quiere aprender. Lo más importante de esta lista es que está escrita desde su punto de vista: no es lo que ustedes, con más conocimiento del tema, saben que necesita; es lo que ella, con el conocimiento que tiene ahora, está buscando.
 
 - Va a hacer 300 experimentos en los próximos seis meses
 - No quiere hacer todos los análisis a mano
@@ -92,7 +85,7 @@ Esto es lo que Ana piensa que quiere aprender. Lo más importante de esta lista 
 
 #### Consideraciones Especiales
 
-La parte final de tus estudiantes tipo describe cualquier otra cosa que deba tenerse en cuenta. ¿Tienen problemas de audición? ¿Necesitan terminar a las 6:00 pm puntual porque cuidan menores o personas mayores? ¿Van a usar una máquina bloqueada que no les permitirá instalar software? Cualquiera de estas cosas podría desviar tu enseñanza, por lo que es mejor pensar en ellas por adelantado.
+La parte final de sus estudiantes tipo describe cualquier otra cosa que deba tenerse en cuenta. ¿Tienen problemas de audición? ¿Necesitan terminar a las 6:00 pm puntual porque cuidan menores o personas mayores? ¿Van a usar una máquina bloqueada que no les permitirá instalar software? Cualquiera de estas cosas podría desviar la enseñanza, por lo que es mejor pensar en ellas por adelantado.
 
 - Muy incómoda hablando delante de un  grupo
 
@@ -100,29 +93,31 @@ La parte final de tus estudiantes tipo describe cualquier otra cosa que deba ten
 
 ## Preguntas para contestar en el chat
 
-¿Qué te imaginas? ¿Ana usa redes sociales? 
+¿Qué se imaginan? ¿Ana usa redes sociales? 
 
-- Si piensas que sí, ¿qué red usa? 
-- Si piensas que no, ¿por qué no?
+- Si piensan que sí, ¿qué red usa? 
+- Si piensan que no, ¿por qué no?
 
-Contesta brevemente en el chat.
+Contesten brevemente en el chat.
 
 :::::::::::::::::::::::::::::::::
 
 ## Estudiante o Persona Tipo
 
-Podés incluir figuras generadas desde R Markdown:
+Lo que acabamos de crear se llama estudiante tipo. Cualquiera que enseñe, o cualquier equipo que enseñe junto, debería crear un puñado de estudiantes tipo que describan a las personas que se está tratando de ayudar. Estos casos típicos les recordarán una de las reglas más importantes para enseñar: 
 
-Lo que acabamos de crear se llama estudiante tipo. Cualquiera que enseñe, o cualquier equipo que enseñe junto, debería crear un puñado de estudiantes tipo que describan a las personas que se está tratando de ayudar. Estos casos típicos te recordarán una de las reglas más importantes para enseñar: no eres tu estudiante.
+> No eres tu estudiante.
+
+Los aspectos a describir, los podemos resumir en:
 
 - Antecedentes generales
 - Experiencia relevante
 - Necesidades percibidas
 - Consideraciones especiales
 
-### Explícalo En Sus Términos
+### Explíquenlo En Sus Términos
 
-Una vez que sabes a quién estás tratando de ayudar, puedes descubrir cómo tu capacitación les ayudará a satisfacer sus necesidades y cómo explicarlo de una manera que te puedan entender. Es una única línea en el catálogo de muchos otros cursos lo que llamará la atención de quienes se formen contigo y que les ayudará a determinar si les puedes ayudar.
+Una vez que saben a quién están tratando de ayudar, pueden descubrir cómo su capacitación les ayudará a satisfacer sus necesidades y cómo explicarlo de una manera que les puedan entender. Es una única línea en el catálogo de muchos otros cursos lo que llamará la atención de quienes se formen con ustedes y que les ayudará a determinar si les pueden ayudar.
 
 “Esta introducción práctica de una semana a la ciencia de datos mostrará cómo cargar, limpiar, explorar, visualizar y analizar datos tabulares en forma reproducible.”
 
@@ -141,14 +136,15 @@ Más detalles en https://www.metadocencia.org/personas/ y https://teachtogether.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Ejercicio: crea una persona tipo
+## Ejercicio: crear una persona tipo
 
+Tener en cuenta:
 - Antecedentes generales
 - Punto de partida
 - Necesidades
 - Consideraciones especiales
 
-Explica cómo puedes ayudarla.
+Expliquen cómo pueden ayudarla.
 
 :::::::::::::::::::::::::::::::::
 
