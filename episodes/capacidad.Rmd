@@ -34,7 +34,7 @@ Pregunta para responder por el chat: ¿Les pasó alguna vez estar en una clase e
 
 ![](fig/mapa-fotosintesis.png){alt="La fotosíntesis produce: a) glucosa que guarda energía y b) oxígeno que es liberado al aire; para este proceso requiere CO2 (absorbido del aire), agua y luz. La fotosíntesis ocurre en los cloroplastos que absorben luz."}
 
-Cuando presentamos los mapas conceptuales dijimos que cada nodo/caja y cada relación/flecha cuenta como un ítem para retener en nuestra memoria de corto plazo o memoria de trabajo. También explicamos que la memoria de trabajo puede retener pocos ítems a la vez. En este mapa conceptual hay muchos más elementos de los que la memoria de corto plazo de la mayoría de las personas puede retener.
+Cuando presentamos los mapas conceptuales, dijimos que cada nodo/caja y cada relación/flecha cuenta como un ítem para retener en nuestra memoria de corto plazo o memoria de trabajo. También explicamos que la memoria de trabajo puede retener pocos ítems a la vez. En este mapa conceptual hay muchos más elementos de los que la memoria de corto plazo de la mayoría de las personas puede retener.
 
 Una forma de abordar las limitaciones de la memoria de trabajo es dividir el mapa conceptual de contenidos a enseñar en partes, e incluyendo evaluaciones formativas después de cada parte. ¿Pero cómo? ¿Y qué tan grandes deben ser las partes en las que dividimos el mapa conceptual?
 
@@ -44,15 +44,15 @@ Para responder a esa pregunta, volvamos a nuestro diagrama de arquitectura cogni
 
 ## Siete Más o Menos Dos
 
-Ya en la década de 1950, quienes investigan se dieron cuenta de que la persona promedio solo puede tener en la memoria a corto plazo unos pocos elementos a la vez. Las estimaciones iniciales ponen el número en 7 ± 2; estimaciones más recientes lo ponen tan bajo como 4.
+Ya en la década de 1950, se comprobó que la persona promedio solo puede tener en la memoria a corto plazo unos pocos elementos a la vez. Las estimaciones iniciales ponen el número en 7 ± 2; estimaciones más recientes lo ponen tan bajo como 4.
 
-7 mas/menos 2 es una de las razones por las cuales, en la época en que se usaban estos teléfonos y recordábamos los números de memoria, los números de teléfono tienen entre 6 y 8 dígitos. Es difícil mantener más dígitos que eso en la memoria a corto plazo el tiempo suficiente para que el disco gire.
+7 más/menos 2 es una de las razones por las cuales, en la época en que se usaban estos teléfonos y recordábamos los números de memoria, los números de teléfono tenían entre 6 y 8 dígitos. Es difícil mantener más dígitos que eso en la memoria a corto plazo el tiempo suficiente para que el disco gire.
 
 También puede ser la razón por la cual la unidad básica de la organización social humana es media docena de personas. Desde equipos deportivos y formaciones militares, pasando por círculos de tejido hasta reuniones, ese parece ser el límite de la cantidad de personas que pueden estar hablando o trabajando en conjunto al mismo tiempo. Más allá de eso, los grupos más grandes se dividen rápidamente en subgrupos. Si tienes 20 personas en una reunión, tienes tres reuniones en curso o una reunión de media docena de personas con un grupo de personas observando cómo se desarrolla la reunión.
 
 ## Cuéntalos Todos
 
-Así que volvamos una vez más a nuestro mapa conceptual de la fotosíntesis. Hay 9 nodos y 7 relaciones etiquetadas (algunas de las cuales son de uno a muchos nodos, pero lo ignoraremos por ahora). Eso hace un total de 16 cosas para que tus estudiantes absorban, y eso te dice que esto es demasiado material para abordar de una vez.
+Volvamos una vez más a nuestro mapa conceptual de la fotosíntesis. Hay 9 nodos y 7 relaciones etiquetadas (algunas de las cuales son de uno a muchos nodos, pero lo ignoraremos por ahora). Eso hace un total de 16 cosas para que sus estudiantes absorban, y eso nos dice que esto es demasiado material para abordar de una vez.
 
 ![](fig/mapa-fotosintesis.png){alt="La fotosíntesis produce: a) glucosa que guarda energía y b) oxígeno que es liberado al aire; para este proceso requiere CO2 (absorbido del aire), agua y luz. La fotosíntesis ocurre en los cloroplastos que absorben luz."}
 
@@ -66,7 +66,7 @@ Otra porción puede ser:
 
 Podemos usar el mapa conceptual para guiar nuestra elección del tamaño del fragmento y también los objetivos secundarios. Esto es un arte: la experiencia nos dictará qué segmentos funcionan mejor.
 
-> Pero, espera un segundo. Si la memoria a corto plazo solo puede contener media docena de cosas a la vez, ¿cómo podemos pensar en cosas más grandes? La respuesta es que si las cosas ocurren frecuentemente juntas, las almacenamos y las recuperamos en pedazos.
+> Pero, si la memoria a corto plazo solo puede contener media docena de cosas a la vez, ¿cómo podemos pensar en cosas más grandes? La respuesta es que si las cosas ocurren frecuentemente juntas, las almacenamos y las recuperamos en pedazos.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
@@ -74,15 +74,15 @@ Podemos usar el mapa conceptual para guiar nuestra elección del tamaño del fra
 
 **Es puramente visual**
 
-En la próxima pantalla voy a mostrar por 30 segundos los números del 1 al 9 asociados a un símbolo.
+En la próxima pantalla vamos a mostrar por 30 segundos los números del 1 al 9 asociados a un símbolo.
 
-Usa los 30 segundos para memorizar los símbolos.
+Usemos los 30 segundos para memorizar los símbolos.
 
 ![](fig/ejercicio-memoria.png){alt="Nueve formas angulares en una cuadrícula de 3x3. Cada celda contiene una figura compuesta por líneas en forma de esquina. En la fila del medio, la figura central (posición 5) es un cuadrado completo. Las demás figuras son esquinas con una o más líneas faltantes. Las posiciones están numeradas del 1 al 9, de izquierda a derecha y de arriba hacia abajo."}
 
-Tienes 30 segundos para escribir tu número de teléfono usando los símbolos.
+Tienen 30 segundos para escribir sus números de teléfono usando los símbolos.
 
-Pregunta para responder por el chat, ¿cuántos dígitos pudiste escribir usando el código?
+Pregunta para responder por el chat, ¿cuántos dígitos pudieron escribir usando el código?
 
 Decíamos entonces que para pensar en cosas grandes, y que frecuentemente ocurren juntas, es más fácil si las almacenamos y las recuperamos en pedazos. Así que intentemos nuevamente el ejercicio.
 
@@ -95,7 +95,7 @@ Como docentes, podemos usar esto para reducir la carga cognitiva y acelerar el a
 
 ## Ejemplos Desvanecidos
 
-Al aprender una habilidad técnica, como programar o trabajar con datos, es habitual comenzar observando ejemplos completamente resueltos. Estos ejemplos ayudan a entender cómo se estructura una solución y qué pasos seguir. Pero, si siempre estudiamos ejemplos ya resueltos, no desarrollamos las habilidades necesarias para resolver por cuenta propia los desafíos que se presentan en la práctica.
+Al aprender una habilidad técnica, como programar o trabajar con datos, es habitual comenzar observando ejemplos completamente resueltos. Estos ejemplos ayudan a entender cómo se estructura una solución y qué pasos seguir. Pero si siempre estudiamos ejemplos ya resueltos, no desarrollamos las habilidades necesarias para resolver por cuenta propia los desafíos que se presentan en la práctica.
 
 Por eso, existe una estrategia pedagógica llamada ejemplos desvanecidos. Esta consiste en presentar una serie de ejercicios que, al principio, muestran todos los pasos necesarios para resolver un problema, pero que progresivamente van omitiendo partes de la solución. Así, se invita a quienes aprenden a completar esos pasos por sí mismos, reflexionando sobre lo que hacen y por qué lo hacen. Esto promueve una práctica llamada autoexplicación, que fortalece la comprensión y la autonomía.
 
@@ -103,34 +103,20 @@ Por eso, existe una estrategia pedagógica llamada ejemplos desvanecidos. Esta c
 
 Primero, el instructor resuelve un problema paso a paso.
 
-\[
-\frac{4x + 8}{2} = 5
-\]
-\[
-4x + 8 = 2 \cdot 5
-\]
-\[
-4x + 8 = 10
-\]
-\[
-4x = 10 - 8
-\]
-\[
-4x = 2
-\]
-\[
-x = \frac{2}{4}
-\]
-\[
-x = \frac{1}{2}
-\]
+(4x + 8)/2	=	5
+4x + 8	=	2 * 5
+4x + 8	=	10
+  	4x	=	10 - 8
+  	4x	=	2
+   	  x	=	2/4
+   	  x	= 	1/2
 
-Luego, Se le pide al **grupo control** que resuelva este problema de inmediato. Deben recordar tanto el vocabulario de la aritmética básica como la "gramática" de la estrategia de solución.
+Luego, se le pide al **grupo control** que resuelva este problema de inmediato. Deben recordar tanto el vocabulario de la aritmética básica como la "gramática" de la estrategia de solución.
 
 (2x + 8)/4	=	1
      x	    =	__
 
-A  continuación, El **grupo con intervención** resuelve tres problemas diferentes, en orden. Cada uno de los problemas, presentados en este orden, resta andamios. Esto significa que tienen que hay menos ayuda, hay que hacer más trabajo, pero así se refuerza su comprensión de la estrategia de resolución. El grupo con la intervención trabaja más, pero aprende más rápido y mejor.
+A continuación, el **grupo con intervención** resuelve tres problemas diferentes, en orden. Cada uno de los problemas, presentados en este orden, resta andamios. Esto significa que como hay menos ayuda, hay que hacer más trabajo, pero así se refuerza su comprensión de la estrategia de resolución. El grupo con la intervención trabaja más, pero aprende más rápido y mejor.
 
 | Ejercicio 1                          | Ejercicio 2                   | Ejercicio 3                  |
 |-------------------------------------|-------------------------------|------------------------------|
@@ -143,7 +129,7 @@ A  continuación, El **grupo con intervención** resuelve tres problemas diferen
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Respecto de lo que hablamos en la unidad de carga cognitiva: cómo les parece que ayudan este tipo de ejercicios?
+Respecto de lo que hablamos en la unidad de carga cognitiva: ¿cómo les parece que ayudan este tipo de ejercicios?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -156,11 +142,11 @@ Los ejemplos desvanecidos también alientan a tus estudiantes a formar los fragm
 
 ## Ejercicio
 
-1. Escribe un procedimiento de 4 a 5 pasos cortos de algo que podrías enseñar.
+1. Escriban un procedimiento de 4 a 5 pasos cortos de algo que podrías enseñar.
 
-2. Reemplaza 2 a 3 elementos con ______
+2. Reemplacen 2 a 3 elementos con ______
 
-3. Explica ¿A qué estás llamando la atención en tu elección de qué se desvanece?
+3. Expliquen: ¿A qué estamos llamando la atención en su elección de qué se desvanece?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -168,8 +154,9 @@ Los ejemplos desvanecidos también alientan a tus estudiantes a formar los fragm
 
 ###Pausa
 
-No te desconectes, pero sí aléjate de pantallas
-Volvemos en 10 minutos
+No se desconecten, pero sí aléjense de pantallas.
+
+Volvemos en 10 minutos.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -177,9 +164,6 @@ Volvemos en 10 minutos
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Usá archivos `.md` para episodios con contenido estático  
-- Usá archivos `.Rmd` para episodios que necesiten generar salidas dinámicas  
-- Ejecutá `sandpaper::check_lesson()` para identificar problemas en tu lección  
-- Ejecutá `sandpaper::build_lesson()` para previsualizar tu lección localmente
+- 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
