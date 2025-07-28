@@ -27,22 +27,27 @@ exercises: 2
 ## Crítica - feedback
 ### La Enseñanza como Actuación
 
-Cuando estás enseñando, eres una actriz o un actor. Tu objetivo principal es atraer la atención de la audiencia y convencerla de que vale la pena escuchar lo que estás diciendo. Si haces eso, existe la posibilidad de que aprendan; si no lo haces, podrían leer un libro en lugar de estar en tu clase. Tengo dos buenas noticias. 
-La primera es que no se nace siendo buen docente, se aprende, se practica y se mejora. Hay un estudio muy interesante que compara el sistema Japones jugyokenkuy para formar docentes con otros sistemas educativos occidentales, entre otras cosas vieron que en japon los docentes se reunen al menos una vez por semana para discutir ideas sobre como enseñar, mientras que en Estados Unidos lo hacen como mucho una vez al año. Y pasa en muchísimos paises que lo que pasa en el aula queda en el aula. No se comparten materiales, nadie observa cómo enseña el colega y como resultado terminan inventado la rueda una y otra vez.
+Cuando enseñamos, nos convertimos en actrices y actores. El objetivo principal es atraer la atención de la audiencia y convencerla de que vale la pena escuchar lo que estamos diciendo. Al hacer eso, existe la posibilidad de que aprendan; al no hacerlo, podrían leer un libro en lugar de estar en nuestra clase. 
 
-La otra buena noticia es que no tenés que descubrir con enseñar desde cero, sabemos un montón sobre que funciona y que no (alguna parte de lo que estamos aprendiendo acá).
+Tenemos dos buenas noticias:
+
+La primera es que **no se nace siendo buen docente**, se aprende, se practica y se mejora. 
+
+Hay un estudio muy interesante que compara el sistema japonés jugyokenkuy para formar docentes con otros sistemas educativos occidentales. Entre otras cosas, notaron que en Japón las personas que hacen docencia se reúnen al menos una vez por semana para discutir ideas sobre cómo enseñar, mientras que en Estados Unidos lo hacen como mucho una vez al año. Y pasa en muchísimos países, lo que pasa en el aula queda en el aula. No se comparten materiales, nadie observa cómo enseña un colega y como resultado terminan inventando la rueda una y otra vez.
+
+La otra buena noticia es que no es necesario descubrir con enseñar desde cero, sabemos un montón sobre qué funciona y qué no (alguna parte de lo que estamos aprendiendo acá).
 
 #### Paso 1: Consigue Crítica
 
 Entonces, ¿cómo podemos mejorar nuestra enseñanza? En el paso 1, recibimos comentarios sobre lo que estamos haciendo de alguien más.
 
-Estuvo muy bueno como usaste x para explicar y. Tal vez para explicar z podés...
+Estuvo muy bueno cómo usaste x para explicar y. Tal vez para explicar z podés...
 
 #### Paso 2: Ofrece Crítica sobre la Crítica
 
 En el paso 2, realizamos comentarios y recibimos comentarios sobre esos comentarios.
 
-Gracias por los comentarios, esto que me dijiste me sirvió por que x, esto otro no me ayudó porque y.
+Gracias por los comentarios, esto que me dijiste me sirvió porque "x", esto otro no me ayudó porque "y".
 
 #### Paso 3: Autocrítica
 
@@ -50,15 +55,16 @@ El paso 3 es donde sucede la magia. Una vez que sabemos cómo criticar, podemos 
 
 ## Crítica Constructiva
 
-- **Pide feedback**. La mayoría de las personas no lo ofrece abiertamente.
-- Sé **específico/a**.
-- **Balancea** lo positivo y lo negativo. 
-- Ofrece un **próximo paso** a seguir.
-- Define y comunica tus **expectativas**.
+- **Pidan feedback**. La mayoría de las personas no lo ofrece abiertamente.
+- Ser **específico/a**.
+- **Balancear** lo positivo y lo negativo. 
+- Ofrecer un **próximo paso** a seguir.
+- Definir y comunicar las **expectativas**.
 - Dar feedback es una **habilidad que se practica**.
 
 ### Recibir críticas puede ser duro
-A veces somos muy exigente con nosotros mismos, a veces nos quedamos solo con ese comentario negativo. Tener un colega que nos ayude a analizar y “traducir” los comentarios puede ayudarnos. También es util pedirle a esa persona que haga un resumne, puede ser más llevadero escuchar “parece que la mayoría piensa que podrías ir un poco más rápido” que leer 10 comentarios que dicen “la clase es muy lenta”, “me aburro”. 
+
+A veces somos muy exigentes con nosotros mismos, a veces nos quedamos solo con ese comentario negativo. Tener un colega que nos ayude a analizar y “traducir” los comentarios puede ayudarnos. También es útil pedirle a esa persona que haga un resumen, puede ser más llevadero escuchar “parece que la mayoría piensa que podrías ir un poco más rápido” que leer 10 comentarios que dicen “la clase es muy lenta”, “me aburro”. 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
@@ -88,8 +94,7 @@ Esta rúbrica de 3x2 es una forma sencilla de dar devoluciones sobre la enseñan
 
 ## Ejercicio 2
 
-Da feedback sobre el siguiente video en la siguiente diapositiva usando la rúbrica 3x2.
-
+Dar feedback sobre el siguiente video en la siguiente diapositiva usando la rúbrica 3x2.
 
 [Enseñando mejor](http://tiny.cc/MetaDocenciaEnsenarBienPr)
 
@@ -99,61 +104,64 @@ Da feedback sobre el siguiente video en la siguiente diapositiva usando la rúbr
 
 ### Pregunta para contestar en el chat
 
-Piensa nuevamente en el video anterior, enfocándote en lo que la docente mejoró en el último video en comparación con el primero que viste.
+Piensen nuevamente en el video anterior, enfocándose en lo que la docente mejoró en el último video en comparación con el primero que vieron.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Programación en Vivo
 
-No siempre es necesario usar slides en nuestras clases, muchas veces es mejor no hacerlo. Cuando programamos en vivo o hacemos Live Coding (en inglés) recorremos la clase a la par de los estudiantes, escribiendo código y explicando en el camino. Además si los estudiantes escriben el código y resuelven los ejercicios en paralelo la programación en vivo es interactiva. 
+No siempre es necesario usar presentaciones (slides, PPT) en nuestras clases; muchas veces es mejor no hacerlo. Por ejemplo, cuando programamos en vivo recorremos la clase a la par de los estudiantes, escribiendo código y explicando en el camino. Además, si los estudiantes escriben el código y resuelven los ejercicios en paralelo, la programación en vivo es interactiva. 
 
-En los videos anteriores vimos un ejemplo de a que nos referimos con Live Coding. 
+En los videos anteriores vimos un ejemplo de a qué nos referimos con programación en vivo. 
 
-Hablamos de enseñar a programar pero esta estrategia es aplicable a otras áreas, por ejemplo en matemática naturalmente los docentes resuelven ejercicios en conjunto con los estudiantes, o en una clase de inglés donde muchas veces los ejercicios son resueltos entre todos.
+Hablamos de enseñar a programar, pero esta estrategia es aplicable a otras áreas, por ejemplo, en matemáticas naturalmente los docentes resuelven ejercicios en conjunto con los estudiantes, o en una clase de inglés donde muchas veces los ejercicios son resueltos entre todos.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Ejercicio
 
-Menciona ventajas y desventajas de la programación en vivo:
+Mencionen ventajas y desventajas de la programación en vivo:
 
 - Desde el punto de vista del docente
-- Desde el punto de vista del estudiante
+- Desde el punto de vista de la audiencia
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Consejos
 
-> Cada función o comando que escribas o click que hagas en un menú o botón, decíla en vos alta a medida que lo haces. Si es la primera vez que lo explicás, resaltá lo que escribiste y vuelve a repasarlo. Esto ayuda a que vayas despacio y le permite a tus estudiantes copiar lo que vos estás haciendo en tu pantalla. No copies y pegues código!
+> Cada función o comando que escribamos o clic que hagamos en un menú o botón, digámoslo en voz alta a medida que lo hacemos. Si es la primera vez que lo explicamos, resaltemos lo escrito y volvamos a repasarlo. Esto ayuda a ir despacio y le permite a nuestros estudiantes copiar lo que está sucediendo en la pantalla. ¡Es importante no copiar y pegar código!
 
-> Intentá usar las mismas herramientas que tus estudiantes y que tengan la misma apeciencia. Los temas oscuros en R o python pueden ser muy lindos pero dificultan ver el código y además aumentan la carga cognitiva
+> Intentemos usar las mismas herramientas que nuestros estudiantes y que tengan la misma experiencia. Los temas oscuros en R o python pueden ser muy lindos pero dificultan ver el código y además aumentan la carga cognitiva
 
-> Y hablando de apariencia, usá una fuente grande, colores con mucho contraste y preferentemente letras negras sobre fondo blanco. Si estás dando clases precenciales y proyectas tu pantalla, tené en cuenta que las personas del fondo también tienen que poder ver lo que estás haciendo. 
+> Tengamos en cuenta la accesibilidad. Usemos una fuente grande, colores con mucho contraste y preferentemente letras negras sobre fondo blanco. Si estamos dando clases presenciales y proyectando pantalla, tengamos en cuenta que las personas del fondo también tienen que poder ver lo que estamos haciendo. 
 
-> Usá dibujos y diagramas para ayudar a tus estudiantes a organizar y entender los conceptos. Siempre es mejor empezar con diagramas simples e irlos construyendo con ellos a medida que se van viendo los conceptos. Esto les ayuda a generar las conexiones necesarias entre las ideas .
-Apagá tus notificaciones. 
+> Usemos dibujos y diagramas para ayudar a nuestros estudiantes a organizar y entender los conceptos. Siempre es mejor empezar con diagramas simples e irlos construyendo con ellos a medida que se van viendo los conceptos. Esto les ayuda a generar las conexiones necesarias entre las ideas.
 
-> Aprendé la canción pero luego improvisá sobre ella. Sobre todo si es la primera vez que das una clase, aprovecha tus fuertes y el material que ya existe (por ejemplo las lecciones de carpentries). Siempre tené un machete, sean clases virtuales o presenciales, te ayuda a vos como docentes a disminuir la carga cognitiva.
+> Apaguemos las notificaciones. Tanto en entornos virtuales como presenciales.
 
-> Aprovechá los errores que cometas durante la clase, explicá como los resolves para que tus estudiantes también aprendan esa habilidad. Si llegaste a la mitad de la clase y no cometiste ningún error, hacelo a proposito!
+> Aprendamos la canción pero luego improvisemos sobre ella. Sobre todo si es la primera vez que damos una clase, aprovechemos nuestros puntos fuertes y el material que ya existe (por ejemplo, lecciones abiertas ya creadas). Usemos notas, sean clases virtuales o presenciales, ayudan a disminuir la carga cognitiva docente.
 
-> Y no pierdas estudiantes en el camino, cada tanto necesitas chequear que todes te siguen. Podés usar post its!
+Aprovechemos los errores cometidos durante la clase, explicar cómo se resuelven hace que la audiencia también aprenda esa habilidad. Si al llegar a la mitad de la clase y no cometimos ningún error, hagámoslo a propósito!
+
+> Cuidado con perder estudiantes en el camino, cada tanto es necesario chequear que nuestra audiencia nos siga. Podemos usar post-its!
 
 ## Más feedback
 
-Practicamos mucho dar y recibir feedback entre colegas, también mencionamos pedir feedback a nuestros estudiantes. Estás son algunas ideas para hacerlo.
+Practicamos mucho dar y recibir feedback entre colegas, también mencionamos pedir feedback a nuestros estudiantes. Estas son algunas ideas para hacerlo.
+
 - Usar notas adhesivas de colores para identificar cuando terminaron un ejercicio y cuando tienen problemas. 
-- Esas notas adhesivas también pueden servir para dejar comentarios anónimos al final de la jornada. Por ejemplo, en el verde escribir algo importante que aprendiste hoy, en el rojo algo que resultó confuso y tendrías que revisar. 
 
-- Pedir feedback en vivo al final de la clase, que cada persona por turno mencione algo positivo (pulgar para arriba) o negativo (pulgar para abajo) según le toque. La regla es que no pueden repetir comentarios, eso les obligará a pensar más y no caer el los comentarios más amigables y seguros. Lo importante es no comentar sobre el feedback en el momento, agradecelo y date tiempo a procesarlo antes de responder o cambiar nada en tu clase.
+- Esas notas adhesivas también pueden servir para dejar comentarios anónimos al final de la jornada. Por ejemplo, en el verde escribir algo importante que aprendieron hoy, en el rojo algo que resultó confuso y habría que revisar. 
 
-- Formulario de fin de clase, puede ser tan sencillo como el que usamos en MetaDocencia, algo para mantener, algo para mejorar. Anónima y cortita. La clave está en dedicar los últimos minutos de la clase a que respondar el formualrio, de esa manera habrá más chances de que todo el mundo la complete. 
+- Pedir feedback en vivo al final de la clase, que cada persona por turno mencione algo positivo (pulgar para arriba) o negativo (pulgar para abajo) según le toque. La regla es que no pueden repetir comentarios, eso les obligará a pensar más y no caer en los comentarios más amigables y seguros. Lo importante es no comentar sobre el feedback en el momento, agradecerlo y dar tiempo a procesarlo antes de responder o cambiar nada en tu clase.
+
+- Formulario de fin de clase. Puede ser tan sencillo como el que usamos en MetaDocencia, algo para mantener, algo para mejorar. Anónima y cortita. La clave está en dedicar los últimos minutos de la clase a que respondan el formulario, de esa manera habrá más chances de que todo el mundo lo complete. 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Ejercicio
 
-Ahora es tu turno. Explica el tema de tu elección en tu grupo, hablando durante 2 o 3 minutos, tienen que usar cronómetro! Mientras tanto tus colegas toman notas sobre la rúbrica 3x2 (hace una copia debajo de tu nombre). Cuando hayas terminado, intercambien roles y luego compartan sus comentarios con todo el grupo. Todas las personas del grupo deben explicar antes de compartir el feedback.
+Ahora es turno de ustedes. Expliquen el tema que elijan en su grupo, hablando durante 2 o 3 minutos. ¡Tienen que usar cronómetro! Mientras tanto, alguien del grupo toma notas sobre la rúbrica 3x2 (hacer una copia debajo de sus nombres). Cuando hayan terminado, intercambien roles y luego compartan sus comentarios con todo el grupo. Todas las personas del grupo deben explicar antes de compartir el feedback.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -162,8 +170,11 @@ Ahora es tu turno. Explica el tema de tu elección en tu grupo, hablando durante
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Tarea para el próximo encuentro
 
-Repasá el feedback que te dieron, lo vas a necesitar para el próximo encuentro.
-Comenzá a leer la lección entera, lo vas a necesitar para el checkout.
+Repasen el feedback que les dieron, lo van a necesitar para el próximo encuentro.
+
+
+**DEFINIR CHECKOUT**
+**Comiencen a leer la lección entera, lo van a necesitar para el checkout.**
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
