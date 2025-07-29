@@ -1,4 +1,3 @@
-
 ---
 title: "Final"
 teaching: 10
