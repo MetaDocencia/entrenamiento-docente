@@ -181,7 +181,7 @@ Hay muchas formas de dibujar el modelo mental de alguien. Este se parece más a 
 
 Dibujar un mapa conceptual antes de comenzar a escribir una lección ayuda a *definir los objetivos* de la lección. También ayuda a *concentrarse en el contenido antes de preocuparse por el orden*, y nos recuerda *enfatizar las relaciones* entre las cosas además de las cosas en sí mismas. Finalmente, es una *buena manera de comunicarse con sus pares*: lo más probable es que si enseñan con alguien que tiene modelos mentales muy diferentes a los de ustedes para un tema, les resultará difícil enseñarlo conjuntamente. 
 
-Más adelante veremos cómo usar mapas conceptuales al momento de enseñar o de evaluar una lección.
+Más adelante veremos cómo usar mapas conceptuales al enseñar o evaluar una lección.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
