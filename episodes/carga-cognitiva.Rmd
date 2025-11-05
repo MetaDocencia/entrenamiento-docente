@@ -26,21 +26,23 @@ Hemos estado hablando de modelos mentales como si fueran cosas reales, pero ¿qu
 
 ![](fig/arquitectura-cognitiva.png){alt="esquema que presenta dos recuadros principales, uno llamado "memoria de largo plazo" y otro "memoria de corto plazo". El recuadro "memoria de largo plazo" contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro "memoria de corto plazo", hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo de integración doble desde el cual sale una relación llamada "codificar" hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada "recuperar" hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."}
 
-Este es un modelo simplificado de arquitectura cognitiva humana. Están pasando muchas cosas aquí, así que vamos a estudiarlas por partes.
+Este es un modelo simplificado de la arquitectura cognitiva humana. Están pasando muchas cosas aquí, así que vamos a estudiarlas por partes.
 
 ## Dos Formas de Memoria
 
 ![](fig/arquitectura-cognitiva1.png){alt="Esquema inicial de la arquitectura cognitiva: a la izquierda, un rectángulo gris rotulado ‘memoria de largo plazo’ contiene varios nodos blancos enlazados entre sí; a la derecha, un rectángulo vacío (sin contenido) representa la ‘memoria de corto plazo’. No hay flechas entre ambos módulos."}
 
-El núcleo de este modelo es que tenemos dos tipos de memoria. La memoria a largo plazo sería el sótano, o la baulera: almacena (muchas) cosas de forma más o menos permanente, pero nuestra conciencia no puede acceder a ella directamente. Por ejemplo, los recuerdos de un cumpleaños de segundo grado, nuestro número de teléfono. En cambio, confiamos en nuestra memoria a corto plazo, o memoria de trabajo, que es el escritorio y nos permite acceder a esas cosas rápidamente.
+El núcleo de este modelo es la distinción entre dos tipos de memoria. La **memoria a largo plazo** sería como el sótano o la baulera: almacena una gran cantidad de información de manera más o menos permanente, aunque nuestra conciencia no pueda acceder a ella directamente. Allí guardamos, por ejemplo, los recuerdos de un cumpleaños de segundo grado o nuestro número de teléfono. 
+
+En cambio, la **memoria a corto plazo**, también llamada memoria de trabajo, funciona como el escritorio: es el espacio donde colocamos temporalmente la información que necesitamos tener a mano para pensar, razonar o resolver una tarea. 
 
 ![](fig/arquitectura-cognitiva2.png){alt="Se añaden dos flechas curvas que conectan los mismos bloques: la superior, etiquetada ‘codificar’, va de la memoria de corto plazo a la de largo plazo; la inferior, etiquetada ‘recuperar’, va en sentido inverso. Ilustra el flujo bidireccional de información entre ambos sistemas de memoria."}
 
-Cuando necesitamos algo, nuestro cerebro lo recupera de la memoria a largo plazo y lo guarda en la memoria a corto plazo. La nueva información que llega a la memoria a corto plazo debe codificarse para almacenarse en la memoria a largo plazo. Si esa información no está codificada y almacenada, no se recuerda y no se ha aprendido.
+Cuando necesitamos acceder a un conocimiento o recuerdo, nuestro cerebro lo recupera de la memoria a largo plazo y lo lleva a la memoria de trabajo para poder usarlo. De manera inversa, la información nueva que llega a la memoria de trabajo debe codificarse, es decir, transformarse en una representación estable, para almacenarse en la memoria a largo plazo. Si esa información no llega a codificarse ni a integrarse en la memoria a largo plazo, no podrá recordarse más adelante y, en sentido estricto, no se habrá aprendido.
 
 ![](fig/arquitectura-cognitiva3.png){alt="Sobre la memoria de corto plazo se muestran ahora dos submódulos: ‘canal verbal’ (arriba) y ‘canal visual’ (abajo). Cada uno recibe entrada de un bloque sensorial: los ‘oídos’ para la ‘habla’ y los ‘ojos’ para las ‘imágenes’. Las flechas sensoriales apuntan hacia los canales, que siguen conectados con la memoria de largo plazo mediante las rutas de ‘codificar’ y ‘recuperar’."}
 
-La información ingresa a la memoria a corto plazo principalmente a través de su canal verbal (para el habla) y el canal visual (para las imágenes). Un modelo más completo también incluiría el sentido del tacto y la capacidad para oler y saborear cosas, pero las ignoraremos por ahora.
+La información ingresa a la memoria a corto plazo principalmente a través de su canal verbal (para el habla) y el canal visual (para las imágenes). Un modelo más completo también incluiría el sentido del tacto y la capacidad para oler y saborear cosas, pero los ignoraremos por ahora.
 
 ![](fig/arquitectura-cognitiva.png){alt="esquema que presenta dos recuadros principales, uno llamado "memoria de largo plazo" y otro "memoria de corto plazo". El recuadro "memoria de largo plazo" contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro "memoria de corto plazo", hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo de integración doble desde el cual sale una relación llamada "codificar" hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada "recuperar" hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."}
 
@@ -48,48 +50,43 @@ La última parte de esta imagen es el trabajo que hace nuestro cerebro para inte
 
 ![](fig/arquitectura-cognitiva5.png){alt="Versión completa con énfasis en la vía visual: los canales verbal y visual desembocan en un círculo de integración que luego codifica hacia la memoria de largo plazo. Las flechas provenientes de los ‘ojos’ y hacia el ‘canal visual’, así como la salida de este canal, se dibujan más gruesas para destacar una carga mayor en la ruta visual, mientras la vía auditiva/verbal mantiene líneas finas. Se conservan las rutas de ‘codificar’ y ‘recuperar’ entre la memoria de corto y largo plazo."}
 
-Como lo hemos dibujado hasta ahora, este diagrama da igual peso a los canales verbales y visuales. En realidad, la mayoría de las personas obtienen mucha más información, mucho más rápidamente, a través de su canal visual.
+Tal como lo hemos representado hasta ahora, el diagrama otorga igual peso a los canales verbal y visual. Sin embargo, en la práctica, la mayoría de las personas procesan mucha más información, y con mayor rapidez, a través del canal visual.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Pregunta para contestar en el chat:
 
-¿Qué porcentaje de la información que recibimos consideran que ingresa por cada uno de los cinco sentidos?
+¿Crees que incluir imágenes o recursos visuales junto con una explicación oral ayuda a comprender y recordar mejor la información?
+¿Por qué piensas que puede suceder eso?
 
 :::::::::::::::::::::::::::::::::
 
+La Teoría del Aprendizaje Multimedia de Richard Mayer (Cognitive Theory of Multimedia Learning) sostiene que las personas aprenden mejor cuando la información se presenta de forma combinada entre palabras e imágenes, en lugar de sólo mediante texto o discurso.
+Se basa en tres supuestos cognitivos:
 
-## Pesos Desiguales
+- Doble canal de procesamiento, que distingue entre un canal visual/pictórico y otro auditivo/verbal para gestionar la información entrante;
+- Capacidad limitada de la memoria de trabajo, que impone un umbral a la cantidad de información que puede procesarse simultáneamente; y
+- Procesamiento activo, según el cual el aprendizaje significativo requiere que el estudiante seleccione, organice e integre la información nueva con los conocimientos previos.
 
-Obviamente, hay mucha variabilidad entre las personas, y nuestras personas tipo deberían recordarnos que no todos pueden ver y escuchar por igual, pero las siguientes cifras dan una idea de cuánta información obtenemos de diferentes sentidos y cuánto de nuestro cerebro está dedicado a procesarlo y almacenarlo. Lo que esto nos dice es que, en la mayoría de los casos, nuestras lecciones deben ser lo más visuales posible.
-
-| Sentido   | Información | Neuronas |
-|-----------|-------------|----------|
-| Visión    | 83 %        | 30 %     |
-| Audición  | 11 %        | 2 %      |
-| Olfato    | 3.5 %       | —        |
-| Tacto     | 1.5 %       | 8 %      |
-| Gusto     | 1 %         | —        |
-
-
-Pero eso no significa que solo debamos usar imágenes. Los estudios han demostrado que cuando las imágenes y las palabras se complementan, el cerebro hace un mejor trabajo al recordarlas a ambas. La teoría es que están codificados juntos, de modo que más tarde, el recuerdo de uno ayuda a activar el recuerdo del otro.
+Cuando los estímulos visuales y auditivos (por ejemplo, narraciones, explicaciones verbales) se coordinan temporal y conceptualmente, ambos canales colaboran en la codificación dual de la información, lo que fortalece la comprensión y la retención a largo plazo. Esta integración es especialmente eficaz cuando el diseño de la lección evita sobrecargar la memoria de trabajo. 
 
 ## Leer Es Raro
 
-Este modelo también explica por qué es menos efectivo presentar la misma información como texto y habla, como leer en voz alta una presentación con mucho texto, o con subtítulos que "digan" lo mismo que quien presenta. El texto entra por el canal visual, pero luego se desvía al canal verbal. Nuestro cerebro no puede evitar intentar conciliar los dos canales que está recibiendo (una a través de los ojos y la otra a través de los oídos). Correlacionar flujos de información lingüísticos y visuales requiere un esfuerzo mental: si alguien lee algo mientras lo escucha en voz alta, su cerebro no puede evitar comprobar que obtiene la misma información por ambos canales. Al hacerlo, disminuye la capacidad de hacer un esfuerzo mental para codificar la información y así almacenarla.
+Este modelo también explica por qué resulta menos efectivo presentar información redundante en forma de texto y habla simultáneamente, como leer en voz alta una diapositiva con mucho texto o proyectar subtítulos que repiten exactamente lo que dice quien presenta. El texto ingresa primero por el canal visual, pero luego se procesa también a través del canal verbal. Nuestro cerebro no puede evitar intentar conciliar ambos flujos de información, uno recibido por los ojos y otro por los oídos. Esa comparación constante entre lo que se lee y lo que se escucha exige un **esfuerzo mental** adicional, porque el cerebro busca verificar que ambos mensajes coincidan. Al hacerlo, se reduce la capacidad disponible para codificar y almacenar la información de manera significativa.
 
-Por lo tanto, el aprendizaje aumenta cuando la información se presenta de manera simultánea por dos canales diferentes, pero se reduce cuando esa información es redundante, en lugar de ser complementaria: tal fenómeno es conocido como efecto de atención dividida [Maye2003]
+Por lo tanto, el aprendizaje mejora cuando la información se presenta de manera complementaria a través de los canales visual y verbal, ya que cada uno procesa tipos distintos de estímulos y se refuerzan mutuamente. En cambio, disminuye cuando la misma información se repite simultáneamente por ambos canales porque ocupa recursos cognitivos innecesarios. Este fenómeno se conoce como efecto de redundancia [Maye2003].
 
-Tres escenarios: 
-1) Habla e imágenes: se integran bien. 
-2) Texto e imágenes: requieren un esfuerzo extra para convertir el texto al canal verbal, pero funcionan. 
-3) Habla, texto e imágenes: demanda el mayor esfuerzo extra (a menos que no hables el idioma, entonces el texto -subtítulos- ayuda).
+Tres escenarios ilustran este principio:
+
+1. Habla e imágenes: se integran con facilidad y favorecen el aprendizaje.
+2. Texto e imágenes: requieren un esfuerzo adicional para convertir el texto en una representación verbal, pero pueden funcionar bien.
+3. Habla, texto e imágenes: generan la mayor demanda cognitiva (salvo en contextos en que el texto cumple una función de apoyo, como los subtítulos en otro idioma).
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-###Pausa
+### Pausa
 
-No se desconecten, pero sí aléjense de pantallas.
+No se desconecten, pero sí aléjense de las pantallas.
 
 Volvemos en 10 minutos.
 
@@ -97,7 +94,18 @@ Volvemos en 10 minutos.
 
 ## Carga Cognitiva
 
-El concepto de "esfuerzo mental" resulta ser uno de los más importantes en educación. El término técnico es carga cognitiva, y aunque el modelo continúa evolucionando, existen básicamente tres tipos.
+El "esfuerzo mental" mencionado en el punto anterior hace referencia a un concepto central en educación, el de Carga Cognitiva. El concepto de carga cognitiva se refiere a la cantidad de recursos mentales que una persona necesita utilizar para procesar, comprender y almacenar información mientras aprende o realiza una tarea. Surge de la Teoría de la Carga Cognitiva (Sweller, 1988), basada en la idea de que la memoria de trabajo humana tiene una capacidad limitada: sólo puede manejar una cantidad reducida de información a la vez. Cuando la demanda mental de una tarea supera esa capacidad, el aprendizaje se vuelve ineficiente o incluso se interrumpe.
+
+Por eso, en el diseño de materiales y experiencias educativas, es fundamental regular la carga cognitiva: no se trata de eliminar el esfuerzo, sino de dirigirlo hacia lo que realmente favorece el aprendizaje. El objetivo no es que la tarea sea “fácil”, sino que el esfuerzo mental esté bien invertido.
+
+Existen tres tipos principales de carga cognitiva. 
+
+1. La **carga cognitiva intrínseca** es la carga inherente al contenido que queremos enseñar. Es lo esencial de la tarea: por ejemplo, entender un concepto nuevo o seguir una receta. Está determinada por la complejidad del material y por el nivel de conocimiento previo sobre el tema que tiene el estudiante. Esta carga no se puede eliminar, pero sí se puede gestionar, dividiendo el contenido en pasos más pequeños o activando conocimientos previos que reduzcan la dificultad percibida.
+
+2. La **carga cognitiva pertinente** es el esfuerzo mental adicional que implica procesar la información de manera profunda, es decir que ayuda a aprender mejor. Implica cosas como hacer conexiones entre ideas, organizar conceptos, elaborar ejemplos propios o aplicar estrategias de resolución. A diferencia de la carga intrínseca, esta carga no es inherente a la tarea pero es deseable, porque está directamente relacionada con la construcción de esquemas mentales estables en la memoria a largo plazo. Fomentar esta carga implica promover la reflexión, la autoexplicación y la práctica deliberada.
+
+3. La **carga cognitiva extrínseca** no contribuye al aprendizaje y puede surgir de factores externos como distracciones ambientales o barreras tecnológicas, pero también de lecciones diseñadas de manera poco clara o desordenadas, con saltos lógicos, términos no explicados o exceso de información. Es todo lo que distrae o dificulta el aprendizaje sin aportar valor. 
+
 
 Para explicar las diferencias, imaginemos que están aprendiendo a hablar francés y que se les ha pedido que traduzcan esta oración:
 
@@ -112,28 +120,17 @@ Pregunta para responder por el chat: ¿Quiénes de ustedes hablan francés?
 Supongamos que les damos las palabras que necesitan. Tienen que hacer dos cosas: recordar algunas palabras y organizarlas gramaticalmente, de modo que todo lo que tienen que hacer es organizarlas en el orden correcto.
 
 > genou
+
 > comment
+
 > ton
+
 > va
 
 Hicimos el problema mucho más simple dándoles el vocabulario y permitiéndoles enfocar su atención en la gramática.
 
 > comment va ton genou
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-(Este tipo de ejercicios hace Duolingo… ellos saben de educación!)
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-**En general, la carga intrínseca es de lo que se trata la tarea de aprendizaje. La carga pertinente es un trabajo adicional relevante, como recordar palabras o elegir una estrategia de prueba. La carga extrínseca es irrelevante.** [Mejorar esta parte]
-
-**Propuesta**
-La carga cognitiva intrínseca es la que viene con el contenido que queremos enseñar. Es lo esencial de la tarea: por ejemplo, entender un concepto nuevo o seguir una receta.
-
-La carga cognitiva pertinente es el esfuerzo adicional que ayuda a aprender mejor. Incluye cosas como elegir una estrategia, hacer conexiones o recordar pasos importantes.
-
-La carga cognitiva extrínseca es todo lo que distrae o dificulta el aprendizaje sin aportar valor. Puede venir de instrucciones poco claras, desorden en los materiales o barreras de acceso.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
@@ -166,23 +163,28 @@ Moraleja: evitemos la carga extrínseca cuando enseñemos.
 
 ## Una Cosa a la Vez
 
-Se trata de reducir la complejidad de lo que se espera que una persona aprenda en simultáneo. En lugar de incorporar múltiples habilidades al mismo tiempo, se propone descomponer los procesos en partes más simples y trabajarlas por separado, permitiendo que cada una se afiance antes de pasar a la siguiente.
+Se trata de reducir la complejidad de lo que se espera que una persona aprenda al mismo tiempo. En lugar de incorporar múltiples habilidades de manera simultánea, se propone descomponer los procesos en partes más simples y trabajarlas por separado, permitiendo que cada una se afiance antes de pasar a la siguiente.
 
-La teoría de la carga cognitiva explica por qué la orientación mínima durante la instrucción no funciona. Es decir, por qué dejar a las personas resolver problemas "reales" desde el primer día es menos efectivo que enseñar explícitamente las habilidades de los componentes necesarios para resolver el problema una a una. La razón es que combinar dos cosas es una habilidad separada en sí misma. Si quieres aprender a cantar mientras tocas el piano, debes aprender a tocar, aprender a cantar y luego aprender a combinar los dos. Una vez que se haya dominado la habilidad combinada, es posible hacer las dos cosas juntas desde el principio.
+La teoría de la carga cognitiva explica por qué la orientación mínima durante la instrucción no suele ser efectiva. Es decir, por qué dejar que las personas resuelvan problemas "reales" desde el primer día resulta menos útil que enseñar explícitamente las habilidades de los componentes necesarios, una por una. La razón es que combinar dos cosas es, en sí misma, una habilidad adicional. Si quieres aprender a cantar mientras tocas el piano, debes aprender a tocar, después aprender a cantar, y recién entonces coordinar ambas acciones. Una vez que se haya dominado la habilidad combinada, es posible hacer las dos cosas juntas desde el inicio.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-Responder en el chat: ¿Conocen Scratch? Scratch es un lenguaje de programación visual y organizado en bloques modulares. 
+Responder en el chat: ¿Conoces **Scratch**? 
 
-Cada bloque tiene una función diferente. Al combinar bloques, como si combináramos piezas de Lego, se van generando acciones más complejas, o algoritmos, en definitiva, se crea un programa. Así, podemos ayudar a aprender a programar y desarrollar habilidades mentales, sin tener conocimientos avanzados sobre la sintaxis del código.
+Scratch es un lenguaje de programación visual organizado en bloques modulares. 
+
+Cada bloque tiene una función específica y, al combinarlos como si fueran piezas de Lego, se van generando acciones más complejas o algoritmos; en definitiva, se construye un programa. 
+
+De esta manera, se puede aprender a programar y al mismo tiempo desarrollar habilidades cognitivas fundamentales, como la resolución de problemas, el pensamiento lógico y secuencial, la planificación de pasos y la creatividad para diseñar soluciones; todo ello sin necesidad de conocer en detalle la sintaxis del código.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-La teoría de la carga cognitiva también explica por qué las herramientas basadas en bloques como Scratch son tan efectivas. Al eliminar la posibilidad de errores de sintaxis, permiten a las personas novatas centrarse en la semántica de sus programas.
+La teoría de la carga cognitiva también explica por qué las herramientas basadas en bloques como Scratch son tan efectivas: al eliminar la posibilidad de errores de sintaxis, permiten a las personas novatas se concentren en la lógica y el significado de sus programas, en lugar de los aspectos formales del lenguaje.
 
 ## Problemas de Parsons
 
 ¿Cómo aplicamos esto de “una cosa a la vez” en la enseñanza? 
 
-Los problemas en los que sus estudiantes reciben piezas que tienen que reorganizar se denominan problemas de Parsons, y se ha demostrado que son más efectivos en las primeras etapas del aprendizaje de la programación que escribir código desde cero. Artículo en inglés: Resolver ejercicios Parsons frente a corregir y escribir código, en inglés: [Solving parsons problems versus fixing and writing code](https://dl.acm.org/doi/10.1145/3141880.3141895)
+Los problemas en los que sus estudiantes reciben piezas que tienen que reorganizar se denominan **problemas de Parsons**, y se ha demostrado que son más efectivos en las primeras etapas del aprendizaje de la programación que escribir código desde cero [cita]. 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
@@ -210,9 +212,9 @@ Los problemas en los que sus estudiantes reciben piezas que tienen que reorganiz
 
 ::::::::::::::::::::::::::::::::: callout
 
-¡Atención! Un buen problema de Parsons tiene solo un ordenamiento correcto y los pasos para realizar una tarea están segmentados en etapas cortas. En caso contrario, pueden ser muy difíciles de resolver, con muchas alternativas o saltos entre etapas muy genéricos.
+¡Atención! Un buen problema de Parsons tiene **solo un orden correcto** y presenta los pasos de una tarea segmentados en etapas breves y claras. De lo contrario, puede volverse muy difícil de resolver, con demasiadas combinaciones posibles o saltos entre pasos demasiado amplios o genéricos.
 
-Aprovechemos los problemas de Parsons. Son rápidos, fáciles de construir y efectivos. Pueden crearlos sus estudiantes y ¡resolverlos entre ellos!
+Aprovechemos los problemas de Parsons: son rápidos de resolver, fáciles de construir y muy efectivos. Además, pueden crearlos los mismos estudiantes y compartirlos entre ellos para resolverlos en grupo.
 
 :::::::::::::::::::::::::::::::::
 
@@ -228,8 +230,9 @@ Quien lo creó, chequea que el resultado sea correcto y da una devolución usand
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- La memoria a largo plazo es nuestro sótano, o la baulera: almacena (muchas) cosas de forma más o menos permanente, pero nuestra conciencia no puede acceder a ella directamente.
-- La nueva información que llega a la memoria a corto plazo debe codificarse para almacenarse en la memoria a largo plazo.
-- Si escuchamos y vemos cosas al mismo tiempo, nuestro cerebro trata de integrarlas correlacionándolas y almacenándolas juntas. 
-- Resolver problemas "reales" desde el primer día es menos efectivo que enseñar explícitamente las habilidades de los componentes necesarios para resolver el problema una a una.
+- La memoria a largo plazo funciona como un sótano o una baulera: almacena gran cantidad de información de manera casi permanente, aunque no podamos acceder a ella de manera consciente.
+- La nueva información que ingresa a la memoria a corto plazo (o de trabajo) debe codificarse para poder almacenarse luego en la memoria a largo plazo.
+- Cuando escuchamos y vemos información al mismo tiempo, nuestro cerebro intenta integrarla, asociando ambos canales para almacenarla de manera conjunta y más duradera. 
+- Resolver problemas complejos desde el primer día suele ser menos efectivo que enseñar de forma explícita y gradual las habilidades que los componen, permitiendo que cada una se consolide antes de combinarlas.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
