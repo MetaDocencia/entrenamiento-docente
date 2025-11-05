@@ -239,7 +239,7 @@ Pregunta para responder en el chat: ¿alguna vez vieron a una persona experta mi
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Esto también es lo que lleva al punto ciego de la persona experta: no puede explicar su razonamiento porque no hay ninguno.
+Esto también lleva al punto ciego de la persona experta: no puede explicar su razonamiento porque no hay razonamiento.
 
 ![](fig/persona-experta.png){alt=“Diagrama en forma de colmena que muestra seis hexágonos etiquetados A – F densamente interconectados dentro de un contorno envolvente. El hexágono C ocupa el centro y se conecta con todos los demás; A y B están arriba unidos entre sí y con C; D y E aparecen a los costados conectados entre sí, con C y con F; F se ubica abajo y enlaza con C, D y E. El resultado es una malla cerrada con múltiples caminos redundantes.”}
 
