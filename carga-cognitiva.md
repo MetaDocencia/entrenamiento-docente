@@ -24,7 +24,7 @@ exercises: 2
 
 Hemos estado hablando de modelos mentales como si fueran cosas reales, pero ¿qué sucede realmente en el cerebro de nuestra audiencia cuando está aprendiendo? La respuesta corta es que no lo sabemos; la respuesta más larga es que sabemos mucho más de lo que solíamos y tenemos algunos modelos bastante buenos que pueden ayudarnos a diseñar y brindar lecciones de manera más efectiva.
 
-![](fig/arquitectura-cognitiva.png){alt="esquema que presenta dos recuadros principales, uno llamado "memoria de largo plazo" y otro "memoria de corto plazo". El recuadro "memoria de largo plazo" contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro "memoria de corto plazo", hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo de integración doble desde el cual sale una relación llamada "codificar" hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada "recuperar" hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."}
+![Esquema que presenta dos recuadros principales, uno llamado "memoria de largo plazo" y otro "memoria de corto plazo". El recuadro "memoria de largo plazo" contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro "memoria de corto plazo", hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo de integración doble desde el cual sale una relación llamada "codificar" hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada "recuperar" hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente.](fig/arquitectura-cognitiva.png)
 
 Este es un modelo simplificado de la arquitectura cognitiva humana. Están pasando muchas cosas aquí, así que vamos a estudiarlas por partes.
 
@@ -165,7 +165,9 @@ Moraleja: evitemos la carga extrínseca cuando enseñemos.
 
 Se trata de reducir la complejidad de lo que se espera que una persona aprenda al mismo tiempo. En lugar de incorporar múltiples habilidades de manera simultánea, se propone descomponer los procesos en partes más simples y trabajarlas por separado, permitiendo que cada una se afiance antes de pasar a la siguiente.
 
-La teoría de la carga cognitiva explica por qué la orientación mínima durante la instrucción no suele ser efectiva. Es decir, por qué dejar que las personas resuelvan problemas "reales" desde el primer día resulta menos útil que enseñar explícitamente las habilidades de los componentes necesarios, una por una. La razón es que combinar dos cosas es, en sí misma, una habilidad adicional. Si quieres aprender a cantar mientras tocas el piano, debes aprender a tocar, después aprender a cantar, y recién entonces coordinar ambas acciones. Una vez que se haya dominado la habilidad combinada, es posible hacer las dos cosas juntas desde el inicio.
+La teoría de la carga cognitiva explica por qué la orientación mínima durante la instrucción no suele ser efectiva. Es decir, por qué dejar que las personas resuelvan problemas "reales" desde el primer día resulta menos útil que enseñar explícitamente las habilidades de los componentes necesarios, una por una. La razón es que combinar dos cosas es, en sí misma, una habilidad adicional. Si quieres aprender a cantar mientras tocas el piano, debes aprender a tocar, después aprender a cantar y recién entonces coordinar ambas acciones. Una vez que se haya dominado la habilidad combinada, es posible hacer las dos cosas juntas desde el inicio.
+
+## Carga cognitiva al enseñar programación
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 Responder en el chat: ¿Conoces **Scratch**? 
@@ -178,37 +180,61 @@ De esta manera, se puede aprender a programar y al mismo tiempo desarrollar habi
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-La teoría de la carga cognitiva también explica por qué las herramientas basadas en bloques como Scratch son tan efectivas: al eliminar la posibilidad de errores de sintaxis, permiten a las personas novatas se concentren en la lógica y el significado de sus programas, en lugar de los aspectos formales del lenguaje.
+Aprender a programar implica manejar conceptos abstractos, estructuras lógicas y detalles técnicos de un lenguaje específico. Para una persona novata, esto puede generar una alta carga cognitiva, ya que debe atender simultáneamente a la lógica del problema, la planificación de los pasos, la traducción al código y la síntaxis del lenguaje.
+
+Existen herramientas que permiten reducir esa complejidad inicial, ayudando a centrarse primero en la lógica de la programación: la resolución de problemas, el pensamiento lógico y secuencial, la planificación paso a paso y la creatividad para diseñar soluciones.
+Un ejemplo claro es [Scratch](https://www.scratchfoundation.org/home), un entorno de programación visual basado en bloques modulares. Cada bloque tiene una función específica y, al combinarlos, como piezas de Lego, se generan acciones más complejas o algoritmos; en definitiva, se construye un programa.
+
+La teoría de la carga cognitiva explica por qué herramientas como Scratch son tan efectivas. Al eliminar la posibilidad de errores de sintaxis, reducen la carga extrínseca y permiten que las personas novatas concentren sus recursos mentales en la semántica y la lógica de sus programas, en lugar de en los aspectos formales del lenguaje. Así, pueden construir esquemas mentales sólidos sobre cómo pensar un problema antes de aprender cómo escribirlo en un lenguaje textual como R o Python.
 
 ## Problemas de Parsons
 
-¿Cómo aplicamos esto de “una cosa a la vez” en la enseñanza? 
+¿Cómo aplicamos el principio de “una cosa a la vez” al enseñar programación?
 
-Los problemas en los que sus estudiantes reciben piezas que tienen que reorganizar se denominan **problemas de Parsons**, y se ha demostrado que son más efectivos en las primeras etapas del aprendizaje de la programación que escribir código desde cero [cita]. 
+Una estrategia eficaz son los **problemas de Parsons**, en los que los estudiantes reciben fragmentos de código desordenados que deben reorganizar en el orden correcto para resolver una tarea. Este enfoque **reduce la carga cognitiva extrínseca**, ya que el código está disponible y no deben recordar o teclear cada instrucción, y **mantiene activa la carga pertinente**, porque la persona debe comprender la lógica, la secuencia y la estructura del programa.
+
+Diversos estudios han demostrado que los problemas de Parsons son más efectivos en las etapas iniciales del aprendizaje de la programación que escribir código desde cero, ya que permiten practicar la comprensión estructural y lógica sin abrumar la memoria de trabajo con múltiples demandas simultáneas [cita].
+Este tipo de actividades ayuda a secuenciar el aprendizaje de forma más natural: primero se comprende cómo se organiza un programa, luego se incorporan detalles de sintaxis y, finalmente, se integran ambas habilidades para escribir código de manera autónoma.
+
+### Ejercicio con R
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Ejemplo: Suma todos los números positivos en una lista
+## Ordena las secciones de código para generar un gráfico de dispersión con una línea de tendencia suavizada. 
 
-1)	para cada número en la lista
-2)	total = total + número
-3)	termina el ciclo
-4)	si número > 0
-5)	termina la condición
-6)	total = 0
+1) geom_point(mapping = aes(color = class))
+2) ggplot(deta = mpg, mapping = aes(x = displ, y = hwy))
+3) geom_smooth()
 
 :::::::::::::::::::::::: solution 
 
-## Solución: Suma todos los números positivos en una lista
+2) ggplot(deta = mpg, mapping = aes(x = displ, y = hwy))
+1) geom_point(mapping = aes(color = class))
+3) geom_smooth()
 
-6)	total = 0
-1)	para cada número en la lista
-4)	si número > 0
-2)	total = total + número
-5)	termina la condición
-3)	termina el ciclo
 :::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::
+
+### Ejercicio con Python
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Ordena las secciones de código para crear una lista de números y mostrar su promedio.
+
+1) print(promedio)
+2) numeros = [10, 20, 30, 40, 50]
+3) promedio = sum(numeros) / len(numeros)
+
+:::::::::::::::::::::::: solution 
+
+2) numeros = [10, 20, 30, 40, 50]
+3) promedio = sum(numeros) / len(numeros)
+1) print(promedio)
+
+:::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
+
+
 
 ::::::::::::::::::::::::::::::::: callout
 
@@ -220,11 +246,11 @@ Aprovechemos los problemas de Parsons: son rápidos de resolver, fáciles de con
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Ejercicio: Creen un problema de Parsons con una receta de comida o bebida que les guste.
+## Ejercicio: 
 
-El o la colega que sigue en el documento compartido lo resuelve.
-
-Quien lo creó, chequea que el resultado sea correcto y da una devolución usando un comentario.
+1. En el documento compartido, crea un problema de Parsons de entre 3 y 5 pasos dirigido a estudiantes principiantes y con el lenguaje de programación que más frecuentemente utilices (Python o R).  
+2. El o la colega que sigue en el documento compartido lo resuelve.
+3. Luego, chequea que el resultado sea correcto y da una devolución usando un comentario.
 
 :::::::::::::::::::::::: 
 
