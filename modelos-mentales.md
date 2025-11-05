@@ -87,7 +87,7 @@ Una cosa que no es un síntoma confiable de ser una persona novata es la confian
 ::: callout
 ### Características de una Persona Novata
 
-Lo que hace a alguien una persona novata es que aún no tiene un modelo mental del problema: no sabe cuáles son las piezas importantes o cómo se relacionan. Por lo tanto, tienen que seguir pasos sin comprender por qué, o tomar prestados conceptos de otros dominios que entienden y esperar que se mantengan las analogías.
+Lo que hace a alguien una persona novata es que aún no tiene un modelo mental del problema: no sabe cuáles son las piezas importantes o cómo se relacionan. Por lo tanto, tienen que seguir pasos sin comprender por qué, o tomar prestados conceptos de otros dominios que entienden y esperar que las analogías se mantengan.
 :::
 
 ## Un modelo mental
@@ -125,6 +125,7 @@ Por ejemplo, la introducción de Software Carpentry al shell de Unix cubre 15 co
 Hasta que tu audiencia sepa esto, nada más tendrá sentido.
 
 **Propuesta**
+
 ## Cómo Ayudar Personas Novatas
 
 **Ayúdenlas a construir un modelo mental**
