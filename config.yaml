@@ -17,7 +17,7 @@ carpentry: 'metadocencia'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Entrenamiento docente'
+title: 'Formación para Enseñar'
 
 # Alt-text description of the lesson.
 carpentry_description: 'MetaDocencia'
@@ -70,7 +70,7 @@ contact: 'infraestructura@metadocencia.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduccion-personas.Rmd
 - modelos-mentales.Rmd
 - carga-cognitiva.Rmd
@@ -84,13 +84,13 @@ episodes:
 
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
