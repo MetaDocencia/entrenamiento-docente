@@ -4,4 +4,4 @@ title: Referencia
 
 ## Glosario
 
-Este es un archivo placeholder. Puedes añadir contenido aquí.
+Puedes añadir las referencias bibliográficas aquí.
