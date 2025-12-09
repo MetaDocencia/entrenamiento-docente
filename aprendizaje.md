@@ -2,7 +2,6 @@
 title: 'Aprendizaje'
 teaching: 10
 exercises: 2
-bibliography: "references.bib"
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -35,7 +34,7 @@ bibliography: "references.bib"
 | Ir a clase              | Discutir un tema         |
 | Escuchar una explicación| Intentar explicar un tema|
 
-Hemos estado hablando sobre cómo podemos construir mejores clases, sobre cómo motivar a tus estudiantes y de cómo asegurarnos de incluir a todas y todos. Ahora vamos a cambiar nuestro enfoque y hablaremos sobre cómo brindar esas lecciones y cómo fomentar que el aprendizaje sea más eficiente.
+Hemos estado hablando sobre cómo podemos construir mejores clases, sobre cómo motivar a tus estudiantes y de cómo asegurarnos de incluir a todas y todos. Ahora vamos a cambiar nuestro enfoque y hablaremos sobre cómo brindar esas lecciones y cómo fomentar que el aprendizaje sea más eficiente. 
 
 Vimos al principio de este curso que el aprendizaje es tanto una actividad cognitiva como social. El aprendizaje ocurre cuando nuestro cerebro almacena hechos y procedimientos de manera que le permiten recordar y aplicar lo que necesita cuando lo necesita. También ocurre en un entorno social: se aprende por determinada razón, con otras personas, y tus objetivos, motivaciones y criterios para el éxito se determinan con esas y por esas personas. 
 
